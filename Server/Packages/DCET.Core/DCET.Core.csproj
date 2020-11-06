@@ -1,0 +1,204 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;SERVER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\AppType.cs">
+      <Link>Base\AppType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\BaseAttribute.cs">
+      <Link>Base\BaseAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Other\Log.cs" Link="Other\Log.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Base\Circularbuffer.cs">
+      <Link>Base\Circularbuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\Entity.cs">
+      <Link>Base\Entity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\EntityCreateComponet.cs">
+      <Link>Base\EntityCreateComponet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\EntityEventAttribute.cs">
+      <Link>Base\EntityEventAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\EntityFactory.cs">
+      <Link>Base\EntityFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\EventProxy.cs">
+      <Link>Base\EventProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\EventSystem.cs">
+      <Link>Base\EventSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\HideInHierarchy.cs">
+      <Link>Base\HideInHierarchy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IAwakeSystem.cs">
+      <Link>Base\IAwakeSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IChangeSystem.cs">
+      <Link>Base\IChangeSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IDeserializeSystem.cs">
+      <Link>Base\IDeserializeSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IDestroySystem.cs">
+      <Link>Base\IDestroySystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\ILateUpdateSystem.cs">
+      <Link>Base\ILateUpdateSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\ILoadSystem.cs">
+      <Link>Base\ILoadSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\ISerializeToEntity.cs">
+      <Link>Base\ISerializeToEntity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IStartSystem.cs">
+      <Link>Base\IStartSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\IUpdateSystem.cs">
+      <Link>Base\IUpdateSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\NoMemoryCheck.cs">
+      <Link>Base\NoMemoryCheck.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\NoObjectPool.cs">
+      <Link>Base\NoObjectPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\Object.cs">
+      <Link>Base\Object.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\ObjectPool.cs">
+      <Link>Base\ObjectPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\ObjectSystemAttribute.cs">
+      <Link>Base\ObjectSystemAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Base\TryLocker.cs">
+      <Link>Base\TryLocker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Component\TimerComponent.cs">
+      <Link>Component\TimerComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Entity\Game.cs">
+      <Link>Entity\Game.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Entity\Scene.cs">
+      <Link>Entity\Scene.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Entity\SceneType.cs">
+      <Link>Entity\SceneType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Event\EventAttribute.cs">
+      <Link>Event\EventAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Event\IEvent.cs">
+      <Link>Event\IEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\DoubleMap.cs">
+      <Link>Generic\DoubleMap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\ListComponent.cs">
+      <Link>Generic\ListComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\MultiMap.cs">
+      <Link>Generic\MultiMap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\MultiMapSet.cs">
+      <Link>Generic\MultiMapSet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\Pool.cs">
+      <Link>Generic\Pool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\QueueDictionary.cs">
+      <Link>Generic\QueueDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\UnOrderMultiMap.cs">
+      <Link>Generic\UnOrderMultiMap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Generic\UnOrderMultiMapSet.cs">
+      <Link>Generic\UnOrderMultiMapSet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Helper\StreamHelper.cs">
+      <Link>Helper\StreamHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\ComponentHelper.cs">
+      <Link>Helper\ComponentHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\EnumHelper.cs">
+      <Link>Helper\EnumHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\IdGenerater.cs">
+      <Link>Helper\IdGenerater.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\MethodInfoHelper.cs">
+      <Link>Helper\MethodInfoHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Helper\MongoHelper.cs">
+      <Link>Helper\MongoHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\NetHelper.cs">
+      <Link>Helper\NetHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\NetworkHelper.cs">
+      <Link>Helper\NetworkHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\ObjectHelper.cs">
+      <Link>Helper\ObjectHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\PositionHelper.cs">
+      <Link>Helper\PositionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\RandomHelper.cs">
+      <Link>Helper\RandomHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\StringHelper.cs">
+      <Link>Helper\StringHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Helper\TimeHelper.cs">
+      <Link>Helper\TimeHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Helper\LocalTimeHelper.cs">
+      <Link>Helper\LocalTimeHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Other\LayerNames.cs">
+      <Link>Other\LayerNames.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Hotfix\Other\MotionType.cs">
+      <Link>Other\MotionType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\RecyclableMemoryStream\Events.cs">
+      <Link>RecyclableMemoryStream\Events.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\RecyclableMemoryStream\RecyclableMemoryStream.cs">
+      <Link>RecyclableMemoryStream\RecyclableMemoryStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\RecyclableMemoryStream\RecyclableMemoryStreamManager.cs">
+      <Link>RecyclableMemoryStream\RecyclableMemoryStreamManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Base\OneThreadSynchronizationContext.cs">
+      <Link>Base\OneThreadSynchronizationContext.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Core\Runtime\Unity\Log.cs" Link="Logger\Log.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDBDriver\MongoDB.Bson\MongoDB.Bson.csproj" />
+    <ProjectReference Include="..\UnityEngine\UnityEngine.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.2.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Scripting" Version="2.9.0" />
+    <PackageReference Include="NLog" Version="4.5.4" />
+  </ItemGroup>
+  
+</Project>

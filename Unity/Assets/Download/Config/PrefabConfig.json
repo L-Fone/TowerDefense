@@ -1,0 +1,4 @@
+[
+[10001, {"_id":10001,"Name":"TestTower","Desc":"测试防御塔","AssetPath":"Assets/Download/Role/RolePrefab/Role/EMP_Tower_level_1.prefab","PoolId":1,"CullDespawned":true,"CullAbove":0,"CullDelay":60,"CullMaxPerPass":5}],
+[10002, {"_id":10002,"Name":"TestMonster","Desc":"测试小怪","AssetPath":"Assets/Download/Role/RolePrefab/Role/Helicopter.prefab","PoolId":1,"CullDespawned":true,"CullAbove":0,"CullDelay":60,"CullMaxPerPass":5}],
+]

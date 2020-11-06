@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Model",
+    "references": [
+        "Unity.ThirdParty",
+        "XAsset.Runtime",
+        "Cal.Core",
+        "Cal.Base",
+        "LuaCompile"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

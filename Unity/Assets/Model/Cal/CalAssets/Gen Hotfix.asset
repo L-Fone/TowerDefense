@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5380540c1b6a03644a9350c876a9a2f8, type: 3}
+  m_Name: Gen Hotfix
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 5897886265953266890, guid: 0845aa7773ff5d04cb9495391ed07e6a, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: hotfixAssembly
+      Entry: 7
+      Data: 0|ETEditor.GenHotfix+AssemblyInfo, Unity.Editor
+    - Name: assembly
+      Entry: 10
+      Data: 0
+    - Name: dllDir
+      Entry: 1
+      Data: E:/Unity/TowerDefense/Unity/Assets/HotfixView
+    - Name: luaName
+      Entry: 1
+      Data: HotfixView
+    - Name: refAssembly
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  assemblyModel: {fileID: 5897886265953266890, guid: 997f003cfffd9ec4fae70c0ac9b0ec2b,
+    type: 3}
+  dllDirModel: E:/Unity/TowerDefense/Unity/Assets/Model
+  outPathNameModel: Model
+  assemblyModelView: {fileID: 5897886265953266890, guid: 131c13f81450a134598cd3375fe169d8,
+    type: 3}
+  dllDirModelView: E:/Unity/TowerDefense/Unity/Assets/ModelView
+  outPathNameModelView: ModelView
+  assemblyHotfix: {fileID: 5897886265953266890, guid: 703e1d0810996ed4b9064f1041de8bdc,
+    type: 3}
+  dllDirHotfix: E:/Unity/TowerDefense/Unity/Assets/Hotfix
+  outPathNameHotfix: Hotfix
+  assemblyHotfixView: {fileID: 5897886265953266890, guid: 0845aa7773ff5d04cb9495391ed07e6a,
+    type: 3}
+  dllDirHotfixView: E:/Unity/TowerDefense/Unity/Assets/ModelView
+  outPathNameHotfixView: HotfixView

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Res/Common/Init.unity
+    guid: e0d691ac8c1d0454ba07089ea820e18a
+  - enabled: 1
+    path: Assets/Res/Common/Splash.unity
+    guid: d378f07356e960549add8141397b1462
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_ActiveTask.unity
+    guid: 45280bed83d2e344590ce61ace27b83c
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_BattleIdle.unity
+    guid: ae137edf722298941944efba11422c1d
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Beach.unity
+    guid: d46ff12dcf1834b4dad6ddfe45458e65
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Boss.unity
+    guid: dd04855bd8f8a8c4083a5f4482ac7258
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Challenge.unity
+    guid: 01f636e71f5382b4687e608ccd7c47e6
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_CreateRole.unity
+    guid: 6f3aa9ba25869814fb05cf1fe1cab8ff
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_EnterGame.unity
+    guid: b6b5bad50076adc4d9a975c98327a073
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_FimalyBattle.unity
+    guid: b03d5f9f8d2f95d4c894089ad4840c60
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_GuardianPark.unity
+    guid: dfdfb988ae306cc4699ad910ce5f5f82
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_HonorTemple.unity
+    guid: 6a434142803416748a830775403bb331
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Login.unity
+    guid: 30dd40811005c814f807648e46cb03ed
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainCity.unity
+    guid: 5ea4281985825f54c844f0404bedb358
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory1.unity
+    guid: c57b27b08ffaa8a4f91a15c02d5de805
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory2.unity
+    guid: 99b174b0ca8cbf048a57ef0576a69da0
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory3.unity
+    guid: e13303a3e71f0f84fb7f9070100ac6e4
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory4.unity
+    guid: 52af5cd6587f9da4ba46b77e0e94ffe8
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory5.unity
+    guid: 610bb772748d9e14b900c143561e8aaa
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory6.unity
+    guid: 47d839d999f6edc41a9f70755023b7e8
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory7.unity
+    guid: 9d72f13296e57cd4ab4452b6e96a7a87
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory8.unity
+    guid: e4c4febf70bcd034099ac0ed0ba69d24
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory9.unity
+    guid: 782d2e6a67496b442b64d76a0d3989c0
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory10.unity
+    guid: 4203f3f88fec5654f909cbe5982fcb9c
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Level0.unity
+    guid: a7d093a7e4ef6a34a9d6bd47918ec0fc
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory11.unity
+    guid: 31ac6240fd8b27444b56b6f62de91781
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory12.unity
+    guid: eb554d641fba0f8409680b8f8d0b9d5e
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory13.unity
+    guid: 3531d4659f140034d9263756f5f58a6c
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory14.unity
+    guid: 56cf57dd7aea50d489258cd408bd6520
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory15.unity
+    guid: 7961e32a2d901654787d54b8fb764e23
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MainStory16.unity
+    guid: 5e537e3afb972e44baed795a51cbe939
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_MarvellousSquare.unity
+    guid: 1e11547db33b2ee439e611d01dcc9f0d
+  - enabled: 1
+    path: Assets/Download/Scenes/Scene_Pve.unity
+    guid: e415bacbb0283f24baca2c264f9ccfd1
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: bcae0d797343ff242b2646f64c97e898,
+      type: 2}

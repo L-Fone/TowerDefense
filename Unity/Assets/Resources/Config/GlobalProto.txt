@@ -1,0 +1,1 @@
+{ "_t" : "GlobalProto", "AssetBundleServerUrl" : "http://121.36.39.176:2085/", "Address" : "121.36.39.176:7756", "LocalAssetBundleServerUrl" : "http://127.0.0.1:21523/", "LocalAddress" : "127.0.0.1:7756", "isLocal" : true, "isEditorMode" : true, "ClientVersion" : "1.6" }

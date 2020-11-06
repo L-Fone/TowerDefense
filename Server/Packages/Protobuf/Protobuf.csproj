@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\AttributeMap.cs" Link="ProtoBufMeta/AttributeMap.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\BasicList.cs" Link="ProtoBufMeta/BasicList.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\CallbackSet.cs" Link="ProtoBufMeta/CallbackSet.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\LockContentedEventArgs.cs" Link="ProtoBufMeta/LockContentedEventArgs.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\LockContentedEventHandler.cs" Link="ProtoBufMeta/LockContentedEventHandler.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\MetaType.cs" Link="ProtoBufMeta/MetaType.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\MutableList.cs" Link="ProtoBufMeta/MutableList.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\RuntimeTypeModel.cs" Link="ProtoBufMeta/RuntimeTypeModel.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\SubType.cs" Link="ProtoBufMeta/SubType.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\TypeFormatEventArgs.cs" Link="ProtoBufMeta/TypeFormatEventArgs.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\TypeFormatEventHandler.cs" Link="ProtoBufMeta/TypeFormatEventHandler.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\TypeModel.cs" Link="ProtoBufMeta/TypeModel.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufMeta\ValueMember.cs" Link="ProtoBufMeta/ValueMember.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ArrayDecorator.cs" Link="ProtoBufSerializers/ArrayDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\BlobSerializer.cs" Link="ProtoBufSerializers/BlobSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\BooleanSerializer.cs" Link="ProtoBufSerializers/BooleanSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ByteSerializer.cs" Link="ProtoBufSerializers/ByteSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\CharSerializer.cs" Link="ProtoBufSerializers/CharSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\DateTimeSerializer.cs" Link="ProtoBufSerializers/DateTimeSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\DecimalSerializer.cs" Link="ProtoBufSerializers/DecimalSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\DefaultValueDecorator.cs" Link="ProtoBufSerializers/DefaultValueDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\DoubleSerializer.cs" Link="ProtoBufSerializers/DoubleSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\EnumSerializer.cs" Link="ProtoBufSerializers/EnumSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\FieldDecorator.cs" Link="ProtoBufSerializers/FieldDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\GuidSerializer.cs" Link="ProtoBufSerializers/GuidSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ImmutableCollectionDecorator.cs" Link="ProtoBufSerializers/ImmutableCollectionDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\Int16Serializer.cs" Link="ProtoBufSerializers/Int16Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\Int32Serializer.cs" Link="ProtoBufSerializers/Int32Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\Int64Serializer.cs" Link="ProtoBufSerializers/Int64Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\IProtoSerializer.cs" Link="ProtoBufSerializers/IProtoSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\IProtoTypeSerializer.cs" Link="ProtoBufSerializers/IProtoTypeSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ISerializerProxy.cs" Link="ProtoBufSerializers/ISerializerProxy.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ListDecorator.cs" Link="ProtoBufSerializers/ListDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\MemberSpecifiedDecorator.cs" Link="ProtoBufSerializers/MemberSpecifiedDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\NetObjectSerializer.cs" Link="ProtoBufSerializers/NetObjectSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\NullDecorator.cs" Link="ProtoBufSerializers/NullDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ParseableSerializer.cs" Link="ProtoBufSerializers/ParseableSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\PropertyDecorator.cs" Link="ProtoBufSerializers/PropertyDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\ProtoDecoratorBase.cs" Link="ProtoBufSerializers/ProtoDecoratorBase.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\SByteSerializer.cs" Link="ProtoBufSerializers/SByteSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\SingleSerializer.cs" Link="ProtoBufSerializers/SingleSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\StringSerializer.cs" Link="ProtoBufSerializers/StringSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\SubItemSerializer.cs" Link="ProtoBufSerializers/SubItemSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\SurrogateSerializer.cs" Link="ProtoBufSerializers/SurrogateSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\SystemTypeSerializer.cs" Link="ProtoBufSerializers/SystemTypeSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\TagDecorator.cs" Link="ProtoBufSerializers/TagDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\TimeSpanSerializer.cs" Link="ProtoBufSerializers/TimeSpanSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\TupleSerializer.cs" Link="ProtoBufSerializers/TupleSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\TypeSerializer.cs" Link="ProtoBufSerializers/TypeSerializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\UInt16Serializer.cs" Link="ProtoBufSerializers/UInt16Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\UInt32Serializer.cs" Link="ProtoBufSerializers/UInt32Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\UInt64Serializer.cs" Link="ProtoBufSerializers/UInt64Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBufSerializers\UriDecorator.cs" Link="ProtoBufSerializers/UriDecorator.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\BclHelpers.cs" Link="ProtoBuf/BclHelpers.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\BufferExtension.cs" Link="ProtoBuf/BufferExtension.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\BufferPool.cs" Link="ProtoBuf/BufferPool.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\DataFormat.cs" Link="ProtoBuf/DataFormat.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\Extensible.cs" Link="ProtoBuf/Extensible.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ExtensibleUtil.cs" Link="ProtoBuf/ExtensibleUtil.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\Helpers.cs" Link="ProtoBuf/Helpers.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\IExtensible.cs" Link="ProtoBuf/IExtensible.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\IExtension.cs" Link="ProtoBuf/IExtension.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ImplicitFields.cs" Link="ProtoBuf/ImplicitFields.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\MemberSerializationOptions.cs" Link="ProtoBuf/MemberSerializationOptions.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\NetObjectCache.cs" Link="ProtoBuf/NetObjectCache.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\PrefixStyle.cs" Link="ProtoBuf/PrefixStyle.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoAfterDeserializationAttribute.cs" Link="ProtoBuf/ProtoAfterDeserializationAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoAfterSerializationAttribute.cs" Link="ProtoBuf/ProtoAfterSerializationAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoBeforeDeserializationAttribute.cs" Link="ProtoBuf/ProtoBeforeDeserializationAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoBeforeSerializationAttribute.cs" Link="ProtoBuf/ProtoBeforeSerializationAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoContractAttribute.cs" Link="ProtoBuf/ProtoContractAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoConverterAttribute.cs" Link="ProtoBuf/ProtoConverterAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoEnumAttribute.cs" Link="ProtoBuf/ProtoEnumAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoException.cs" Link="ProtoBuf/ProtoException.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoIgnoreAttribute.cs" Link="ProtoBuf/ProtoIgnoreAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoIncludeAttribute.cs" Link="ProtoBuf/ProtoIncludeAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoMemberAttribute.cs" Link="ProtoBuf/ProtoMemberAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoPartialIgnoreAttribute.cs" Link="ProtoBuf/ProtoPartialIgnoreAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoPartialMemberAttribute.cs" Link="ProtoBuf/ProtoPartialMemberAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoReader.cs" Link="ProtoBuf/ProtoReader.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoTypeCode.cs" Link="ProtoBuf/ProtoTypeCode.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\ProtoWriter.cs" Link="ProtoBuf/ProtoWriter.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\SerializationContext.cs" Link="ProtoBuf/SerializationContext.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\Serializer.cs" Link="ProtoBuf/Serializer.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\SubItemToken.cs" Link="ProtoBuf/SubItemToken.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\TimeSpanScale.cs" Link="ProtoBuf/TimeSpanScale.cs" />
+    <Compile Include="..\..\..\Unity\Packages\Protobuf\Runtime\ProtoBuf\WireType.cs" Link="ProtoBuf/WireType.cs" />
+  </ItemGroup>
+
+</Project>

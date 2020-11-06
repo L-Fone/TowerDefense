@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>DCET</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Packages\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\..\Packages\DCET.Message\DCET.Message.csproj" />
+    <ProjectReference Include="..\Runtime\DCET.Runtime.csproj" />
+  </ItemGroup>
+
+</Project>

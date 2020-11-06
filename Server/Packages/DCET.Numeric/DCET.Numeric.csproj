@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\INumericWatcher.cs" Link="INumericWatcher.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericChangeEvent_NotifyWatcher.cs" Link="NumericChangeEvent_NotifyWatcher.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericComponent.cs" Link="NumericComponent.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericEventIdType.cs" Link="NumericEventIdType.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericType.cs" Link="NumericType.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericWatcherAttribute.cs" Link="NumericWatcherAttribute.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericWatcherComponent.cs" Link="NumericWatcherComponent.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Numeric\NumericWatcher_Hp_ShowUI.cs" Link="NumericWatcher_Hp_ShowUI.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,80 @@
+package DCET;
+
+message ObjectAddRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+	required int64 Key = 3;
+    required int64 InstanceId = 4;
+}
+
+message ObjectAddResponse // IActorResponse
+{	
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message ObjectLockRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Key = 3;
+    required int64 InstanceId = 4;
+    required int32 Time = 5;
+}
+message ObjectLockResponse // IActorResponse
+{	
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message ObjectUnLockRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Key = 3;
+    required int64 OldInstanceId = 4;
+    required int64 InstanceId = 5;
+}
+message ObjectUnLockResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message ObjectRemoveRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Key = 3;
+}
+message ObjectRemoveResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message ObjectGetRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Key = 3;
+}
+
+message ObjectGetResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+	
+    required int64 InstanceId = 4;
+}

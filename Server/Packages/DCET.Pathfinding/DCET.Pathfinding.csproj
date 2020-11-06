@@ -1,0 +1,158 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;SERVER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\ArrayPool.cs">
+      <Link>Recast\ArrayPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\AstarChecksum.cs">
+      <Link>Recast\AstarChecksum.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\AStarConfig.cs">
+      <Link>Recast\AStarConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\AstarDeserializer.cs">
+      <Link>Recast\AstarDeserializer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\AstarMath.cs">
+      <Link>Recast\AstarMath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\AstarMemory.cs">
+      <Link>Recast\AstarMemory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\BBTree.cs">
+      <Link>Recast\BBTree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\BinaryHeap.cs">
+      <Link>Recast\BinaryHeap.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\EuclideanEmbedding.cs">
+      <Link>Recast\EuclideanEmbedding.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Funnel.cs">
+      <Link>Recast\Funnel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\GraphNode.cs">
+      <Link>Recast\GraphNode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\GraphTransform.cs">
+      <Link>Recast\GraphTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Guid.cs">
+      <Link>Recast\Guid.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\INavmesh.cs">
+      <Link>Recast\INavmesh.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Int3.cs">
+      <Link>Recast\Int3.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\IntRect.cs">
+      <Link>Recast\IntRect.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\ListPool.cs">
+      <Link>Recast\ListPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\NavGraph.cs">
+      <Link>Recast\NavGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\NavmeshBase.cs">
+      <Link>Recast\NavmeshBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\NavmeshTile.cs">
+      <Link>Recast\NavmeshTile.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\NN.cs">
+      <Link>Recast\NN.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\ObjectPool.cs">
+      <Link>Recast\ObjectPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Path.cs">
+      <Link>Recast\Path.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\ABPath.cs">
+      <Link>Recast\Pathfinders\ABPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\ConstantPath.cs">
+      <Link>Recast\Pathfinders\ConstantPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\FleePath.cs">
+      <Link>Recast\Pathfinders\FleePath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\FloodPath.cs">
+      <Link>Recast\Pathfinders\FloodPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\FloodPathTracer.cs">
+      <Link>Recast\Pathfinders\FloodPathTracer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\MultiTargetPath.cs">
+      <Link>Recast\Pathfinders\MultiTargetPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\RandomPath.cs">
+      <Link>Recast\Pathfinders\RandomPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Pathfinders\XPath.cs">
+      <Link>Recast\Pathfinders\XPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\PathFindHelper.cs">
+      <Link>Recast\PathFindHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\PathHandler.cs">
+      <Link>Recast\PathHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\PathPool.cs">
+      <Link>Recast\PathPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\PathProcessor.cs">
+      <Link>Recast\PathProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\PathReturnQueue.cs">
+      <Link>Recast\PathReturnQueue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\RecastGenerator.cs">
+      <Link>Recast\RecastGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Serialization\JsonSerializer.cs">
+      <Link>Recast\Serialization\JsonSerializer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Serialization\SimpleZipReplacement.cs">
+      <Link>Recast\Serialization\SimpleZipReplacement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\Serialization\TinyJson.cs">
+      <Link>Recast\Serialization\TinyJson.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\ThreadControlQueue.cs">
+      <Link>Recast\ThreadControlQueue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\TriangleMeshNode.cs">
+      <Link>Recast\TriangleMeshNode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Pathfinding\Runtime\Recast\WindowsStoreCompatibility.cs">
+      <Link>Recast\WindowsStoreCompatibility.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\UnityEngine\UnityEngine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>..\Packages\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+{
+  "_t": "AppConfig",
+  "firstRow": 1,
+  "firstColunm": 1,
+  "nameSpace": "Cal.DataTable",
+  "excelPath": "./Excel",
+  "exportCSPath": "../../Unity/Assets/Hotfix/Logic/Model/Config",
+  "exportBsonPath": "../../Unity/Assets/Download/Config"
+}

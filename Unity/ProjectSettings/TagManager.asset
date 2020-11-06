@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MarketSlot
+  - BagSlot
+  - Slot
+  - MainSlot
+  - SkillSlot
+  - MeltSlot
+  - UIComponent
+  - TowerPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Map
+  - Hidden
+  - Player
+  - OtherPlayer
+  - Monster
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 1752260857
+    locked: 0
+  - name: FootEffct
+    uniqueID: 313363991
+    locked: 0
+  - name: NPC
+    uniqueID: 1514484241
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Effect
+    uniqueID: 1842187725
+    locked: 0

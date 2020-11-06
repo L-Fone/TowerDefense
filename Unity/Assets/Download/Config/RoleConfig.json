@@ -1,0 +1,4 @@
+[
+[1001, {"_id":1001,"Name":"TestTower","Desc":"测试防御塔","PrefabId":10001,"Atk":50,"Def":12,"Hp":2300,"Spd":0,"AtkField":5.2,"AtkInterval":0.8}],
+[1002, {"_id":1002,"Name":"TestMonster","Desc":"测试小怪","PrefabId":10002,"Atk":20,"Def":18,"Hp":256,"Spd":125,"AtkField":3.5,"AtkInterval":3}],
+]

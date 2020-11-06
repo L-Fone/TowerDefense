@@ -1,0 +1,15 @@
+{
+    "name": "Cal.Base",
+    "references": [
+        "GUID:ffccb3edb75d55e4a93255b57eec996a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

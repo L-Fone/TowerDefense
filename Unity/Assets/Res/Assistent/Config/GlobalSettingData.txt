@@ -1,0 +1,1 @@
+{"InitSceneName":"Init","IsLoadInitScene":true,"NormalPath":"Game/Common","EntityPath":"Game/Entity","AEventPath":"Game/Event","UIPath":"Game/UI","AMHandlerPath":"Game/Handler","GlobalPaths":["","","Game/Demo"]}

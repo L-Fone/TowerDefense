@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.CoroutineLock\CoroutineLock.cs">
+      <Link>CoroutineLock.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.CoroutineLock\CoroutineLockComponent.cs">
+      <Link>CoroutineLockComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.CoroutineLock\CoroutineLockQueue.cs">
+      <Link>CoroutineLockQueue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.CoroutineLock\CoroutineLockQueueType.cs">
+      <Link>CoroutineLockQueueType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.CoroutineLock\CoroutineLockType.cs">
+      <Link>CoroutineLockType.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+  </ItemGroup>
+
+</Project>

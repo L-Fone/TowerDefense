@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;SERVER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Config\DCET.Config.csproj" />
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\DCET.CoroutineLock\DCET.CoroutineLock.csproj" />
+    <ProjectReference Include="..\KcpLib\KcpLib.csproj" />
+    <ProjectReference Include="..\Protobuf\Protobuf.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Actor\IActorLocationMessage.cs">
+      <Link>Actor\IActorLocationMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Actor\IActorMessage.cs">
+      <Link>Actor\IActorMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\AMHandler.cs">
+      <Link>AMHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\ErrorCode.cs">
+      <Link>ErrorCode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\IMessage.cs">
+      <Link>IMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\IMessageDispatcher.cs">
+      <Link>IMessageDispatcher.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\IMessagePacker.cs">
+      <Link>IMessagePacker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\IMHandler.cs">
+      <Link>IMHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\MessageAttribute.cs">
+      <Link>MessageAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\MessageDispatcherComponent.cs">
+      <Link>MessageDispatcherComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\MessageHandlerAttribute.cs">
+      <Link>MessageHandlerAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\MessagePool.cs">
+      <Link>MessagePool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\MessageProxy.cs">
+      <Link>MessageProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\NetOuterComponent.cs">
+      <Link>NetOuterComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\NetOuterComponentSystem.cs">
+      <Link>NetOuterComponentSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\NetworkComponent.cs">
+      <Link>NetworkComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\AChannel.cs">
+      <Link>Network\AChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\AService.cs">
+      <Link>Network\AService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\KCP\KChannel.cs">
+      <Link>Network\KCP\KChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\KCP\KService.cs">
+      <Link>Network\KCP\KService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\SessionComponent.cs">
+      <Link>Network\SessionComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\TCP\PacketParser.cs">
+      <Link>Network\TCP\PacketParser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\TCP\TChannel.cs">
+      <Link>Network\TCP\TChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\TCP\TService.cs">
+      <Link>Network\TCP\TService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\WebSocket\WChannel.cs">
+      <Link>Network\WebSocket\WChannel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Network\WebSocket\WService.cs">
+      <Link>Network\WebSocket\WService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Opcode.cs" Link="Opcode.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\OpcodeHelper.cs" Link="OpcodeHelper.cs" />
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\OpcodeTypeComponent.cs">
+      <Link>OpcodeTypeComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\ProtobufHelper.cs">
+      <Link>ProtobufHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\ProtobufPacker.cs">
+      <Link>ProtobufPacker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\RpcException.cs">
+      <Link>RpcException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\Session.cs">
+      <Link>Session.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Message\Hotfix\SessionIdleCheckComponent.cs">
+      <Link>SessionIdleCheckComponent.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+</Project>

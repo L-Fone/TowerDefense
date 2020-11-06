@@ -1,0 +1,22 @@
+{
+    "name": "Unity.HotfixView",
+    "references": [
+        "GUID:703e1d0810996ed4b9064f1041de8bdc",
+        "GUID:997f003cfffd9ec4fae70c0ac9b0ec2b",
+        "GUID:131c13f81450a134598cd3375fe169d8",
+        "GUID:4c25c05f410a3a447a75c3b0909152ef",
+        "GUID:ffccb3edb75d55e4a93255b57eec996a",
+        "GUID:0562c671f0dadac45a50c8756960f6e4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

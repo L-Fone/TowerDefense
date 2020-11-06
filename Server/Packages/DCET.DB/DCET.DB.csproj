@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Config\DCET.Config.csproj" />
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\DCET.CoroutineLock\DCET.CoroutineLock.csproj" />
+    <ProjectReference Include="..\MongoDBDriver\MongoDB.Driver\MongoDB.Driver.csproj" />
+  </ItemGroup>
+
+</Project>

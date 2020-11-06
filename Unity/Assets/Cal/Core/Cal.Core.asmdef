@@ -1,0 +1,17 @@
+{
+    "name": "Cal.Core",
+    "references": [
+        "GUID:0562c671f0dadac45a50c8756960f6e4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "LOG_ENABLE"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

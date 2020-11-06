@@ -1,0 +1,4 @@
+[
+[1001, {"_id":1001,"Name":"Scene_EnterGame","Desc":"入门场景"}],
+[1002, {"_id":1002,"Name":"Scene_Level0","Desc":"关卡1"}],
+]

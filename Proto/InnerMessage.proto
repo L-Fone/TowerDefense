@@ -1,0 +1,112 @@
+package DCET;
+import "OuterMessage.proto";
+
+/// <summary>
+/// 传送unit
+/// </summary>
+message M2M_TrasferUnitRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required UnitInfo Unit = 3;
+}
+
+message M2M_TrasferUnitResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+	
+    required int64 InstanceId = 4;
+}
+
+message M2A_Reload // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+}
+
+message A2M_Reload // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message G2G_LockRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Id = 3;
+    required string Address = 4;
+}
+
+message G2G_LockResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message G2G_LockReleaseRequest // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 Id = 3;
+    required string Address = 4;
+}
+
+message G2G_LockReleaseResponse // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+}
+
+message R2G_GetLoginKey // IActorRequest
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required string Account = 3;
+}
+
+message G2R_GetLoginKey // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+	
+    required int64 Key = 4;
+    required int64 GateId = 5;
+}
+
+message G2M_CreateUnit // IActorRequest
+{	
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+	
+    required int64 PlayerId = 3;
+    required int64 GateSessionId = 4;
+}
+
+message M2G_CreateUnit // IActorResponse
+{
+	required int32 Error = 1;
+	required string Message = 2;
+	required int32 RpcId = 3;
+	
+    // 自己的unit id
+    required int64 UnitId = 4;
+    // 所有的unit
+    repeated UnitInfo Units = 5;
+}
+
+message G2M_SessionDisconnect // IActorLocationMessage
+{
+	required int32 RpcId = 1;
+	required int64 ActorId = 2;
+}

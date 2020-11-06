@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>DCET.Init</AssemblyName>
+    <RootNamespace>DCET</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;SERVER</DefineConstants>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;RELEASE;SERVER</DefineConstants>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Benchmark\DCET.Benchmark.csproj" />
+    <ProjectReference Include="..\..\Packages\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\..\Packages\DCET.DB\DCET.DB.csproj" />
+    <ProjectReference Include="..\Hotfix\DCET.Hotfix.csproj" />
+    <ProjectReference Include="..\..\Packages\DCET.Numeric\DCET.Numeric.csproj" />
+    <ProjectReference Include="..\Runtime\DCET.Runtime.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

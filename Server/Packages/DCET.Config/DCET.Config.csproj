@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;SERVER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\ACategory.cs">
+      <Link>ACategory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\AConfigComponent.cs">
+      <Link>AConfigComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\ConfigAttribute.cs">
+      <Link>ConfigAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\ConfigComponent.cs">
+      <Link>ConfigComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\ConfigHelper.cs">
+      <Link>ConfigHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\ClientConfig.cs">
+      <Link>Config\ClientConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\CopyConfig.cs">
+      <Link>Config\CopyConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\DBConfig.cs">
+      <Link>Config\DBConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\HttpConfig.cs">
+      <Link>Config\HttpConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\InnerConfig.cs">
+      <Link>Config\InnerConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\MapConfig.cs">
+      <Link>Config\MapConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\OuterConfig.cs">
+      <Link>Config\OuterConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\ProcessConfig.cs">
+      <Link>Config\ProcessConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\RunServerConfig.cs">
+      <Link>Config\RunServerConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\SceneConfig.cs">
+      <Link>Config\SceneConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\Config\StartConfig.cs">
+      <Link>Config\StartConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Unity\Packages\DCET.Config\Hotfix\IConfig.cs">
+      <Link>IConfig.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCET.Core\DCET.Core.csproj" />
+    <ProjectReference Include="..\MongoDBDriver\MongoDB.Bson\MongoDB.Bson.csproj" />
+  </ItemGroup>
+
+</Project>

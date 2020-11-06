@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Proto2Opcode/1.0.0": {
+        "runtime": {
+          "Proto2Opcode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proto2Opcode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
