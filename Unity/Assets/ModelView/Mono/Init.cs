@@ -10,12 +10,9 @@ namespace ET
 {
     public class Init : MonoBehaviour
     {
-        [SerializeField]
         public string key;
-        [SerializeField]
         public string keyIV;
         public static byte[] xorKey;
-        [SerializeField]
         public string _xorKey;
         public string XorKey => _xorKey;
         private void Start()

@@ -82,7 +82,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
 
     private Step _step;
 
-    [SerializeField] private string gameScene = "Scene_Login.unity";
+    //[SerializeField] private string gameScene = "Scene_Login.unity";
     [SerializeField] private bool enableVFS = true;
     [SerializeField] private bool development;
 

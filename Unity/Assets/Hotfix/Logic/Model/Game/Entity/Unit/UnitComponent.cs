@@ -56,16 +56,11 @@ namespace ET
             return unit;
         }
 
-        public void Remove(long id, bool isOffLine = false)
+        public void Remove(long id)
         {
-            Team team = isOffLine ? null : TeamComponent.Instance.Get(GlobalVariable.LeaderId);
 
             if (this.idUnits.TryGetValue(id, out var unit))
             {
-                if (!isOffLine && team.Contains(id))
-                {
-                    return;
-                }
                 this.idUnits.Remove(id);
                 unit.Dispose();
             }
@@ -76,12 +71,6 @@ namespace ET
         }
         public void Remove(Unit unit, bool isOffLine = false)
         {
-            Team team = isOffLine ? null : TeamComponent.Instance.Get(GlobalVariable.LeaderId);
-
-            if (!isOffLine && team.Contains(unit.Id))
-            {
-                return;
-            }
             this.idUnits.Remove(unit.Id);
             unit.Dispose();
 

@@ -12,7 +12,6 @@ namespace ET
             try
             {
                 Game.EventSystem.Publish(new ET.EventType.TranslateSceneStart {isAutoEnd =false}).Coroutine();
-                PosHelper.BackPos();
                 Game.EventSystem.Publish(new ET.EventType.StateBuffUI_Init
                 {
 
@@ -21,7 +20,6 @@ namespace ET
                 { 
                    zoneScene = args.zoneScene
                 }).Coroutine();
-                BattleComponent.Clear();
                 Game.EventSystem.Publish(new ET.EventType.TranslateSceneEnd { }).Coroutine();
             }
             catch (Exception e)

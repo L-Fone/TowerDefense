@@ -44,11 +44,7 @@ namespace ET
 		}
 		public static async ETTask<T> Call<T>(IRequest request,bool isMask = true) where T : IResponse
 		{
-			if(isMask)
-				NetLoadingHelper.Play();
 			var ret = (T)await Instance.Session.Call(request);
-			if (isMask)
-				NetLoadingHelper.Stop();
 			return ret;
 		}
 

@@ -6,32 +6,7 @@ namespace ET
 {
     public static class UnitFactory
     {
-        public static async ETTask<Unit> Create(long id,int skinId,JobType jobType, UnitType unitType = UnitType.Player,int jobId = 0)
-        {
-            SkinBase skinBase =skinId==-1?null:DataTableHelper.Get<SkinBase>(skinId);
-            int prefabId;
-            if (skinBase == null)
-            {
-                Log.Error($"没有skinId = {skinId}");
-                prefabId = jobId;
-            }
-            else
-            {
-                prefabId = skinBase.PrfabId;
-            }
-            Unit unit = EntityFactory.CreateWithParentAndId<Unit>(UnitComponent.Instance, id);
-            unit.SkinId = skinId;
-            unit.UnitType = unitType;
-
-
-            await Game.EventSystem.Publish(new ET.EventType.OnCreateUnit { unit = unit,prefabId =prefabId });
-
-            //unit.AddComponent<MoveComponent>();
-            //unit.AddComponent<TurnComponent>();
-
-            UnitComponent.Instance.Add(unit);
-            return unit;
-        }
+        
         public static async ETTask<Unit> Create(int prefabId, UnitType unitType )
         {
            
@@ -41,8 +16,6 @@ namespace ET
 
             await Game.EventSystem.Publish(new ET.EventType.OnCreateUnit { unit = unit, prefabId = prefabId });
 
-            //unit.AddComponent<MoveComponent>();
-            //unit.AddComponent<TurnComponent>();
 
             UnitComponent.Instance.Add(unit);
             return unit;

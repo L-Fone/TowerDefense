@@ -16,11 +16,6 @@ namespace ET
             unit.AddComponent<UnitView, GameObject>(go);
             unit.AddComponent<PopupComponent>();
 
-
-            if (unit.Id == GlobalVariable.MyId)
-            {
-                unit.AddComponent<CameraComponent, float, float>(-15, 15);
-            }
             await ETTask.CompletedTask;
         }
     }

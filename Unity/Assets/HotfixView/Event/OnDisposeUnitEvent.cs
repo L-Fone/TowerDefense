@@ -12,13 +12,13 @@ namespace ET
             var unit = args.unit;
             if (unit.UnitType == UnitType.NPC)
             {
-                NPCHudComponent.Instance.Remove(unit);
+
             }
             else
             if (unit.UnitType == UnitType.TransPoint)
                 return;
             else
-                HudComponent.Instance.Remove(unit);
+                return;
             await ETTask.CompletedTask;
         }
     }

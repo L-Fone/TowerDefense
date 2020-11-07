@@ -77,10 +77,16 @@ namespace ET
 
         private void Ready()
         {
+            ReadyAsync().Coroutine();
+        }
+
+        private async ETVoid ReadyAsync()
+        {
             LevelConfig levelConfig = ConfigHelper.Get<LevelConfig>(GlobalVariable.MapId);
-            Log.Info($"{levelConfig.InitPos.ToCustomString()}");
             RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestMonster);
-            //var unit =await UnitFactory.Create()
+            var unit = await UnitFactory.Create(roleConfig.PrefabId, UnitType.Monster);
+            unit.SetPosition(levelConfig.InitPos);
+            unit.SetYAngle(levelConfig.InitAngle);
         }
 
         private void UpdateBattle()

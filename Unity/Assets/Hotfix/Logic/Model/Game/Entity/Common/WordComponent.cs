@@ -23,14 +23,15 @@ namespace ET
 
         internal void Awake()
         {
-            IFlatbufferObject[] forbiddenArr = DataTableHelper.GetAll<Forbidden>();
-            forbiddenStrArr = new string[forbiddenArr.Length];
-            int index = 0;
-            foreach (Forbidden item in forbiddenArr)
-            {
-                forbiddenStrArr[index++] = item.Words;
-            }
-            IllegalWordHelper.Init(forbiddenStrArr);
+            //IFlatbufferObject[] forbiddenArr = DataTableHelper.GetAll<Forbidden>();
+            //forbiddenStrArr = new string[forbiddenArr.Length];
+            //int index = 0;
+            //foreach (Forbidden item in forbiddenArr)
+            //{
+            //    forbiddenStrArr[index++] = item.Words;
+            //}
+            throw new NotImplementedException();
+            //IllegalWordHelper.Init(null);
         }
     }
 }

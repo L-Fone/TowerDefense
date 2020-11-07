@@ -67,13 +67,13 @@ namespace ET
         }
         public void GetMaxExpByLevel(UnitCharacter clientUnitCharacter)
         {
-            RoleGrowth roleGrowth = (RoleGrowth)DataTableComponent.Instance.Get(DataTypeConst.RoleGrowth, (int)clientUnitCharacter.JobType);
-            if (roleGrowth == null)
-            {
-                return;
-            }
-            long needExp = (int)(roleGrowth.ExpArr(0).ExpBaseNumber * Mathf.Pow(clientUnitCharacter.Level, roleGrowth.ExpArr(0).ExpPower));
-            clientUnitCharacter.MaxExp = needExp;
+            //RoleGrowth roleGrowth = (RoleGrowth)DataTableComponent.Instance.Get(DataTypeConst.RoleGrowth, (int)clientUnitCharacter.JobType);
+            //if (roleGrowth == null)
+            //{
+            //    return;
+            //}
+            //long needExp = (int)(roleGrowth.ExpArr(0).ExpBaseNumber * Mathf.Pow(clientUnitCharacter.Level, roleGrowth.ExpArr(0).ExpPower));
+            //clientUnitCharacter.MaxExp = needExp;
         }
         public UnitCharacter Update(long id, string nickName = null, int jobId = -1, CampType campType = CampType.NoneCamp, string family = null, string title = null, int level = -1, int transLevel = -1, int hp = -1, int maxHp = -1, int mp = -1, int maxMp = -1, long exp = -1, long coin = -1, int yuanBao = -1, int voucher = -1, IEnumerable<int> characterPointList = null)
         {

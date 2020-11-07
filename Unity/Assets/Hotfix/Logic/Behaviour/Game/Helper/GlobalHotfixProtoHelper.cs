@@ -15,7 +15,7 @@ namespace ET
         {
             if (clientVer == null)
             {
-                var config = await ResourceHelper.LoadAssetAsync<TextAsset>(PathHelper.GlobalHotfixConfig);
+                var config = await ResourceHelper.LoadAssetAsync<TextAsset>("Assets/Download/Config/GlobalConfig.txt");
                 var globalProto = MongoHelper.FromJson<GlobalHotfixProto>(config.text);
                 clientVer = globalProto.ClientVersion;
             }

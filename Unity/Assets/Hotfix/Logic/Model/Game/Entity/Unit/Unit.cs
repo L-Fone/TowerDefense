@@ -107,19 +107,19 @@ namespace ET
 
             }
         }
-        private int yAngle;
-        public int YAngle
+        private Quaternion rotation;
+        public Quaternion Rotation
         {
-            get => yAngle;
+            get => rotation;
             set
             {
-                if (yAngle == value)
+                if (rotation == value)
                     return;
-                yAngle = value;
-                Game.EventSystem.Publish(new ET.EventType.UpdateUnitAngle
+                rotation = value;
+                Game.EventSystem.Publish(new ET.EventType.UpdateUnitRotation
                 {
                     unit = this,
-                    yAngle = value
+                    rotation = value
                 }).Coroutine();
 
             }
@@ -127,16 +127,18 @@ namespace ET
 
         private async ETTask ChangeSkin(int skinId)
         {
-            if (skinId == 0)
-                return;
-            SkinBase skinBase = DataTableHelper.Get<SkinBase>(skinId);
-            if (skinBase == null)
-            {
-                Log.Error($"没有skinId = {skinId}");
-                return;
-            }
-            //if (unitView)
-            //    await unitView.ChangeSkin(skinBase.PrfabId);
+          
+        }
+
+        public void SetPosition(float[] pos)
+        {
+            if (pos == null || pos.Length != 3)
+                throw new Exception("pos is invalid!");
+            Position = new Vector3(pos[0], pos[1], pos[2]);
+        }
+        public void SetYAngle(float angle)
+        {
+            Rotation = Quaternion.AngleAxis(angle, Vector3.up);
         }
         public override void Dispose()
         {
@@ -153,7 +155,7 @@ namespace ET
             UnitCharacterComponent.Instance.Remove(this);
             HideUnitComponent.Remove(this);
             skinId = 0;
-            yAngle = 0;
+            rotation = default;
             position = default;
             IsLeader = false;
             IsAlive = false;

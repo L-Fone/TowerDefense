@@ -32,11 +32,11 @@ namespace ET
         /// <summary>
         /// 游戏物体对象池字典
         /// </summary>
-        private Dictionary<byte, GameObjectPoolEntity> m_SpawnPoolDic;
+        private Dictionary<int, GameObjectPoolEntity> m_SpawnPoolDic;
         /// <summary>
         /// 实例ID对应对象池Id
         /// </summary>
-        private Dictionary<int, byte> m_InstanceIdPoolDic;
+        private Dictionary<int, int> m_InstanceIdPoolDic;
         /// <summary>
         /// 空闲预设池队列
         /// </summary>
@@ -44,8 +44,8 @@ namespace ET
 
         public void Awake()
         {
-            m_SpawnPoolDic = new Dictionary<byte, GameObjectPoolEntity>();
-            m_InstanceIdPoolDic = new Dictionary<int, byte>();
+            m_SpawnPoolDic = new Dictionary<int, GameObjectPoolEntity>();
+            m_InstanceIdPoolDic = new Dictionary<int, int>();
             m_PrefabPoolQueue = new Queue<PrefabPool>();
 
             InstanceHandler.InstantiateDelegates += this.InstantiateDelegate;
@@ -120,7 +120,7 @@ namespace ET
         }
 
 
-        public async ETTask<ValueTuple<Transform, bool>> GameObjectSpawn(int id, byte poolId, string path, bool cullDespawned, int cullAbove, int cullDelay, int cullMaxPerPass)
+        public async ETTask<ValueTuple<Transform, bool>> GameObjectSpawn(int id, int poolId, string path, bool cullDespawned, int cullAbove, int cullDelay, int cullMaxPerPass)
         {
             return await Spawn(id, poolId, path, cullDespawned, cullAbove, cullDelay, cullMaxPerPass);
         }
@@ -140,7 +140,7 @@ namespace ET
         /// </summary>
         /// <param name="prefabId"></param>
         /// <param name="onComplete"></param>
-        public async ETTask<ValueTuple<Transform, bool>> Spawn(int id, byte poolId,  string path, bool cullDespawned, int cullAbove, int cullDelay, int cullMaxPerPass)
+        public async ETTask<ValueTuple<Transform, bool>> Spawn(int id, int poolId,  string path, bool cullDespawned, int cullAbove, int cullDelay, int cullMaxPerPass)
         {
 
             //using (await Game.Scene.GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.ResourcesLoader, 10000))
@@ -222,7 +222,7 @@ namespace ET
         /// </summary>
         /// <param name="poolId"></param>
         /// <param name="instances"></param>
-        public void Despawn(byte poolId, Transform instance)
+        public void Despawn(int poolId, Transform instance)
         {
             if (m_SpawnPoolDic.TryGetValue(poolId, out GameObjectPoolEntity entity))
             {
@@ -237,7 +237,7 @@ namespace ET
         public void Despawn(Transform instance)
         {
             int instanceId = instance.gameObject.GetInstanceID();
-            if (m_InstanceIdPoolDic.TryGetValue(instanceId, out byte poolId))
+            if (m_InstanceIdPoolDic.TryGetValue(instanceId, out var poolId))
             {
                 m_InstanceIdPoolDic.Remove(instanceId);
                 Despawn(poolId, instance);

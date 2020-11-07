@@ -1,4 +1,4 @@
-﻿using libx;
+using libx;
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +6,6 @@ namespace ET
 {
     public class ResourceHelper
     {
-        private static UnOrderMultiMap<string, AssetRequest> requestDic = new UnOrderMultiMap<string, AssetRequest>();
         public static T LoadAsset<T>(string assetPath)
             where T : UnityEngine.Object
         {
@@ -19,19 +18,13 @@ namespace ET
         public static async ETTask<T> LoadAssetAsync<T>(string assetPath)
           where T : UnityEngine.Object
         {
-            var list = requestDic[assetPath];
-            if (list != null && list.Count > 0)
-            {
-                if (list[0]?.asset is T t)
-                    return t;
-            }
-
             ETTaskCompletionSource<T> tcs = new ETTaskCompletionSource<T>();
             var assetRequest = Assets.LoadAssetAsync(assetPath, typeof(T));
-            requestDic.Add(assetPath, assetRequest);
             assetRequest.completed = (AssetRequest request) =>
             {
-                tcs.SetResult(request.asset as T);
+                var asset = request.asset;
+                request.Release();
+                tcs.SetResult(asset as T);
             };
             return await tcs.Task;
         }
@@ -44,6 +37,7 @@ namespace ET
             SceneAssetRequest sceneRequest = Assets.LoadSceneAsync(sceneName, isAddtion);
             sceneRequest.completed += (AssetRequest request) =>
             {
+                request.Release();
                 tcs.SetResult();
             };
             return tcs.Task;

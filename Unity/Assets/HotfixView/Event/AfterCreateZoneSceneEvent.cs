@@ -17,11 +17,7 @@ namespace ET
             zoneScene.AddComponent<FUIComponent>();
             zoneScene.AddComponent<FUIInitComponent>();
 
-            zoneScene.AddComponent<TransPointComponent>();
             zoneScene.AddComponent<TranslateSceneComponent>();
-            zoneScene.AddComponent<HudComponent>();
-            zoneScene.AddComponent<NPCHudComponent>();
-            zoneScene.AddComponent<ShopComponent>();
 
             Game.EventSystem.Publish(new ET.EventType.InitSceneEnd
             {

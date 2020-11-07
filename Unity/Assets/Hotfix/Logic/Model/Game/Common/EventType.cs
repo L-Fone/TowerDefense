@@ -99,10 +99,10 @@ namespace ET
             public Unit unit;
             public Vector3 pos;
         }
-        public struct UpdateUnitAngle
+        public struct UpdateUnitRotation
         {
             public Unit unit;
-            public int yAngle;
+            public Quaternion rotation;
         }
         public struct UpdateNPCTaskState
         {
@@ -188,11 +188,6 @@ namespace ET
         {
             public Scene zoneScene;
         }
-        public struct StateBuffUI_Refresh
-        {
-            public Scene zoneScene;
-            public UnOrderMultiMap<long, BuffStateInfo> map;
-        }
         public struct OpenFriendUI
         {
             public Scene zoneScene;
@@ -225,11 +220,6 @@ namespace ET
         public struct TransPointUI_Right_Open
         {
             public Scene zoneScene;
-        }
-        public struct UpdateTeamHeadInfo
-        {
-            public Scene zoneScene;
-            public Team team;
         }
         public struct ShowTipUI
         {
@@ -315,11 +305,6 @@ namespace ET
             public Unit unit;
             public int value;
             public bool isCrit;
-        }
-        public struct CreateRequstLabal
-        {
-            public Scene zoneScene;
-            public TeamRequestInfo info;
         }
         public struct ShowBattleReword
         {

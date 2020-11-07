@@ -20,5 +20,7 @@ namespace Cal.DataTable
 		public string Desc;
 		[BsonRepresentation(MongoDB.Bson.BsonType.Double, AllowTruncation = true)]
 		public float[] InitPos;
+		[BsonRepresentation(MongoDB.Bson.BsonType.Double, AllowTruncation = true)]
+		public float InitAngle;
 	}
 }

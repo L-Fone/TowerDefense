@@ -35,10 +35,10 @@ namespace ET
                 transform.position = value + new Vector3(xDelta, yDelta, 0);
             }
         }
-        public bool IsFlip
+        public Quaternion Rotation
         {
-            get => spriteRenderer.flipX;
-            set => spriteRenderer.flipX = value;
+            get => transform.rotation;
+            set => transform.rotation = value;
         }
         public Vector3 AtkPosition
         {

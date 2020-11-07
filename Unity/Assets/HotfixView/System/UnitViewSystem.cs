@@ -1,4 +1,5 @@
-﻿using ET;
+﻿using Cal.DataTable;
+using ET;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -47,12 +48,12 @@ namespace ET
                 Color footEffectColor = Color.white;
                 if (self.FootPoint)
                 {
-                    var footEffctTran = await ResourceViewHelper.LoadPrefabAsync(PrefabId.Select);
-                    footEffctTran.name = "Select";
-                    footEffctTran.SetParent(self.transform);
-                    footEffctTran.position = self.FootPoint.position;
-                    self.footEffect = footEffctTran.GetComponent<SpriteRenderer>();
-                    self.footEffect.sortingLayerName = "FootEffct";
+                    //var footEffctTran = await ResourceViewHelper.LoadPrefabAsync(PrefabConfigId.);
+                    //footEffctTran.name = "Select";
+                    //footEffctTran.SetParent(self.transform);
+                    //footEffctTran.position = self.FootPoint.position;
+                    //self.footEffect = footEffctTran.GetComponent<SpriteRenderer>();
+                    //self.footEffect.sortingLayerName = "FootEffct";
                 }
                 self.SetFootEffcetActive(true, footEffectColor);
             }

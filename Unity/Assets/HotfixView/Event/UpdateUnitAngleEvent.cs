@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    public class UpdateUnitAngleEvent : AEvent<UpdateUnitAngle>
+    public class UpdateUnitAngleEvent : AEvent<UpdateUnitRotation>
     {
-        public override async ETTask Run(UpdateUnitAngle args)
+        public override async ETTask Run(UpdateUnitRotation args)
         {
             var unit = args.unit;
             var unitView = unit.GetComponent<UnitView>();
@@ -16,7 +16,8 @@ namespace ET
                 Log.Error($"uniView == null");
                 return;
             }
-            unitView.IsFlip = args.yAngle==180;
+
+            unitView.Rotation = args.rotation;
             await ETTask.CompletedTask;
         }
     }
