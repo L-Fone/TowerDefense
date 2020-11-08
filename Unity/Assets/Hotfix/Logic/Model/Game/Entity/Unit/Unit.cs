@@ -66,6 +66,7 @@ namespace ET
             }
         }
 
+
         private int skinId;
         public int SkinId
         {
@@ -139,6 +140,10 @@ namespace ET
         public void SetYAngle(float angle)
         {
             Rotation = Quaternion.AngleAxis(angle, Vector3.up);
+        }
+        internal void ChangePosition(Vector3 vector3)
+        {
+            Position +=vector3;
         }
         public override void Dispose()
         {

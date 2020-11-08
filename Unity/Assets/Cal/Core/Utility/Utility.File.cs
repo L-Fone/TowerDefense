@@ -37,13 +37,13 @@ namespace ET
                     }
                 }
             }
-            public static void Create(string path)
+            public static FileStream Create(string path)
             {
                 if (File.Exists(path))
                 {
-                    return;
+                    return new FileStream(path, FileMode.OpenOrCreate,FileAccess.ReadWrite,FileShare.ReadWrite);
                 }
-                File.Create(path);
+                return File.Create(path);
             }
             public static void Delete(string path)
             {

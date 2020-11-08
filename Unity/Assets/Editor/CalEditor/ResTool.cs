@@ -1,4 +1,6 @@
 ﻿using ET;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.Options;
 using Sirenix.OdinInspector;
 using Sirenix.Utilities;
 using Sirenix.Utilities.Editor;
@@ -7,6 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEditor.Sprites;
@@ -33,6 +36,86 @@ namespace ETEditor
         [FolderPath]
         [LabelText("生成出的RoleAnimation的路径")]
         public string animationRolePath = "Assets/Download/Animators";
+
+        public Texture2D texture2D;
+
+        public AinmationKey aimpationKey;
+        [ShowIf("aimpationKey", AinmationKey.Walk)]
+        public Ainmation8DirectionKey ainmation8DirectionKey;
+
+        [OnValueChanged("FrameChanged")]
+        public int firstFrame, frameCount;
+
+        void FrameChanged()
+        {
+            endFrame = firstFrame + frameCount - 1;
+        }
+
+        [ReadOnly]
+        public int endFrame;
+        [Button("生成动画文件")]
+        private void AutoFillSprite()
+        {
+            string path = $"Assets/Download/Config/SpriteInfoConig.json";
+            long id = AnimatorIdGenerater.GetId(texture2D.name, aimpationKey, ainmation8DirectionKey);
+            SpriteInfoConig spriteInfoConig;
+            Dictionary<long, SpriteInfoConig> configDic;
+            if (!File.Exists(path))
+            {
+                spriteInfoConig = new SpriteInfoConig { Id = id, list = new List<SpriteInfo>() };
+                configDic = new Dictionary<long, SpriteInfoConig>(); 
+                configDic.Add(id,spriteInfoConig);
+            }
+            else
+            {
+                string configStr = File.ReadAllText(path);
+                configDic = MongoHelper.FromJson<Dictionary<long, SpriteInfoConig>>(configStr);
+                if (!configDic.TryGetValue(id, out spriteInfoConig))
+                {
+                    spriteInfoConig = new SpriteInfoConig { Id = id, list = new List<SpriteInfo>() };
+                    configDic[id] = spriteInfoConig;
+                }
+                else
+                {
+                    spriteInfoConig.list.Clear();
+                }
+            }
+            string assetPath = AssetDatabase.GetAssetPath(texture2D);
+            TextureImporter texImport = AssetImporter.GetAtPath(assetPath) as TextureImporter;
+            for (int i = firstFrame; i <= endFrame; i++)
+            {
+                var item = texImport.spritesheet[i];
+                SpriteInfo spriteInfo = new SpriteInfo
+                {
+                    name = item.name,
+                    pivot = new System.Numerics.Vector2(item.pivot.x, item.pivot.y),
+                    x = item.rect.x,
+                    y = item.rect.y,
+                    width = item.rect.width,
+                    height = item.rect.height,
+                };
+                spriteInfoConig.list.Add(spriteInfo);
+            }
+            StringBuilder sb = new StringBuilder();
+            sb.Append("[\n");
+            foreach (var kv in configDic)
+            {
+                sb.Append("[");
+                var str = MongoHelper.ToJson(kv.Value);
+                sb.Append($"{kv.Key},");
+                sb.Append($"{str}");
+                sb.Append("],\n");
+            }
+            sb.Append("]");
+            Utility.FileOpation.Delete(path);
+            var fs = Utility.FileOpation.Create(path);
+            using (var sw = new StreamWriter(fs))
+            {
+                sw.Write(sb.ToString());
+            }
+            AssetDatabase.Refresh();
+        }
+
 
         [MenuItem("Assets/资源操作/临时修改", false, 97)]
         static void ModifyDir() => Instance.ModifyDirInternel();
@@ -584,6 +667,118 @@ namespace ETEditor
                 Log.Error(e);
                 EditorUtility.ClearProgressBar();
             }
+        }
+        #endregion
+
+        #region 8向
+        [MenuItem("Assets/资源操作/8向/批量规范文件名", false, 97)]
+        static void Animation8Direction() => Instance.Animation8DirectionInternel();
+        private void Animation8DirectionInternel()
+        {
+            try
+            {
+                string[] strs = Selection.assetGUIDs;
+                foreach (var item in strs)
+                {
+                    string dirPath = AssetDatabase.GUIDToAssetPath(item);
+                    FileInfo[] infoArr = Utility.FileOpation.GetFiles(dirPath, "*.png", SearchOption.AllDirectories);
+                    Execute(infoArr, ".png");
+                    infoArr = Utility.FileOpation.GetFiles(dirPath, "*.meta", SearchOption.AllDirectories);
+                    Execute(infoArr, ".png.meta");
+                    AssetDatabase.Refresh();
+                    void Execute(FileInfo[] _infoArr, string extion)
+                    {
+                        SortAsFileName(_infoArr);
+                        List<FileInfo> animHurtList = new List<FileInfo>();
+                        List<FileInfo> animRunList = new List<FileInfo>();
+                        List<FileInfo> animIdleList = new List<FileInfo>();
+                        List<FileInfo> animAttackList = new List<FileInfo>();
+                        string dirFilePath = _infoArr[0].DirectoryName;
+                        string dirName = Directory.GetParent(_infoArr[0].FullName).Name;
+                        dirFilePath += "/" + dirName;
+                        foreach (var fileInfo in _infoArr)
+                        {
+
+                            if (fileInfo.FullName.Contains("hurt") ||
+                              fileInfo.FullName.Contains("hit") ||
+                              fileInfo.FullName.Contains("Hurt") ||
+                              fileInfo.FullName.Contains("Hit")
+                              )
+                            {
+                                animHurtList.Add(fileInfo);
+                            }
+                            else if (fileInfo.FullName.Contains("run") ||
+                          fileInfo.FullName.Contains("Run")
+                          )
+                            {
+                                animRunList.Add(fileInfo);
+                            }
+                            else if (fileInfo.FullName.Contains("Idle") ||
+                          fileInfo.FullName.Contains("idle")
+                          )
+                            {
+                                animIdleList.Add(fileInfo);
+                            }
+                            else if (fileInfo.FullName.Contains("attack") ||
+                                fileInfo.FullName.Contains("Attack")
+                                )
+                            {
+                                animAttackList.Add(fileInfo);
+                            }
+                            else
+                            {
+                                Log.Error($"{fileInfo.Name} 命名错误");
+                            }
+                        }
+                        int i = 0;
+                        foreach (var animInfo in animHurtList)
+                        {
+                            string ext = "" + ++i;
+                            if (i < 10)
+                                ext = "0" + ext;
+                            name = dirFilePath + "_Hurt_" + ext + extion;
+
+                            animInfo.MoveTo(name);
+                        }
+                        i = 0;
+                        foreach (var animInfo in animRunList)
+                        {
+                            string ext = "" + ++i;
+                            if (i < 10)
+                                ext = "0" + ext;
+                            name = dirFilePath + "_Run_" + ext + extion;
+                            animInfo.MoveTo(name);
+
+                        }
+                        i = 0;
+                        foreach (var animInfo in animIdleList)
+                        {
+                            string ext = "" + ++i;
+                            if (i < 10)
+                                ext = "0" + ext;
+                            name = dirFilePath + "_Idle_" + ext + extion;
+                            animInfo.MoveTo(name);
+
+                        }
+                        i = 0;
+                        foreach (var animInfo in animAttackList)
+                        {
+                            string ext = "" + ++i;
+                            if (i < 10)
+                                ext = "0" + ext;
+                            name = dirFilePath + "_Attack_" + ext + extion;
+                            animInfo.MoveTo(name);
+
+                        }
+                    }
+                }
+                AssetDatabase.Refresh();
+            }
+            catch (Exception e)
+            {
+                Log.Error(e);
+            }
+
         }
         #endregion
 

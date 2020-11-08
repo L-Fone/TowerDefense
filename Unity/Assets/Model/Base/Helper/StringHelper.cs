@@ -69,14 +69,13 @@ namespace ET
 		}
 		public static string ToCustomString(this object obj)
         {
-			if (!(obj is Array array))
-				return obj.ToString();
+			dynamic x = obj;
 			string str = "[";
-            for (int i = 0; i < array.Length; i++)
+            foreach (var item in x)
             {
-				str += array.GetValue(i).ToString() + ", ";
+                str += item + ",";
             }
-			str = str.Remove(str.Length - 2,2);
+			str = str.Remove(str.Length - 1,1);
 			str += "]";
 			return str;
         }

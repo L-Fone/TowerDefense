@@ -13,5 +13,7 @@ namespace ET
     public abstract class AIBase:Entity
     {
         public abstract AIType aiType { get; }
+
+        public bool isRun;
     }
 }

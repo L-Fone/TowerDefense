@@ -274,6 +274,18 @@ namespace ET
             public Unit unit;
             public bool isVisible;
         }
+        public struct PlayAnimation
+        {
+            public Unit unit;
+            public AinmationKey ainmationKey;
+            public Vector3 dir;
+        }    
+        //public struct UnitMove
+        //{
+        //    public Unit unit;
+        //    public float spd;
+        //    public Vector3 dir;
+        //}        
         public struct PlayAnimation_Attack
         {
             public Unit unit;

@@ -1,0 +1,1642 @@
+fileFormatVersion: 2
+guid: c4152ac6d1792d145a84b73626df2d3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6876215229301422027
+    second: Role1_0
+  - first:
+      213: -4763977670030849476
+    second: Role1_1
+  - first:
+      213: -3447097888361310741
+    second: Role1_2
+  - first:
+      213: -8108950313112898767
+    second: Role1_3
+  - first:
+      213: 7682395549598107389
+    second: Role1_4
+  - first:
+      213: 6622592112653820585
+    second: Role1_5
+  - first:
+      213: -2034330079054387416
+    second: Role1_6
+  - first:
+      213: -4871225861198297274
+    second: Role1_7
+  - first:
+      213: -3767753902226884256
+    second: Role1_8
+  - first:
+      213: 2268438492969606463
+    second: Role1_9
+  - first:
+      213: -2756721485219618620
+    second: Role1_10
+  - first:
+      213: -4853685522866763768
+    second: Role1_11
+  - first:
+      213: 3897010700488016376
+    second: Role1_12
+  - first:
+      213: -3286124307446422201
+    second: Role1_13
+  - first:
+      213: -4421038629605289894
+    second: Role1_14
+  - first:
+      213: 3993418700485675307
+    second: Role1_15
+  - first:
+      213: 7094419236471254534
+    second: Role1_16
+  - first:
+      213: 1761685483762310024
+    second: Role1_17
+  - first:
+      213: 1714101720195411379
+    second: Role1_18
+  - first:
+      213: -3230863191774738093
+    second: Role1_19
+  - first:
+      213: 7320059397557112526
+    second: Role1_20
+  - first:
+      213: 7078023292248243887
+    second: Role1_21
+  - first:
+      213: -8468071158895377704
+    second: Role1_22
+  - first:
+      213: -7663941897649254362
+    second: Role1_23
+  - first:
+      213: -264537820175492351
+    second: Role1_24
+  - first:
+      213: -7754840011372206411
+    second: Role1_25
+  - first:
+      213: 2501813008322910133
+    second: Role1_26
+  - first:
+      213: -6401034505217110564
+    second: Role1_27
+  - first:
+      213: 8920679689842546249
+    second: Role1_28
+  - first:
+      213: 1035761281518441158
+    second: Role1_29
+  - first:
+      213: -819102003390657544
+    second: Role1_30
+  - first:
+      213: 8098412679653499145
+    second: Role1_31
+  - first:
+      213: -3084736246635154737
+    second: Role1_32
+  - first:
+      213: -1049481425391331207
+    second: Role1_33
+  - first:
+      213: -6489244236875067874
+    second: Role1_34
+  - first:
+      213: 5318136106316814278
+    second: Role1_35
+  - first:
+      213: -8908511665314051695
+    second: Role1_36
+  - first:
+      213: 1004972033694580897
+    second: Role1_37
+  - first:
+      213: -1390258106947444979
+    second: Role1_38
+  - first:
+      213: -5722021457678268383
+    second: Role1_39
+  - first:
+      213: 3150242366695653338
+    second: Role1_40
+  - first:
+      213: 5889246758534919879
+    second: Role1_41
+  - first:
+      213: 2965558755777313520
+    second: Role1_42
+  - first:
+      213: 3450264627092010715
+    second: Role1_43
+  - first:
+      213: 4175710939006550742
+    second: Role1_44
+  - first:
+      213: -7995216339307810342
+    second: Role1_45
+  - first:
+      213: -2441663751536475879
+    second: Role1_46
+  - first:
+      213: -7550453967363754615
+    second: Role1_47
+  - first:
+      213: 5273292645258379769
+    second: Role1_48
+  - first:
+      213: -6155398675761001879
+    second: Role1_49
+  - first:
+      213: -1519354354305224882
+    second: Role1_50
+  - first:
+      213: 4514199224031443442
+    second: Role1_51
+  - first:
+      213: -1549884156429823225
+    second: Role1_52
+  - first:
+      213: -8389068852672257605
+    second: Role1_53
+  - first:
+      213: 135854506310451627
+    second: Role1_54
+  - first:
+      213: 6617813112268101267
+    second: Role1_55
+  - first:
+      213: -6231731252887314813
+    second: Role1_56
+  - first:
+      213: -5983604273623499057
+    second: Role1_57
+  - first:
+      213: -5404420126294613018
+    second: Role1_58
+  - first:
+      213: -6009036347675946569
+    second: Role1_59
+  - first:
+      213: -6366522020897286761
+    second: Role1_60
+  - first:
+      213: -6641773891313960796
+    second: Role1_61
+  - first:
+      213: -4573361342810728435
+    second: Role1_62
+  - first:
+      213: 8542945284997853488
+    second: Role1_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Role1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc774adb1593d6f50800000000000000
+      internalID: 6876215229301422027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a0bebbc83f2edb0800000000000000
+      internalID: -4763977670030849476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5993aebb27920d0800000000000000
+      internalID: -3447097888361310741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133fc9d37a8377f80800000000000000
+      internalID: -8108950313112898767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df646dd9c0a5d9a60800000000000000
+      internalID: 7682395549598107389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2e80f307c28eb50800000000000000
+      internalID: 6622592112653820585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827221a429b94c3e0800000000000000
+      internalID: -2034330079054387416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 644
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647449a53ede56cb0800000000000000
+      internalID: -4871225861198297274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069bca0d9cf36bbc0800000000000000
+      internalID: -3767753902226884256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d96486acc1b7f10800000000000000
+      internalID: 2268438492969606463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c02cc83a682eb9d0800000000000000
+      internalID: -2756721485219618620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808021e9bbe34acb0800000000000000
+      internalID: -4853685522866763768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f10c78b596f41630800000000000000
+      internalID: 3897010700488016376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74521ee5a575562d0800000000000000
+      internalID: -3286124307446422201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50d8104ac055a2c0800000000000000
+      internalID: -4421038629605289894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 552
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29c9d966297b6730800000000000000
+      internalID: 3993418700485675307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e219d25b0747260800000000000000
+      internalID: 7094419236471254534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b5d991d93c27810800000000000000
+      internalID: 1761685483762310024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd222dce66b9c710800000000000000
+      internalID: 1714101720195411379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c1608b0ba923d0800000000000000
+      internalID: -3230863191774738093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec62e1d33169560800000000000000
+      internalID: 7320059397557112526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb56eeea03a3260800000000000000
+      internalID: 7078023292248243887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d28f41952e5b7a80800000000000000
+      internalID: -8468071158895377704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 460
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620126b037534a590800000000000000
+      internalID: -7663941897649254362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b98ce014c245cf0800000000000000
+      internalID: -264537820175492351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b66c28b816416490800000000000000
+      internalID: -7754840011372206411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d9870da938b220800000000000000
+      internalID: 2501813008322910133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd04891805fa27a0800000000000000
+      internalID: -6401034505217110564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9465b140aee9ccb70800000000000000
+      internalID: 8920679689842546249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29209d563cf5e00800000000000000
+      internalID: 1035761281518441158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc6155117f1a4f0800000000000000
+      internalID: -819102003390657544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_31
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 368
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9012447cc67536070800000000000000
+      internalID: 8098412679653499145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc23a813ab0d035d0800000000000000
+      internalID: -3084736246635154737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978dd29343e7f61f0800000000000000
+      internalID: -1049481425391331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e8f408fb291f5a0800000000000000
+      internalID: -6489244236875067874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7513cac90ddc940800000000000000
+      internalID: 5318136106316814278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994887f6db9e5480800000000000000
+      internalID: -8908511665314051695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a041957db062fd00800000000000000
+      internalID: 1004972033694580897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f5a4d1e9fc4bce0800000000000000
+      internalID: -1390258106947444979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_39
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 276
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1288ce10dcb4790b0800000000000000
+      internalID: -5722021457678268383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfb747edb8e7bb20800000000000000
+      internalID: 3150242366695653338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6381d69becab150800000000000000
+      internalID: 5889246758534919879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faf7a6e9f7c72920800000000000000
+      internalID: 2965558755777313520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63ae6e56dc1ef20800000000000000
+      internalID: 3450264627092010715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2c234a9fa13f930800000000000000
+      internalID: 4175710939006550742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1b82199194b0190800000000000000
+      internalID: -7995216339307810342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91188b421c77d1ed0800000000000000
+      internalID: -2441663751536475879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 184
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9853856ee16673790800000000000000
+      internalID: -7550453967363754615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f14e45c8bf7e2940800000000000000
+      internalID: 5273292645258379769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0b506481a39aa0800000000000000
+      internalID: -6155398675761001879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fa1bfb34b2aeae0800000000000000
+      internalID: -1519354354305224882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9fcb9e648a5ae30800000000000000
+      internalID: 4514199224031443442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7039ef44294bd7ae0800000000000000
+      internalID: -1549884156429823225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12d20635a049b80800000000000000
+      internalID: -8389068852672257605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_54
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba145c524f6a2e100800000000000000
+      internalID: 135854506310451627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_55
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 92
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39699a286f137db50800000000000000
+      internalID: 6617813112268101267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e93ff41717489a0800000000000000
+      internalID: -6231731252887314813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce792a9d97f5fca0800000000000000
+      internalID: -5983604273623499057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3ec3b6784aff4b0800000000000000
+      internalID: -5404420126294613018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b15d5e674d9b9ca0800000000000000
+      internalID: -6009036347675946569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79517b904f195a7a0800000000000000
+      internalID: -6366522020897286761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a874c1e5dda3d3a0800000000000000
+      internalID: -6641773891313960796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d085344e6182880c0800000000000000
+      internalID: -4573361342810728435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role1_63
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03135e76973ae8670800000000000000
+      internalID: 8542945284997853488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

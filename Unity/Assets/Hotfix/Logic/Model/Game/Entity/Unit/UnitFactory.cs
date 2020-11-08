@@ -7,12 +7,12 @@ namespace ET
     public static class UnitFactory
     {
         
-        public static async ETTask<Unit> Create(int prefabId, UnitType unitType )
+        public static async ETTask<Unit> Create(int configId,int prefabId, UnitType unitType )
         {
            
             Unit unit = EntityFactory.CreateWithParent<Unit>(UnitComponent.Instance);
             unit.UnitType = unitType;
-
+            unit.ConfigId = configId;
 
             await Game.EventSystem.Publish(new ET.EventType.OnCreateUnit { unit = unit, prefabId = prefabId });
 
@@ -20,17 +20,7 @@ namespace ET
             UnitComponent.Instance.Add(unit);
             return unit;
         }
-        public static async ETTask<Unit> Create(long id, int prefabId, UnitType unitType = UnitType.MainStoryMonster)
-        {
-            
-            Unit unit = EntityFactory.CreateWithParentAndId<Unit>(UnitComponent.Instance, id);
-            unit.UnitType = unitType;
 
-            await Game.EventSystem.Publish(new ET.EventType.OnCreateUnit { unit = unit, prefabId = prefabId });
-
-            UnitComponent.Instance.Add(unit);
-            return unit;
-        }
         public static async ETTask<Unit> CreateNPC(int prefabId,int configId)
         {
             Unit unit = EntityFactory.CreateWithParent<Unit>(UnitComponent.Instance);

@@ -73,7 +73,7 @@ namespace ET
 			return configCategory.GetOne();
 		}
 
-		public IConfig Get(Type type, int id)
+		public IConfig Get(Type type, long id)
 		{
 			ACategory configCategory;
 			if (!this.allConfig.TryGetValue(type, out configCategory))
@@ -84,15 +84,6 @@ namespace ET
 			return configCategory.TryGet(id);
 		}
 
-		public IConfig TryGet(Type type, int id)
-		{
-			ACategory configCategory;
-			if (!this.allConfig.TryGetValue(type, out configCategory))
-			{
-				return null;
-			}
-			return configCategory.TryGet(id);
-		}
 
 		public IEnumerable<T> GetAll<T>(Type type)
 		{

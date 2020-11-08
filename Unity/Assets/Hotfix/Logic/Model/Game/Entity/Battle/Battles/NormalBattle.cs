@@ -1,6 +1,7 @@
 ﻿using Cal.DataTable;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace ET
 {
@@ -27,8 +28,8 @@ namespace ET
     }
     public class NormalBattle : BattleBase
     {
-        public enum State 
-        { 
+        public enum State
+        {
             Wait,
             Ready,
             Battle,
@@ -37,8 +38,11 @@ namespace ET
             /// </summary>
             Statements,
             End,
-}
+        }
         private State state;
+        private LevelInfo info;
+        private bool isRun;
+
         public override GameType gameType => GameType.Normal;
 
         internal void Awake()
@@ -57,7 +61,6 @@ namespace ET
                     return;
                 case State.Ready:
                     Ready();
-                    state = State.Battle;
                     return;
                 case State.Battle:
                     UpdateBattle();
@@ -84,13 +87,42 @@ namespace ET
         {
             LevelConfig levelConfig = ConfigHelper.Get<LevelConfig>(GlobalVariable.MapId);
             RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestMonster);
-            var unit = await UnitFactory.Create(roleConfig.PrefabId, UnitType.Monster);
-            unit.SetPosition(levelConfig.InitPos);
-            unit.SetYAngle(levelConfig.InitAngle);
+
+            MapSceneConfig mapSceneConfig = ConfigHelper.Get<MapSceneConfig>(GlobalVariable.MapId);
+            string path = $"Assets/Download/Config/Levels/{mapSceneConfig.Name}.json";
+            var str = await ResourceHelper.LoadAssetAsync<TextAsset>(path);
+            info = MongoHelper.FromJson<LevelInfo>(str.text);
+
+
+            MonsterSpawn(levelConfig.Id, roleConfig.PrefabId).Coroutine();
+
+
+            //!开始
+            state = State.Battle;
+
+        }
+
+
+        private async ETVoid MonsterSpawn(long id, int prefabId)
+        {
+            int count = 500;
+            for (int i = 0; i < count; i++)
+            {
+                await TimerComponent.Instance.WaitAsync(500);
+                var unit = await UnitFactory.Create((int)id, prefabId, UnitType.Monster);
+                unit.Position = info.initPos.ToUnityVector3();
+                var monsterAI = unit.AddComponent<MonsterAI>();
+                monsterAI.path = info.path;
+                if (!this.aiDic.TryAdd(unit.Id, monsterAI))
+                    Log.Error($"aiDic hasc the key = {unit.Id}");
+                monsterAI.isRun = true;
+            }
         }
 
         private void UpdateBattle()
         {
+
+
 
         }
         /// <summary>

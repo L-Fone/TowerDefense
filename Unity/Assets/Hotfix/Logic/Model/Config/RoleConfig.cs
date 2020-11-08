@@ -20,6 +20,8 @@ namespace Cal.DataTable
 		public string Name;
 		public string Desc;
 		public int PrefabId;
+		public string AsltasPath;
+		public int Frame;
 		public int Atk;
 		public int Def;
 		public int Hp;

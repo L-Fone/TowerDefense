@@ -34,7 +34,7 @@ namespace ET
 				throw new Exception($"load global config file fail", e);
 			}
 		}
-        public static T Get<T>(int id) where T : class
+        public static T Get<T>(long id) where T : class
         {
             var iconfig = ConfigComponent.instance.Get(typeof(T), id);
             if (iconfig == null)

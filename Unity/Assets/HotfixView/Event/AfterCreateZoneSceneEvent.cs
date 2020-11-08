@@ -16,6 +16,7 @@ namespace ET
             zoneScene.AddComponent<FUIPackageComponent>();
             zoneScene.AddComponent<FUIComponent>();
             zoneScene.AddComponent<FUIInitComponent>();
+            zoneScene.AddComponent<SpriteComponent>();
 
             zoneScene.AddComponent<TranslateSceneComponent>();
 

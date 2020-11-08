@@ -9,7 +9,7 @@ namespace ET
 		public abstract Type ConfigType { get; }
 		public abstract IConfig GetOne();
 		public abstract IEnumerable<T> GetAll<T>();
-		public abstract IConfig TryGet(int type);
+		public abstract IConfig TryGet(long type);
 	}
 
 	/// <summary>
@@ -40,7 +40,7 @@ namespace ET
 		{
 		}
 
-		public override IConfig TryGet(int type)
+		public override IConfig TryGet(long type)
 		{
             if (!this.dict.TryGetValue(type, out T t))
             {

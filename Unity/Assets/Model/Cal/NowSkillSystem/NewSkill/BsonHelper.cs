@@ -36,6 +36,11 @@ namespace ET
             BsonSerializer.RegisterSerializer(typeof(FP), new StructBsonSerialize<FP>());
             BsonSerializer.RegisterSerializer(typeof(Vector2), new StructBsonSerialize<Vector2>());
             BsonSerializer.RegisterSerializer(typeof(Vector3), new StructBsonSerialize<Vector3>());
+#if UNITY
+            BsonSerializer.RegisterSerializer(typeof(UnityEngine.Rect), new StructBsonSerialize<UnityEngine.Rect>());
+            //BsonSerializer.RegisterSerializer(typeof(UnityEngine.Vector2), new StructBsonSerialize<UnityEngine.Vector2>());
+            BsonSerializer.RegisterSerializer(typeof(UnityEngine.Vector3), new StructBsonSerialize<UnityEngine.Vector3>());
+#endif
             BsonSerializer.RegisterSerializer(typeof(ModifierId), new StructBsonSerialize<ModifierId>());
             BsonSerializer.RegisterSerializer(typeof(SkillParam), new StructBsonSerialize<SkillParam>());
         }
