@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kqsmrpxl">
+  <resources>
+    <image id="eh2a0" name="Skill_Slip_.png" path="/Assets/" scale="9grid" scale9grid="1,2,10,120"/>
+    <image id="eh2a1" name="Skill_Slip_BG.png" path="/Assets/"/>
+    <image id="eh2a3" name="Common_Progress_BG.png" path="/Assets/"/>
+    <image id="eh2a5" name="Skill_Slip_BGup.png" path="/Assets/"/>
+    <font id="eh2a6" name="Alibaba-PuHuiTi-Regular.otf" path="/" renderMode="smooth" samplePointSize="16"/>
+    <component id="eh2a7" name="MainUI.xml" path="/MainUI/" exported="true"/>
+    <image id="eh2a8" name="Common_Button.png" path="/Assets/"/>
+    <image id="eh2a9" name="Common_Close.png" path="/Assets/"/>
+    <image id="eh2aa" name="Common_Coin_Jinbi.png" path="/Assets/" exported="true"/>
+    <image id="eh2ab" name="Common_Coin_Yinbi.png" path="/Assets/" exported="true"/>
+    <image id="eh2ac" name="Common_Exp.png" path="/BattleUI/Assets/"/>
+    <image id="eh2ad" name="Common_FightSkill.png" path="/BattleUI/Assets/"/>
+    <image id="eh2ae" name="Common_jimai_good.png" path="/Assets/"/>
+    <image id="eh2af" name="Common_Loading.png" path="/Assets/"/>
+    <image id="eh2aj" name="Common_SlotBG.png" path="/Assets/" scale="9grid" scale9grid="4,5,54,53"/>
+    <image id="eh2ak" name="Common_Sure.png" path="/Assets/"/>
+    <image id="eh2al" name="Common_Tip.png" path="/Assets/" scale="9grid" scale9grid="11,38,260,66"/>
+    <image id="eh2am" name="Common_Coin_Tongbi.png" path="/Assets/" exported="true"/>
+    <image id="eh2ao" name="MainUI_Team.png" path="/MainUI/Assets/"/>
+    <image id="eh2ap" name="MainUI_Bag.png" path="/MainUI/Assets/" scale9grid="0,0,-28,-62"/>
+    <image id="eh2aq" name="MainUI_Bottom_bar.png" path="/MainUI/Assets/"/>
+    <image id="eh2ar" name="MainUI_Close.png" path="/Assets/"/>
+    <image id="eh2as" name="MainUI_Email.png" path="/MainUI/Assets/"/>
+    <image id="eh2at" name="MainUI_exp.png" path="/MainUI/Assets/" exported="true"/>
+    <image id="eh2au" name="MainUI_fignt.png" path="/MainUI/Assets/"/>
+    <image id="eh2av" name="MainUI_friend.png" path="/MainUI/Assets/"/>
+    <image id="eh2aw" name="MainUI_Hide.png" path="/MainUI/Assets/"/>
+    <image id="eh2ax" name="MainUI_Info.png" path="/MainUI/Assets/" scale9grid="0,0,-28,-60"/>
+    <image id="eh2ay" name="MainUI_Info_Head.png" path="/MainUI/Assets/"/>
+    <image id="eh2az" name="MainUI_Info_Head_Hp.png" path="/MainUI/Assets/"/>
+    <image id="eh2a10" name="MainUI_Info_Head_Mp.png" path="/MainUI/Assets/"/>
+    <image id="eh2a11" name="MainUI_Jindutiao.png" path="/MainUI/Assets/"/>
+    <image id="eh2a12" name="MainUI_Macket.png" path="/MainUI/Assets/" scale9grid="0,0,-28,-58"/>
+    <image id="eh2a14" name="MainUI_Mission.png" path="/MainUI/Assets/"/>
+    <image id="eh2a15" name="MainUI_Pet.png" path="/MainUI/Assets/"/>
+    <image id="eh2a16" name="MainUI_Ranking.png" path="/MainUI/Assets/"/>
+    <image id="eh2a17" name="MainUI_Sgame.png" path="/MainUI/Assets/"/>
+    <image id="eh2a18" name="MainUI_Skill.png" path="/MainUI/Assets/" scale9grid="0,0,-28,-61"/>
+    <image id="eh2a19" name="Common_Skill_Gezi.png" path="/Assets/"/>
+    <image id="eh2a1a" name="Common_Progress.png" path="/Assets/"/>
+    <component id="eh2a1b" name="HeadInfoItem.xml" path="/MainUI/" exported="true"/>
+    <component id="eh2a1c" name="ProgressHp.xml" path="/MainUI/"/>
+    <component id="eh2a1d" name="ProgressMp.xml" path="/MainUI/"/>
+    <component id="eh2a1e" name="ProgressExp.xml" path="/MainUI/"/>
+    <component id="eh2a1j" name="ButtonAuto.xml" path="/MainUI/"/>
+    <component id="eh2a1k" name="ButtonMail.xml" path="/MainUI/"/>
+    <component id="eh2a1l" name="ButtonDisplayOther.xml" path="/MainUI/"/>
+    <component id="eh2a1m" name="ButtonRank.xml" path="/MainUI/"/>
+    <component id="eh2a1n" name="ButtonLittleGame.xml" path="/MainUI/"/>
+    <component id="eh2a1o" name="ButtonTeam.xml" path="/MainUI/"/>
+    <component id="eh2a1p" name="ButtonCharacter.xml" path="/MainUI/"/>
+    <component id="eh2a1q" name="ButtonSkill.xml" path="/MainUI/"/>
+    <component id="eh2a1r" name="ButtonBag.xml" path="/MainUI/"/>
+    <component id="eh2a1s" name="ButtonHeadInfo.xml" path="/MainUI/"/>
+    <movieclip id="ik031u" name="AnimLoading.jta" path="/"/>
+    <component id="ik031w" name="ProgressLoading.xml" path="/"/>
+    <component id="jshj1y" name="ButtonText.xml" path="/" exported="true"/>
+    <component id="jshj21" name="ButtonClose.xml" path="/" exported="true"/>
+    <image id="t4cw23" name="Menu_clickBG.png" path="/Assets/"/>
+    <image id="t4cw22" name="Menu_clickchoose.png" path="/Assets/"/>
+    <movieclip id="t4cw25" name="AnimNetLoading.jta" path="/"/>
+    <image id="t4cw5q" name="Loading_1.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5r" name="Loading_2.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5s" name="Loading_3.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5t" name="Loading_4.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5u" name="Loading_5.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5v" name="Loading_6.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5w" name="Loading_7.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw5x" name="Loading_8.png" path="/Assets/Animations/NetLOading/"/>
+    <image id="t4cw26" name="armatureName_newAnimation_00.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw27" name="armatureName_newAnimation_01.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw28" name="armatureName_newAnimation_02.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw29" name="armatureName_newAnimation_03.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2a" name="armatureName_newAnimation_04.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2b" name="armatureName_newAnimation_05.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2c" name="armatureName_newAnimation_06.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2d" name="armatureName_newAnimation_07.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2e" name="armatureName_newAnimation_08.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2f" name="armatureName_newAnimation_09.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2g" name="armatureName_newAnimation_10.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2h" name="armatureName_newAnimation_11.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2i" name="armatureName_newAnimation_12.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2j" name="armatureName_newAnimation_13.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2k" name="armatureName_newAnimation_14.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2l" name="armatureName_newAnimation_15.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2m" name="armatureName_newAnimation_16.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2n" name="armatureName_newAnimation_17.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2o" name="armatureName_newAnimation_18.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2p" name="armatureName_newAnimation_19.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2q" name="armatureName_newAnimation_20.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2r" name="armatureName_newAnimation_21.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2s" name="armatureName_newAnimation_22.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2t" name="armatureName_newAnimation_23.png" path="/Assets/Animations/Loading/"/>
+    <image id="t4cw2u" name="armatureName_newAnimation_24.png" path="/Assets/Animations/Loading/"/>
+    <component id="ik031v" name="Loading.xml" path="/" exported="true"/>
+    <component id="t4cw24" name="NetLoading.xml" path="/" exported="true"/>
+    <component id="uuap62" name="HeadInfoItemMain.xml" path="/MainUI/"/>
+    <image id="k0xs63" name="MainUI_TeamLeader.png" path="/MainUI/Assets/"/>
+    <component id="ptly64" name="ButtonClose_Blue.xml" path="/" exported="true"/>
+    <image id="hg0f65" name="MainUI_BG.png" path="/MainUI/Assets/" scale9grid="0,0,0,-42"/>
+    <image id="hg0f66" name="MainUI_market.png" path="/MainUI/Assets/"/>
+    <image id="hg0f67" name="MainUI_message_family.png" path="/MainUI/Assets/"/>
+    <image id="hg0f68" name="MainUI_message_world.png" path="/MainUI/Assets/"/>
+    <image id="hg0f69" name="MainUI_message_team.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6a" name="MainUI_message_camp.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6b" name="MainUI_message_normal.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6c" name="MainUI_message_receive.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6d" name="MainUI_mes_sent.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6e" name="MainUI_role.png" path="/MainUI/Assets/"/>
+    <image id="hg0f6f" name="MainUI_skillge.png" path="/MainUI/Assets/"/>
+    <component id="hg0f6g" name="ButtonMianUISlot.xml" path="/MainUI/"/>
+    <image id="spuy6h" name="Common_baiban.png" path="/Assets/" exported="true"/>
+    <component id="qyfh6i" name="HeadTitleInfo.xml" path="/BattleUI/" exported="true"/>
+    <image id="qyfh6j" name="Profession1.png" path="/BattleUI/Assets/" exported="true"/>
+    <image id="qyfh6k" name="Profession2.png" path="/BattleUI/Assets/" exported="true"/>
+    <image id="qyfh6l" name="Profession3.png" path="/BattleUI/Assets/" exported="true"/>
+    <image id="qyfh6m" name="Profession4.png" path="/BattleUI/Assets/" exported="true"/>
+    <component id="ssp36n" name="SkillNameUI.xml" path="/BattleUI/" exported="true"/>
+    <image id="iwo26o" name="Common_Input.png" path="/Assets/" exported="true"/>
+    <image id="ozr3ii" name="Common_Equiptips.png" path="/Assets/" scale="9grid" scale9grid="22,19,158,258"/>
+    <image id="p2c66p" name="Common_star.png" path="/Assets/" exported="true"/>
+    <image id="p2c66q" name="Common_star_hui.png" path="/Assets/" exported="true"/>
+    <movieclip id="7kgqiq" name="NetLoadingMoveClip.jta" path="/"/>
+    <image id="7kgqir" name="Loading (01).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqis" name="Loading (10).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqit" name="Loading (11).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqiu" name="Loading (12).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqiv" name="Loading (13).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqiw" name="Loading (14).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqix" name="Loading (15).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqiy" name="Loading (16).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqiz" name="Loading (17).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj0" name="Loading (18).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj1" name="Loading (19).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj2" name="Loading (02).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj3" name="Loading (20).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj4" name="Loading (21).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj5" name="Loading (22).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj6" name="Loading (23).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj7" name="Loading (24).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj8" name="Loading (03).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqj9" name="Loading (04).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqja" name="Loading (05).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqjb" name="Loading (06).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqjc" name="Loading (07).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqjd" name="Loading (08).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="7kgqje" name="Loading (09).png" path="/Assets/Animations/NetLOading/"/>
+    <image id="o3cnjf" name="Common_ButtonBlue.png" path="/Assets/"/>
+    <component id="o3cnjg" name="ButtonText_Blue.xml" path="/" exported="true"/>
+    <image id="o3cniq" name="Common_lianhua_choose.png" path="/Assets/"/>
+    <image id="o3cnjj" name="Common_lianhua_choose2.png" path="/Assets/"/>
+    <component id="o3cnjk" name="ButtonCycle.xml" path="/" exported="true"/>
+    <image id="ns2zjl" name="Common_Exp.png" path="/Assets/" exported="true"/>
+    <component id="y69ujm" name="ButtonTask.xml" path="/MainUI/"/>
+    <image id="y69ujn" name="MainUI_Map.png" path="/MainUI/Assets/"/>
+    <component id="y69ujo" name="ButtonOnlyText.xml" path="/" exported="true"/>
+    <image id="mewwjq" name="Common_chooseGood.png" path="/Assets/" scale="9grid" scale9grid="7,8,39,37"/>
+    <component id="fyvbs" name="ButtonSlot.xml" path="/" exported="true"/>
+    <component id="rttnjr" name="ButtonShop.xml" path="/MainUI/"/>
+    <image id="ih6njs" name="Common_Bottom_Shangyiye.png" path="/Assets/"/>
+    <image id="ih6njt" name="Common_Bottom_xiayiye.png" path="/Assets/"/>
+    <component id="ih6nju" name="ButtonLastPage.xml" path="/" exported="true"/>
+    <component id="ih6njv" name="ButtonNextPage.xml" path="/" exported="true"/>
+    <image id="m1qujx" name="Common_lianhua_4.png" path="/Assets/" exported="true" scale="9grid" scale9grid="80,27,206,172"/>
+    <component id="sqczjy" name="ButtonSociaty.xml" path="/MainUI/"/>
+    <image id="j03xd" name="Friend_Bottom_guanbi.png" path="/Assets/"/>
+    <component id="j03xjz" name="ButtonClose_ToonBlue.xml" path="/" exported="true"/>
+    <image id="mj9wk3" name="Common_Button_Next.png" path="/Assets/"/>
+    <component id="mj9wk4" name="ButtonNextPageNew1.xml" path="/" exported="true"/>
+    <image id="mj9wk5" name="Common_Button_Last.png" path="/Assets/"/>
+    <component id="mj9wk6" name="ButtonLastPageNew1.xml" path="/" exported="true"/>
+    <component id="xzxok7" name="ButtonChatReceive.xml" path="/MainUI/"/>
+    <component id="xzxok8" name="ButtonChatSend.xml" path="/MainUI/"/>
+    <component id="xzxok9" name="ButtonChatNormal.xml" path="/MainUI/"/>
+    <component id="xzxoka" name="ButtonChatWorld.xml" path="/MainUI/"/>
+    <component id="xzxokb" name="ButtonChatTeam.xml" path="/MainUI/"/>
+    <component id="xzxokc" name="ButtonChatCamp.xml" path="/MainUI/"/>
+    <component id="xzxokd" name="ButtonChatFamily.xml" path="/MainUI/"/>
+    <component id="xzxoke" name="LabelChatItem.xml" path="/MainUI/" exported="true"/>
+    <component id="s8hrkf" name="ButtonSlot_BlackBG.xml" path="/" exported="true"/>
+    <image id="gmv9kg" name="Shop_SlotBG.png" path="/Assets/"/>
+    <image id="l5nykh" name="CommonUI_tips(1).png" path="/Assets/" exported="true" scale="9grid" scale9grid="15,18,322,142"/>
+    <component id="ud62ki" name="LabelGlobalText.xml" path="/MainUI/"/>
+    <image id="9k68kj" name="TraScenes.png" path="/Assets/"/>
+    <component id="czagl" name="ButtonSingle.xml" path="/" exported="true"/>
+    <component id="rirskk" name="ButtonShowSetting.xml" path="/MainUI/"/>
+    <image id="h2b5kl" name="CommonUI_BUFFinfo.png" path="/Assets/" exported="true"/>
+    <image id="h2b5km" name="CommonUI_BUFF_List.png" path="/Assets/" exported="true" scale="9grid" scale9grid="4,4,239,38"/>
+    <component id="h2b5kn" name="FrameStateBuffUI.xml" path="/BattleUI/"/>
+    <component id="h2b5ko" name="StateBuffUI.xml" path="/BattleUI/" exported="true"/>
+    <component id="h2b5kp" name="LabelStateBuffUI.xml" path="/BattleUI/" exported="true"/>
+    <image id="h2b5ks" name="CommonUI_BUFFinfoone.png" path="/Assets/" exported="true" scale9grid="14,42,268,389"/>
+    <image id="h2b5kt" name="CommonUI_BUFF_Close.png" path="/Assets/"/>
+    <component id="h2b5ku" name="ButtonClose_Yellow.xml" path="/" exported="true"/>
+    <font id="gwf2kw" name="方正像素字体.ttf" path="/" renderMode="smooth" samplePointSize="16"/>
+    <image id="la9r9" name="Team_tip.png" path="/Assets/" exported="true" scale9grid="33,11,434,37"/>
+    <component id="i7y3kx" name="ButtonOnlyTextSingle.xml" path="/" exported="true"/>
+    <image id="10i4tky" name="CommonUI_BUFFinfo(1).png" path="/Assets/" exported="true" scale="9grid" scale9grid="7,12,567,386"/>
+    <image id="10i4tkz" name="CommonUI_BUFFinfo_BG1.png" path="/Assets/" exported="true" scale="tile" duplicatePadding="true"/>
+    <image id="10i4tl0" name="CommonUI_BUFFinfo_Head.png" path="/Assets/" exported="true"/>
+    <image id="10i4tl1" name="CommonUI_BUFFinfo_kuang.png" path="/Assets/" exported="true" scale="9grid" scale9grid="7,7,564,388"/>
+    <image id="10i4tl6" name="Skill_Slip_BGup(1).png" path="/Assets/"/>
+    <component id="10i4tl7" name="ScrollBarVircle_arrow1.xml" path="/"/>
+    <component id="10i4tl8" name="ScrollBarVircle_arrow2.xml" path="/"/>
+    <component id="10i4tl9" name="ScrollBarVircle_grip.xml" path="/"/>
+    <component id="10i4tla" name="ScrollBarVircle.xml" path="/" exported="true"/>
+    <image id="k9cwtlb" name="BG1.png" path="/MainUI/Assets/"/>
+    <image id="k9cwtlc" name="BG2.png" path="/MainUI/Assets/"/>
+    <image id="k9cwtld" name="BG3.png" path="/MainUI/Assets/"/>
+    <movieclip id="108futle" name="qmzl_biaoqing (1).jta" path="/MainUI/Emjo/"/>
+    <image id="10i4t2c" name="Skill_info_GeziJian.png" path="/Assets/"/>
+    <image id="10i4t2d" name="Skill_info_GeziPlus.png" path="/Assets/"/>
+    <component id="lkzyutlf" name="ButtonPlus.xml" path="/" exported="true"/>
+    <component id="lkzyutlg" name="ButtonMinus.xml" path="/" exported="true"/>
+    <component id="4wfcutlh" name="CheatUI.xml" path="/Cheat/" exported="true"/>
+    <component id="4wfcutlj" name="FrameCheat.xml" path="/Cheat/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

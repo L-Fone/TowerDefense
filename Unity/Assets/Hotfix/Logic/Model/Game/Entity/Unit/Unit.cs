@@ -99,11 +99,11 @@ namespace ET
                 if (position == value)
                     return;
                 position = value;
-                Game.EventSystem.Publish(new ET.EventType.UpdateUnitPosition
+                Game.EventSystem.Publish_Sync(new ET.EventType.UpdateUnitPosition
                 {
                     unit = this,
                     pos = value
-                }).Coroutine();
+                });
 
 
             }
@@ -117,11 +117,11 @@ namespace ET
                 if (rotation == value)
                     return;
                 rotation = value;
-                Game.EventSystem.Publish(new ET.EventType.UpdateUnitRotation
+                Game.EventSystem.Publish_Sync(new ET.EventType.UpdateUnitRotation
                 {
                     unit = this,
                     rotation = value
-                }).Coroutine();
+                });
 
             }
         }
@@ -149,10 +149,10 @@ namespace ET
         {
             if (!this)
                 return;
-            Game.EventSystem.Publish(new ET.EventType.OnDisposeUnit
+            Game.EventSystem.Publish_Sync(new ET.EventType.OnDisposeUnit
             {
                 unit = this
-            }).Coroutine();
+            });
             base.Dispose();
         }
         public void Destroy()

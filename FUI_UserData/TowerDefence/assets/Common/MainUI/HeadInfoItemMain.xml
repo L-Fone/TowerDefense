@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="353,133">
+  <displayList>
+    <image id="n9_eh2a" name="n9" src="eh2ay" fileName="MainUI/Assets/MainUI_Info_Head.png" xy="0,0" size="353,133"/>
+    <image id="n12_k0xs" name="imgLeader" src="k0xs63" fileName="MainUI/Assets/MainUI_TeamLeader.png" xy="78,0"/>
+    <component id="n3_eh2a" name="pbarMp" src="eh2a1d" fileName="MainUI/ProgressMp.xml" xy="147,83" size="201,19">
+      <ProgressBar value="66" max="100"/>
+    </component>
+    <component id="n2_eh2a" name="pBarHp" src="eh2a1c" fileName="MainUI/ProgressHp.xml" xy="147,60" size="200,19">
+      <ProgressBar value="31" max="100"/>
+    </component>
+    <component id="n4_eh2a" name="pBarExp" src="eh2a1e" fileName="MainUI/ProgressExp.xml" xy="163,105" size="175,10">
+      <ProgressBar value="41" max="100"/>
+    </component>
+    <text id="n5_eh2a" name="txtLevel" xy="49,55" size="79,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#006600" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" text="7000"/>
+    <text id="n6_eh2a" name="txtName" xy="144,18" size="204,39" fontSize="28" color="#ff00ff" align="center" autoSize="none" strokeColor="#000000" text="我的名字叫顺溜"/>
+    <component id="n11_eh2a" name="btn" src="eh2a1s" fileName="MainUI/ButtonHeadInfo.xml" xy="20,4" size="123,128" alpha="0"/>
+  </displayList>
+</component>

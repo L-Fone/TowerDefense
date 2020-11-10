@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,80" pivot="0.66,1" anchor="true">
+  <displayList>
+    <image id="n0_ssp3" name="n0" src="eh2ad" fileName="BattleUI/Assets/Common_FightSkill.png" xy="0,0" size="118,68" group="n2_am06"/>
+    <text id="n1_ssp3" name="txtName" xy="13,3" size="94,42" group="n2_am06" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" italic="true" strokeColor="#ffffff" text="超级榴弹炮">
+      <relation target="n0_ssp3" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n2_am06" name="n2" xy="0,0" size="118,68" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n2_am06" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n2_am06" tween="true" startValue="1" endValue="0.049" duration="42"/>
+    <item time="60" type="Alpha" target="n2_am06" tween="true" startValue="0.049" endValue="0" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,334" opaque="false">
+  <displayList>
+    <image id="n0_p2c6" name="n0" src="ozr3ii" fileName="Assets/Common_Equiptips.png" pkg="kqsmrpxl" xy="0,0" size="260,334" group="n2_p2c6" touchable="false">
+      <relation target="n1_p2c6" sidePair="height-height"/>
+    </image>
+    <richtext id="n1_p2c6" name="title" xy="11,9" size="238,315" group="n2_p2c6" touchable="false" fontSize="16" color="#ffffff" leading="1" ubb="true" autoSize="height" strokeColor="#000000" autoClearText="true" text="[color=#00ff00][size=22]足球[/size][/color]&#xA;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&lt;img src=&apos;ui://Common/Common_star&apos; /&gt;&#xA;装备&#x9;&#x9;&#x9;&#x9;形象&#xA;单价:   99&lt;img src=&apos;ui://Common/Common_Coin_Jinbi&apos; /&gt; 99&lt;img src=&apos;ui://Common/Common_Coin_Yinbi&apos; /&gt; 99&lt;img src=&apos;ui://Common/Common_Coin_Tongbi&apos; /&gt;&#xA;[color=#ff99cc]已绑定[/color]&#xA;需要等级:1&#xA;需要职业:全部&#xA;[color=#99bf88]攻击:5600[/color][color=#99cc33]55[/color]&#xA;[color=#99bf88]防御:6000[/color]&#xA;[color=#99bf88]拜祭:6%[/color]&#xA;[img]ui://kqsmrpxlp2c66p[/img][color=#e9d099]敏捷:100[/color]&#xA;[img]ui://kqsmrpxlp2c66q[/img]&#xA;[img]ui://kqsmrpxlp2c66q[/img]&#xA;[img]ui://kqsmrpxlp2c66q[/img]&#xA;[color=#ffff99]该物品价值1200RMB，买商城可以兑换很多很多钱[/color]"/>
+    <group id="n2_p2c6" name="group" xy="0,0" size="260,334" advanced="true"/>
+  </displayList>
+  <relation target="n0_p2c6" sidePair="width-width,height-height"/>
+  <transition name="Show">
+    <item time="0" type="Alpha" target="n2_p2c6" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="Hide">
+    <item time="0" type="Alpha" target="n2_p2c6" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

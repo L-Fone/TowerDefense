@@ -82,6 +82,9 @@
     <Compile Include="Assets\ModelView\Event\AppStartInitFinish_StartUpdater.cs" />
     <Compile Include="Assets\ModelView\PoolManager\SpawnPool.cs" />
     <Compile Include="Assets\ModelView\PoolManager\PreRuntimePoolItem.cs" />
+    <Compile Include="Assets\ModelView\Mono\TowerPointMono.cs" />
+    <Compile Include="Assets\ModelView\Mono\AtkFieldDebugMono.cs" />
+    <Compile Include="Assets\ModelView\Mono\TriggerMono.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ModelView\Unity.ModelView.asmdef" />

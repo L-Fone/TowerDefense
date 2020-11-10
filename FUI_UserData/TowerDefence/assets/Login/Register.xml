@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <image id="n0_jshj" name="n0" src="eh2a9" fileName="Login_Reg.png" xy="484,300" size="630,297">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_jshj" name="n1" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="604,335" size="280,45" group="n3_jshj"/>
+    <text id="n2_jshj" name="iptAcc" xy="606,337" size="277,42" group="n3_jshj" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" maxLength="16">
+      <relation target="n1_jshj" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n14_jshj" name="n14" xy="894,343" size="142,29" group="n3_jshj" fontSize="20" color="#ffffff" strokeColor="#000000" text="由数字字母组成"/>
+    <group id="n3_jshj" name="n3" xy="502,335" size="534,45" group="n10_jshj" advanced="true"/>
+    <text id="n11_jshj" name="n11" xy="502,337" size="91,41" group="n3_jshj" fontSize="30" color="#ffffff" strokeColor="#000000" text="账号："/>
+    <image id="n4_jshj" name="n4" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="604,400" size="280,45" group="n6_jshj"/>
+    <text id="n15_jshj" name="n15" xy="894,404" size="207,29" group="n6_jshj" fontSize="20" color="#ffffff" strokeColor="#000000" text="由6~16位数字字母组成"/>
+    <text id="n5_jshj" name="iptPsd" xy="606,401" size="277,42" group="n6_jshj" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" maxLength="16">
+      <relation target="n4_jshj" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n12_jshj" name="n12" xy="502,401" size="91,41" group="n6_jshj" fontSize="30" color="#ffffff" strokeColor="#000000" text="密码："/>
+    <group id="n6_jshj" name="n6" xy="502,400" size="599,45" group="n10_jshj" advanced="true"/>
+    <image id="n7_jshj" name="n7" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="604,465" size="280,45" group="n9_jshj"/>
+    <text id="n8_jshj" name="iptQQ" xy="606,466" size="277,42" group="n9_jshj" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" maxLength="12">
+      <relation target="n7_jshj" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n13_jshj" name="n13" xy="510,464" size="77,41" group="n9_jshj" fontSize="30" color="#ffffff" strokeColor="#000000" text="QQ："/>
+    <group id="n9_jshj" name="n9" xy="510,464" size="374,46" group="n10_jshj" advanced="true"/>
+    <group id="n10_jshj" name="n10" xy="502,335" size="599,175"/>
+    <component id="n16_jshj" name="btnRegisterAndLogin" src="jshj1z" fileName="ButtonText.xml" xy="714,550" size="171,58" aspect="true">
+      <Button title="注册并登录"/>
+    </component>
+    <component id="n20_jshj" name="btnClose" src="jshjl" fileName="ButtonClose.xml" xy="1064,303" size="45,40" aspect="true"/>
+  </displayList>
+</component>

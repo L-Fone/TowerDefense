@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="768jx61w">
+  <resources>
+    <component id="7bww6" name="CharacterUI.xml" path="/" exported="true"/>
+    <image id="7bww8" name="Character_ge.png" path="/Asstes/"/>
+    <image id="7bww9" name="Character_Interface_Bottom.png" path="/Asstes/"/>
+    <image id="7bwwa" name="Character_Interface_Bottom2.png" path="/Asstes/"/>
+    <image id="7bwwb" name="Character_Interface_Info1.png" path="/Asstes/"/>
+    <image id="7bwwc" name="Character_Interface_xiantiao.png" path="/Asstes/"/>
+    <image id="7bwwf" name="Character_rolege.png" path="/Asstes/" scale="9grid" scale9grid="12,11,170,224"/>
+    <image id="7bwwg" name="人物信息预览图.png" path="/Asstes/"/>
+    <component id="7bwwh" name="FrameCharacter.xml" path="/"/>
+    <component id="7bwwi" name="ButtonEquip.xml" path="/"/>
+    <image id="7bwwj" name="Character_Interface_xinxikuang.png" path="/Asstes/"/>
+    <image id="7bwwk" name="Character_Interface_xinxikuanglv.png" path="/Asstes/" scale="9grid" scale9grid="9,6,54,14"/>
+    <image id="7bwwl" name="人物信息预览图1.jpg" path="/Asstes/"/>
+    <component id="7bwwm" name="Label1.xml" path="/"/>
+    <component id="7bwwo" name="Label2.xml" path="/"/>
+    <component id="7bwwp" name="Label3.xml" path="/"/>
+    <image id="l1mxq" name="Beijing1_15.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxr" name="Beijing1_16.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxs" name="Beijing1_17.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxt" name="Beijing1_18.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxu" name="Beijing1_19.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxv" name="Beijing1_20.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxw" name="Beijing1_21.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxx" name="Beijing1_22.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxy" name="Beijing1_23.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mxz" name="Beijing1_24.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx10" name="Beijing1_01.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx11" name="Beijing1_02.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx12" name="Beijing1_03.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx13" name="Beijing1_04.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx14" name="Beijing1_05.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx15" name="Beijing1_06.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx16" name="Beijing1_07.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx17" name="Beijing1_08.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx18" name="Beijing1_09.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx19" name="Beijing1_10.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx1a" name="Beijing1_11.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx1b" name="Beijing1_12.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx1c" name="Beijing1_13.png" path="/Asstes/BG/BG1/"/>
+    <image id="l1mx1d" name="Beijing1_14.png" path="/Asstes/BG/BG1/"/>
+    <movieclip id="l1mx1e" name="MovieBGTest.jta" path="/BGMovie/"/>
+    <component id="8dtq1g" name="LabelTitle.xml" path="/"/>
+    <component id="8dtq1h" name="LabelAddPoint.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

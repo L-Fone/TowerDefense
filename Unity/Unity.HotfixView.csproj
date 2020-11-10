@@ -84,7 +84,6 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Friend\FUI_FriendUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_StateBuffUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Shop\FUI_MarketUI.cs" />
-    <Compile Include="Assets\HotfixView\Event\UnitMoveEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Friend\FUI_RequestFriendUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Mail\FUI_ButtonMailItem.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Task\FUI_FrameTaskUI.cs" />
@@ -199,6 +198,10 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\GObjectHelper.cs" />
     <Compile Include="Assets\HotfixView\UI\MainUI\MainUIEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Shop\FUI_ShopUI.cs" />
+    <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Battle\PackageBattle.cs" />
+    <Compile Include="Assets\HotfixView\Event\GenerateTowerPointEvent.cs" />
+    <Compile Include="Assets\HotfixView\Entity\TowerPointViewComponent.cs" />
+    <Compile Include="Assets\HotfixView\Event\AddTriggerEvent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\HotfixView\Unity.HotfixView.asmdef" />

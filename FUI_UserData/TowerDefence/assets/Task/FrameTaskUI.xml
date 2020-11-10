@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1059,600" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_y69u" name="n0" src="y69u8" fileName="Assets/Task_infer.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_y69u" name="title" xy="314,5" size="431,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#4c6948" shadowColor="#506f4d" shadowOffset="1,1" singleLine="true" text="任务">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n4_y69u" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="1014,13" size="34,35"/>
+    <graph id="n2_y69u" name="dragArea" xy="3,0" size="1009,53">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_y69u" name="contentArea" xy="0,53" size="1059,548">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

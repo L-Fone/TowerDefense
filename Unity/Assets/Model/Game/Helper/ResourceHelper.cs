@@ -18,12 +18,15 @@ namespace ET
         public static async ETTask<T> LoadAssetAsync<T>(string assetPath)
           where T : UnityEngine.Object
         {
-            ETTaskCompletionSource<T> tcs = new ETTaskCompletionSource<T>();
             var assetRequest = Assets.LoadAssetAsync(assetPath, typeof(T));
+            if (assetRequest.isDone)
+            {
+                return assetRequest.asset as T;
+            }
+            ETTaskCompletionSource<T> tcs = new ETTaskCompletionSource<T>();
             assetRequest.completed = (AssetRequest request) =>
             {
                 var asset = request.asset;
-                request.Release();
                 tcs.SetResult(asset as T);
             };
             return await tcs.Task;
@@ -37,7 +40,6 @@ namespace ET
             SceneAssetRequest sceneRequest = Assets.LoadSceneAsync(sceneName, isAddtion);
             sceneRequest.completed += (AssetRequest request) =>
             {
-                request.Release();
                 tcs.SetResult();
             };
             return tcs.Task;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,800">
+  <displayList>
+    <component id="n0_8s4q" name="frame" src="8s4q1" fileName="FrameSelectTowerUI.xml" xy="0,0"/>
+    <image id="n1_8s4q" name="n1" src="10i4tl1" fileName="Assets/CommonUI_BUFFinfo_kuang.png" pkg="kqsmrpxl" xy="6,33" size="316,761"/>
+    <image id="n2_8s4q" name="n2" src="10i4tl1" fileName="Assets/CommonUI_BUFFinfo_kuang.png" pkg="kqsmrpxl" xy="321,34" size="672,761"/>
+    <list id="n4_8s4q" name="towerList" xy="18,42" size="292,743" layout="flow_hz" overflow="scroll" lineGap="3" colGap="3" defaultItem="ui://kqsmrpxls8hrkf" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_8s4q" name="txtDesc" xy="328,43" size="659,741" fontSize="30" autoSize="none" text=""/>
+  </displayList>
+</component>

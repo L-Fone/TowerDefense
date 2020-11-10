@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <graph id="n0_meww" name="bg" xy="0,0" size="225,60" touchable="false" lineSize="0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n5_meww" name="icon" xy="8,6" size="48,48" url="ui://71ktouo7rybex" fill="scaleFree">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </loader>
+    <image id="n6_meww" name="Slected" src="mewwjq" fileName="Assets/Common_chooseGood.png" pkg="kqsmrpxl" xy="8,6" size="48,48" color="#ffff00">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n4_meww" name="title" xy="63,0" size="164,60" fontSize="18" color="#333333" vAlign="middle" autoSize="none" text="药水&#xA;数量：1">
+      <relation target="n5_meww" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

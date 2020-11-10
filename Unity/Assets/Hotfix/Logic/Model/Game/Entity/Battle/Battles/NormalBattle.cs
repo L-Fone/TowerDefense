@@ -93,23 +93,37 @@ namespace ET
             var str = await ResourceHelper.LoadAssetAsync<TextAsset>(path);
             info = MongoHelper.FromJson<LevelInfo>(str.text);
 
-
-            MonsterSpawn(levelConfig.Id, roleConfig.PrefabId).Coroutine();
-
+            TowerPointGenerate();
+            MonsterSpawn(roleConfig).Coroutine();
+            
 
             //!开始
             state = State.Battle;
 
         }
 
-
-        private async ETVoid MonsterSpawn(long id, int prefabId)
+        private void TowerPointGenerate()
         {
-            int count = 500;
+            foreach (var v3 in info.towerList)
+            {
+                Vector3 vector3 = v3.ToUnityVector3();
+                TowerPointInfo towerPointInfo = TowerPointComponent.instance.Create(vector3);
+                Game.EventSystem.Publish(new ET.EventType.GenerateTowerPoint
+                {
+                    zoneScene = null,
+                    Id = towerPointInfo.Id,
+                    point = vector3
+                }).Coroutine();
+            }
+        }
+
+        private async ETVoid MonsterSpawn(RoleConfig roleConfig)
+        {
+            int count = 100;
             for (int i = 0; i < count; i++)
             {
-                await TimerComponent.Instance.WaitAsync(500);
-                var unit = await UnitFactory.Create((int)id, prefabId, UnitType.Monster);
+                await TimerComponent.Instance.WaitAsync(2000);
+                var unit = UnitFactory.Create(roleConfig, UnitType.Monster);
                 unit.Position = info.initPos.ToUnityVector3();
                 var monsterAI = unit.AddComponent<MonsterAI>();
                 monsterAI.path = info.path;

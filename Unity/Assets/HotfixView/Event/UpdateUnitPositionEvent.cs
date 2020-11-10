@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    public class UpdateUnitPositionEvent : AEvent<UpdateUnitPosition>
+    public class UpdateUnitPositionEvent : AEvent_Sync<UpdateUnitPosition>
     {
-        public override async ETTask Run(UpdateUnitPosition args)
+        public override void Run(UpdateUnitPosition args)
         {
             var unit = args.unit;
             var unitView = unit.GetComponent<UnitView>();
@@ -17,7 +17,6 @@ namespace ET
                 return;
             }
             unitView.Position = args.pos;
-            await ETTask.CompletedTask;
         }
     }
 }

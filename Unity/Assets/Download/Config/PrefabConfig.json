@@ -1,4 +1,5 @@
 [
-[10001, {"_id":10001,"Name":"TestTower","Desc":"测试防御塔","AssetPath":"Assets/Download/Role/RolePrefab/Role/EMP_Tower_level_1.prefab","PoolId":1,"CullDespawned":true,"CullAbove":0,"CullDelay":60,"CullMaxPerPass":5}],
-[10002, {"_id":10002,"Name":"TestMonster","Desc":"测试小怪","AssetPath":"Assets/Download/Role/RolePrefab/Role/Role.prefab","PoolId":1,"CullDespawned":true,"CullAbove":0,"CullDelay":60,"CullMaxPerPass":5}],
+[10001, {"_id":10001,"Name":"TestTower","Desc":"测试防御塔","AssetPath":"Assets/Download/Role/RolePrefab/Role/Role_Tower.prefab","PoolId":1,"CullDespawned":true,"CullAbove":2,"CullDelay":60,"CullMaxPerPass":5}],
+[10002, {"_id":10002,"Name":"TestMonster","Desc":"测试小怪","AssetPath":"Assets/Download/Role/RolePrefab/Role/Role.prefab","PoolId":1,"CullDespawned":true,"CullAbove":2,"CullDelay":60,"CullMaxPerPass":5}],
+[11001, {"_id":11001,"Name":"TowerPointTrigger","Desc":"防御塔为u之触发器","AssetPath":"Assets/Download/CommonPrefab/TowerPointTrigger.prefab","PoolId":1,"CullDespawned":true,"CullAbove":0,"CullDelay":120,"CullMaxPerPass":10}],
 ]

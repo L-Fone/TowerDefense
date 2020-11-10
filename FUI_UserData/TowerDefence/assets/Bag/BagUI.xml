@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,640">
+  <displayList>
+    <component id="n0_fyvb" name="frame" src="fyvbr" fileName="FrameBag.xml" xy="0,0" group="n18_fyvb"/>
+    <list id="n1_fyvb" name="slotList" xy="72,119" size="450,327" group="n18_fyvb" layout="flow_hz" overflow="hidden" lineGap="1" colGap="2" defaultItem="ui://kqsmrpxlfyvbs" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2_fyvb" name="n2" src="mj9wjp" fileName="Assets/bag_daijinquan.png" xy="351,453" group="n18_fyvb"/>
+    <image id="n3_fyvb" name="n3" src="mj9wjo" fileName="Assets/bag_yuanbao.png" xy="119,465" group="n18_fyvb"/>
+    <image id="n5_fyvb" name="n5" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="376,515" group="n18_fyvb">
+      <relation target="n10_fyvb" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n6_fyvb" name="n6" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="416,515" group="n18_fyvb">
+      <relation target="n11_fyvb" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n7_fyvb" name="n7" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="463,515" group="n18_fyvb">
+      <relation target="n12_fyvb" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n9_fyvb" name="txtTip" xy="87,512" size="211,22" group="n18_fyvb" fontSize="15" color="#ffffff" strokeColor="#666666" text="提示：按住左Ctrl进行拖拽和拆分">
+      <relation target="" sidePair="left-left%"/>
+    </text>
+    <text id="n10_fyvb" name="txtGold" xy="395,510" size="13,24" group="n18_fyvb" fontSize="16" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n6_fyvb" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n11_fyvb" name="txtSliver" xy="435,510" size="22,24" group="n18_fyvb" fontSize="16" color="#ffffff" strokeColor="#000000" text="99">
+      <relation target="n7_fyvb" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n12_fyvb" name="txtCoin" xy="483,510" size="22,24" group="n18_fyvb" fontSize="16" color="#ffffff" strokeColor="#000000" text="99">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+    <text id="n13_fyvb" name="txtYunabao" xy="162,463" size="14,26" group="n18_fyvb" fontSize="18" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n3_fyvb" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n14_fyvb" name="txtDaijinquan" xy="399,461" size="14,26" group="n18_fyvb" fontSize="18" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n2_fyvb" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n15_fyvb" name="btnSort" src="fyvbw" fileName="ButtonSort.xml" xy="120,560" group="n18_fyvb">
+      <relation target="n16_fyvb" sidePair="middle-middle,right-left"/>
+    </component>
+    <component id="n16_fyvb" name="btnUpgrade" src="fyvbv" fileName="ButtonUpgrade.xml" xy="265,560" group="n18_fyvb"/>
+    <component id="n17_fyvb" name="btnHelp" src="fyvbu" fileName="ButtonHelp.xml" xy="416,560" group="n18_fyvb">
+      <relation target="n16_fyvb" sidePair="middle-middle,left-right"/>
+    </component>
+    <group id="n18_fyvb" name="gorup" xy="0,0" size="594,640" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n18_fyvb" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n18_fyvb" tween="true" startValue="-,-640" endValue="-,0" duration="18"/>
+  </transition>
+</component>

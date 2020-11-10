@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <component id="n0_mj9w" name="frame" src="mj9wjk" fileName="FrameForge.xml" xy="0,0"/>
+    <list id="n6_mj9w" name="pageList" xy="29,80" size="746,51" layout="row" overflow="hidden" defaultItem="ui://71ktouo7mj9wk1">
+      <item title="通用"/>
+      <item title="军官"/>
+      <item title="运动员"/>
+      <item title="护士"/>
+      <item title="超能力"/>
+    </list>
+    <list id="n7_mj9w" name="itenList" xy="34,189" size="738,310" overflow="scroll" clipSoftness="0,50" defaultItem="ui://71ktouo7mj9wjr" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_mj9w" name="n8" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="34,136" size="738,2" group="n16_mj9w"/>
+    <image id="n9_mj9w" name="n9" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="34,189" size="738,2" group="n16_mj9w"/>
+    <image id="n10_mj9w" name="n10" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="36,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <image id="n11_mj9w" name="n11" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="110,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <image id="n12_mj9w" name="n12" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="332,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <image id="n13_mj9w" name="n13" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="413,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <image id="n14_mj9w" name="n14" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="627,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <image id="n15_mj9w" name="n15" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="772,136" size="54,2" group="n16_mj9w" rotation="90"/>
+    <group id="n16_mj9w" name="n16" xy="34,136" size="792,55"/>
+    <text id="n17_mj9w" name="n17" xy="44,147" size="51,34" group="n22_mj9w" fontSize="24" color="#6d5b1d" align="center" vAlign="middle" strokeColor="#f7f4c5" text="图标">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n18_mj9w" name="n18" xy="186,147" size="51,34" group="n22_mj9w" fontSize="24" color="#6d5b1d" align="center" vAlign="middle" strokeColor="#f7f4c5" text="装备">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n19_mj9w" name="n19" xy="349,147" size="51,34" group="n22_mj9w" fontSize="24" color="#6d5b1d" align="center" vAlign="middle" strokeColor="#f7f4c5" text="等级">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n20_mj9w" name="n20" xy="472,147" size="98,34" group="n22_mj9w" fontSize="24" color="#6d5b1d" align="center" vAlign="middle" strokeColor="#f7f4c5" text="花费金钱">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n21_mj9w" name="n21" xy="670,146" size="51,34" group="n22_mj9w" fontSize="24" color="#6d5b1d" align="center" vAlign="middle" strokeColor="#f7f4c5" text="打造">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <group id="n22_mj9w" name="n22" xy="44,146" size="677,35"/>
+    <component id="n23_mj9w" name="btnLast" src="mj9wk6" fileName="ButtonLastPageNew1.xml" pkg="kqsmrpxl" xy="273,524"/>
+    <component id="n24_mj9w" name="btnNext" src="mj9wk4" fileName="ButtonNextPageNew1.xml" pkg="kqsmrpxl" xy="464,522">
+      <relation target="n25_mj9w" sidePair="middle-middle,left-right"/>
+    </component>
+    <image id="n25_mj9w" name="n25" src="spuy6h" fileName="Assets/Common_baiban.png" pkg="kqsmrpxl" xy="343,520" size="105,25" color="#352b1f">
+      <relation target="n23_mj9w" sidePair="middle-middle,left-right"/>
+    </image>
+    <text id="n26_mj9w" name="txtPage" xy="374,520" size="40,24" fontSize="16" color="#f2e6c5" text="1/20">
+      <relation target="n25_mj9w" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

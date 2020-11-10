@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_y69u" name="bg" src="eh2ae" fileName="Assets/Common_jimai_good.png" pkg="kqsmrpxl" xy="0,0" size="300,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_y69u" name="title" xy="8,3" size="98,34" fontSize="24" color="#99cc00" strokeColor="#000000" text="击杀小怪">
+      <relation target="n0_y69u" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

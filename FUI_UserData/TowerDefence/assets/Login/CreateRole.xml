@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" opaque="false" designImage="ui://k3d3mc7gjshjp">
+  <displayList>
+    <image id="n1_jshj" name="n1" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="715,737" size="294,39" group="n3_jshj"/>
+    <text id="n2_jshj" name="iptUserName" xy="715,740" size="293,35" group="n3_jshj" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" maxLength="7">
+      <relation target="n1_jshj" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <group id="n3_jshj" name="n3" xy="715,737" size="294,39" advanced="true"/>
+    <component id="n0_jshj" name="btnCreate" src="jshjn" fileName="ButtonCreateRole.xml" xy="1020,732" size="131,48" aspect="true"/>
+  </displayList>
+</component>

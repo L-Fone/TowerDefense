@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="690,540" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_qc59" name="n0" src="mj9wjn" fileName="Assets/Cangkuinfer.png" xy="0,0" size="690,540">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_qc59" name="title" xy="283,14" size="84,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="仓库">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_qc59" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="634,20">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_qc59" name="dragArea" xy="0,0" size="632,54">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_qc59" name="contentArea" xy="0,54" size="690,487">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

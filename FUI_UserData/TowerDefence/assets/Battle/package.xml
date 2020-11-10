@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4o0zziul">
+  <resources>
+    <component id="8s4q0" name="SelectTowerUI.xml" path="/"/>
+    <component id="8s4q1" name="FrameSelectTowerUI.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

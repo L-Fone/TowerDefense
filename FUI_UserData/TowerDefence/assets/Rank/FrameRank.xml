@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1100,600" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_vj0y" name="n0" src="vj0y7" fileName="Assets/Ranking_infer.png" xy="0,0" size="1100,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_vj0y" name="closeButton" src="vj0y9" fileName="ButtonClose.xml" xy="484,544" size="144,42">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_vj0y" name="dragArea" xy="308,0" size="492,66">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_vj0y" name="contentArea" xy="0,67" size="1100,534">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

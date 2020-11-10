@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    public class OnDisposeUnitEvent : AEvent<OnDisposeUnit>
+    public class OnDisposeUnitEvent : AEvent_Sync<OnDisposeUnit>
     {
-        public override async ETTask Run(OnDisposeUnit args)
+        public override void Run(OnDisposeUnit args)
         {
             var unit = args.unit;
             if (unit.UnitType == UnitType.NPC)
@@ -19,7 +19,6 @@ namespace ET
                 return;
             else
                 return;
-            await ETTask.CompletedTask;
         }
     }
 }

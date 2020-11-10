@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="690,540">
+  <displayList>
+    <component id="n0_qc59" name="frame" src="qc59iu" fileName="FrameStore.xml" xy="0,0"/>
+    <list id="n1_qc59" name="slotList" xy="62,82" size="567,349" layout="flow_hz" overflow="hidden" clipSoftness="0,20" lineGap="5" colGap="5" defaultItem="ui://kqsmrpxlfyvbs" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_qc59" name="btnLast" src="ih6nju" fileName="ButtonLastPage.xml" pkg="kqsmrpxl" xy="399,437" size="79,25" aspect="true">
+      <relation target="" sidePair="left-right,bottom-bottom"/>
+    </component>
+    <component id="n3_qc59" name="btnNext" src="ih6njv" fileName="ButtonNextPage.xml" pkg="kqsmrpxl" xy="522,437" size="80,26" aspect="true">
+      <relation target="n4_qc59" sidePair="middle-middle,left-right"/>
+    </component>
+    <text id="n4_qc59" name="txtPage" xy="484,436" size="33,26" fontSize="18" color="#756138" text="1/2">
+      <relation target="n2_qc59" sidePair="middle-middle,left-right"/>
+    </text>
+    <image id="n5_qc59" name="n5" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="119,445">
+      <relation target="n8_qc59" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n6_qc59" name="n6" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="216,445">
+      <relation target="n9_qc59" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n7_qc59" name="n7" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="262,445">
+      <relation target="n10_qc59" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n8_qc59" name="txtGold" xy="138,440" size="70,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="99990000">
+      <relation target="n6_qc59" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n9_qc59" name="txtSliver" xy="235,441" size="21,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="99">
+      <relation target="n7_qc59" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n10_qc59" name="txtCoin" xy="282,441" size="21,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="99">
+      <relation target="n2_qc59" sidePair="middle-middle,right-left"/>
+    </text>
+    <component id="n16_qc59" name="btnSaveCoin" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="40,484" aspect="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="存钱"/>
+    </component>
+    <component id="n17_qc59" name="btnGetCoin" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="245,485" aspect="true">
+      <relation target="n16_qc59" sidePair="middle-middle,left-right"/>
+      <Button title="取钱"/>
+    </component>
+    <component id="n18_ogsp" name="btnSort" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="453,484" aspect="true">
+      <relation target="n16_qc59" sidePair="middle-middle,left-right"/>
+      <Button title="整理"/>
+    </component>
+  </displayList>
+</component>

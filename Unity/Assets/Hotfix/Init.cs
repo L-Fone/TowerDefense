@@ -48,6 +48,7 @@ namespace ET
                 zoneScene.AddComponent<WordComponent>();
                 zoneScene.AddComponent<UnitCharacterComponent>();
                 zoneScene.AddComponent<HideUnitComponent>();
+                zoneScene.AddComponent<TowerPointComponent>();
 
                 Game.EventSystem.Publish(new ET.EventType.AfterCreateZoneScene() { zoneScene = zoneScene }).Coroutine();
             }

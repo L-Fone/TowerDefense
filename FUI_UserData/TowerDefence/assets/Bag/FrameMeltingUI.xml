@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,600" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_o3cn" name="n0" src="vulqjb" fileName="Assets/Bag_lianhua_BG.png" xy="0,0" size="439,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_o3cn" name="title" xy="125,-3" size="189,34" fontSize="24" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#315833" shadowColor="#355835" shadowOffset="1,1" singleLine="true" text="炼化">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_o3cn" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="405,5">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_o3cn" name="dragArea" xy="0,0" size="402,32">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_o3cn" name="contentArea" xy="0,34" size="439,567">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

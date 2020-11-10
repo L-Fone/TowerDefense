@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_hg0f" name="n0" src="eh2a19" fileName="Assets/Common_Skill_Gezi.png" xy="0,0" size="64,64">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_hg0f" name="icon" xy="8,8" size="48,48" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_tc17" name="title" xy="43,33" size="10,23" touchable="false" fontSize="15" color="#ffffff" align="right" vAlign="middle" letterSpacing="1" italic="true" strokeColor="#000000" text="">
+      <relation target="n1_hg0f" sidePair="right-right"/>
+    </text>
+    <image id="n3_spuy" name="imgMask" src="spuy6h" fileName="Assets/Common_baiban.png" xy="0,0" size="64,64" alpha="0.5" color="#000000" fillMethod="radial360" fillClockwise="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_spuy" name="txtCD" xy="0,0" size="64,64" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

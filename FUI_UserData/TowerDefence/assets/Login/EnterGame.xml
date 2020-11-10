@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <component id="n1_eh2a" name="btnEnterGame" src="eh2aj" fileName="ButtonEnterGame.xml" xy="1128,670" size="359,169"/>
+    <component id="n5_rr8v" name="btnDelRole" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="69,796">
+      <Button title="删除角色"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+{
+  "name": "gencode",
+  "displayName": "生成et的fui代码",
+  "description": "by 766114552@qq.com",
+  "version": "1.0",
+  "author": {
+    "name": "Administrator"
+  },
+  "icon": "",
+  "main": "main.lua"
+}

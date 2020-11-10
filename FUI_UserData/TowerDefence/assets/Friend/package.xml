@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="0nnc7y49">
+  <resources>
+    <image id="sqcz0" name="Friend_Bottom_addfriend.png" path="/Assets/"/>
+    <image id="sqcz1" name="Friend_Bottom_haoyou.png" path="/Assets/"/>
+    <image id="sqcz2" name="Friend_Bottom_heimingdan.png" path="/Assets/"/>
+    <image id="sqcz3" name="Friend_Bottom_jiazu.png" path="/Assets/"/>
+    <image id="sqcz4" name="Friend_Bottom_leave.png" path="/Assets/"/>
+    <image id="sqcz5" name="Friend_Inference.png" path="/Assets/"/>
+    <component id="sqcz6" name="FrameFriendUI.xml" path="/"/>
+    <component id="sqcz7" name="FriendUI.xml" path="/" exported="true"/>
+    <component id="sqcz8" name="ButtonPageFriend.xml" path="/"/>
+    <component id="sqcz9" name="ButtonPageFamily.xml" path="/"/>
+    <component id="sqcza" name="ButtonPageBlacklist.xml" path="/"/>
+    <component id="sqczb" name="ButtonFriendItem.xml" path="/" exported="true"/>
+    <component id="j03xc" name="ButtonFindFriend.xml" path="/"/>
+    <image id="j03xe" name="Friend_Bottom_jujue.png" path="/Assets/"/>
+    <image id="j03xf" name="Friend_Bottom_tongyi.png" path="/Assets/"/>
+    <image id="j03xg" name="Friend_infer.png" path="/Assets/" scale9grid="0,0,-29,0"/>
+    <image id="j03xh" name="Friend_infer_kuang.png" path="/Assets/" scale9grid="0,0,-261,-425"/>
+    <component id="j03xi" name="FrameRequestFriendUI.xml" path="/"/>
+    <component id="j03xj" name="RequestFriendUI.xml" path="/" exported="true"/>
+    <component id="j03xk" name="LabelRequestItem.xml" path="/" exported="true"/>
+    <component id="j03xl" name="ButtonAgree.xml" path="/"/>
+    <component id="j03xm" name="ButtonRefusee.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

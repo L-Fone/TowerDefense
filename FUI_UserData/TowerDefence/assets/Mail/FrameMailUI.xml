@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,550" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_ralq" name="n0" src="ralq6" fileName="Assets/Email_Interface.png" xy="0,0" size="900,550">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_ralq" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="861,3" size="34,31">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_ralq" name="dragArea" xy="0,0" size="862,31">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_ralq" name="contentArea" xy="0,31" size="900,520">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

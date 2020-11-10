@@ -1,4 +1,5 @@
-﻿using ET;
+﻿using Cal.DataTable;
+using ET;
 using Google.Protobuf.Collections;
 using System;
 using System.Collections.Generic;
@@ -38,7 +39,7 @@ namespace ET
         public struct OnCreateUnit
         {
             public Unit unit;
-            public int prefabId;
+            public RoleConfig roleConfig;
         }
         public struct OnDisposeUnit
         {
@@ -365,6 +366,17 @@ namespace ET
         public struct EnterGame_Open
         {
             public Scene zoneScene;
+        }public struct GenerateTowerPoint
+        {
+            public Scene zoneScene;
+            public Vector3 point;
+
+            public long Id;
+        }public struct AddTrigger
+        {
+            public Unit unit;
+            public Action<Unit> onEnter;
+            public Action<Unit> onExit;
         }
     }
 }

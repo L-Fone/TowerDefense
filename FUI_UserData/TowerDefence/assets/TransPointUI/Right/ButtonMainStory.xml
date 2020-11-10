@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="251,155" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2_vj0y" name="icon" xy="0,0" size="251,155"/>
+    <text id="n1_iha8" name="title" xy="58,111" size="93,29" fontSize="20" color="#ffff00" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="勃岛">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

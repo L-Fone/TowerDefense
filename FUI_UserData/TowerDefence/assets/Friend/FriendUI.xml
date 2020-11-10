@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="528,640">
+  <controller name="page" pages="0,,1,,2," selected="1"/>
+  <displayList>
+    <component id="n0_sqcz" name="frame" src="sqcz6" fileName="FrameFriendUI.xml" xy="0,0" size="528,640"/>
+    <list id="n6_i7y3" name="pageList" xy="18,63" size="493,40" layout="row" overflow="hidden" colGap="100" defaultItem="ui://kqsmrpxli7y3kx" autoItemSize="false" align="center" vAlign="middle">
+      <item title="好友"/>
+      <item title="家族"/>
+      <item title="黑名单"/>
+    </list>
+    <list id="n2_sqcz" name="friendList" xy="17,108" size="492,470" group="n8_i7y3" overflow="scroll" scrollBarFlags="256" clipSoftness="0,60" defaultItem="ui://0nnc7y49sqczb">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_j03x" name="btnFindFriend" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="39,593" size="68,22" group="n8_i7y3">
+      <Button title="添加好友"/>
+    </component>
+    <component id="n4_j03x" name="btnRequest" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="141,593" size="68,22" group="n8_i7y3">
+      <Button title="申请列表"/>
+    </component>
+    <group id="n8_i7y3" name="n8" xy="17,108" size="492,507" advanced="true">
+      <gearDisplay controller="page" pages="0"/>
+    </group>
+    <image id="n7_i7y3" name="n7" src="h2b5ks" fileName="Assets/CommonUI_BUFFinfoone.png" pkg="kqsmrpxl" xy="527,0" size="365,640" group="n11_i7y3"/>
+    <image id="n9_i7y3" name="n9" src="m1qujx" fileName="Assets/Common_lianhua_4.png" pkg="kqsmrpxl" xy="541,374" size="337,244" group="n11_i7y3"/>
+    <image id="n10_i7y3" name="n10" src="m1qujx" fileName="Assets/Common_lianhua_4.png" pkg="kqsmrpxl" xy="541,67" size="336,300" group="n11_i7y3"/>
+    <list id="n14_i7y3" name="famailyList" xy="17,108" size="492,470" group="n11_i7y3" overflow="scroll" scrollBarFlags="256" clipSoftness="0,60" defaultItem="ui://0nnc7y49sqczb">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n12_i7y3" name="n12" xy="636,374" size="126,34" group="n11_i7y3" fontSize="20" color="#ffcc66" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="家族公告"/>
+    <text id="n13_i7y3" name="n13" xy="636,68" size="126,34" group="n11_i7y3" fontSize="20" color="#ffcc66" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="家族信息"/>
+    <text id="n15_i7y3" name="txtFamilyNotice" xy="550,414" size="315,191" group="n11_i7y3" fontSize="20" color="#ff9933" autoSize="none" strokeColor="#000000" text="    族长很懒，什么都没留下！"/>
+    <text id="n16_i7y3" name="txtFamilyInfo" xy="549,256" size="313,92" group="n11_i7y3" fontSize="18" color="#ff9966" leading="7" ubb="true" autoSize="none" strokeColor="#000000" text="族长：我的名字叫顺溜&#xA;副族长：我的名字叫顺溜&#xA;副族长：我的名字叫顺溜&#xA;精英：我的名字叫顺溜&#xA;精英：我的名字叫顺溜&#xA;精英：我的名字叫顺溜&#xA;精英：我的名字叫顺溜"/>
+    <component id="n20_i7y3" name="btnRequestFamily" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="39,593" size="68,22" group="n11_i7y3">
+      <Button title="加入家族"/>
+    </component>
+    <component id="n23_i7y3" name="btnCreateFamily" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="111,593" size="68,22" group="n11_i7y3">
+      <Button title="创建家族"/>
+    </component>
+    <component id="n24_i7y3" name="btnDeleteFamily" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="183,593" size="68,22" group="n11_i7y3">
+      <Button title="解散家族"/>
+    </component>
+    <component id="n21_i7y3" name="btnHandleFamilyRequest" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="255,593" size="68,22" group="n11_i7y3">
+      <Button title="申请列表"/>
+    </component>
+    <component id="n19_i7y3" name="btnManagerFamily" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="327,593" size="68,22" group="n11_i7y3">
+      <Button title="管理家族"/>
+    </component>
+    <component id="n29_x24t" name="btnQuitFamily" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="399,593" size="68,22" group="n11_i7y3">
+      <Button title="退出家族"/>
+    </component>
+    <component id="n18_i7y3" name="btnEditNotice" src="y69ujo" fileName="ButtonOnlyText.xml" pkg="kqsmrpxl" xy="555,581" size="68,22" group="n11_i7y3">
+      <Button title="编辑公告"/>
+    </component>
+    <text id="n22_i7y3" name="txtFamilyName" xy="549,106" size="315,39" group="n11_i7y3" fontSize="28" color="#ff3300" align="center" vAlign="middle" autoSize="none" strokeColor="#333333" text="顺溜家族"/>
+    <text id="n26_fau6" name="txtFamilyLevel" xy="550,152" size="84,29" group="n11_i7y3" fontSize="20" color="#ff6633" leading="7" ubb="true" strokeColor="#000000" text="等级：15">
+      <relation target="n7_i7y3" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n28_fau6" name="txtFamilyCount" xy="549,185" size="124,29" group="n11_i7y3" fontSize="20" color="#ff6633" leading="7" ubb="true" strokeColor="#000000" text="家族人数：28">
+      <relation target="n7_i7y3" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n27_fau6" name="txtFamilyHornor" xy="549,219" size="134,29" group="n11_i7y3" fontSize="20" color="#ff6633" leading="7" ubb="true" strokeColor="#000000" text="荣誉值：52689">
+      <relation target="n7_i7y3" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n11_i7y3" name="n11" xy="17,0" size="875,640" advanced="true">
+      <gearDisplay controller="page" pages="1"/>
+    </group>
+  </displayList>
+</component>

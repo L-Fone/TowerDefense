@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,80" pivot="0,1" extention="Label" bgColor="#50483a">
+  <displayList>
+    <text id="n2_xzxo" name="txtType" xy="0,2" size="112,23" fontSize="15" color="#ffffff" ubb="true" strokeColor="#111111" text="[系统 23:59:59]"/>
+    <richtext id="n1_xzxo" name="txtContent" xy="113,2" size="387,76" fontSize="14" color="#ffffff" leading="0" ubb="true" autoSize="height" strokeColor="#111111" text="原来:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[img]ui://kqsmrpxl108futle[/img]xxx的方式sfgdhhgsfdDASGD方法烦烦xcZVXB烦方烦烦,segbf大师傅电脑手动你发生的发生的阿是法国[url=www.baidu.com]点这个[/url]">
+      <relation target="n2_xzxo" sidePair="left-right,top-top"/>
+    </richtext>
+  </displayList>
+  <relation target="n1_xzxo" sidePair="height-height"/>
+</component>

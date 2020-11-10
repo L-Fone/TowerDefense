@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1059,600">
+  <controller name="contrl" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_y69u" name="frame" src="y69u2" fileName="FrameTaskUI.xml" xy="0,0" size="1059,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <list id="n1_y69u" name="taskList" xy="38,72" size="318,449" overflow="scroll" clipSoftness="0,100" defaultItem="ui://thcq7hm4y69u9" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n13_iunf" name="txtTaskName" xy="414,81" size="98,31" group="n23_iunf" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="任务名称">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n14_iunf" name="txtContent" xy="414,115" size="595,24" group="n23_iunf" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n13_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n15_iunf" name="n15" xy="414,140" size="97,31" group="n23_iunf" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="任务目标">
+      <relation target="n14_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n16_iunf" name="txtTarget" xy="414,174" size="595,23" group="n23_iunf" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n15_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n17_iunf" name="n17" xy="414,198" size="227,31" group="n23_iunf" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="完成NPC或者目标区域">
+      <relation target="n16_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n18_iunf" name="txtTargetUnitOrPos" xy="414,232" size="595,23" group="n23_iunf" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n17_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n19_iunf" name="n19" xy="414,256" size="96,31" group="n23_iunf" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="任务奖励">
+      <relation target="n18_iunf" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n24_meww" name="txtRewardCount" xy="535,257" size="143,31" group="n23_iunf" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="">
+      <relation target="n19_iunf" sidePair="middle-middle,left-right"/>
+    </text>
+    <list id="n20_iunf" name="RewardList" xy="414,290" size="595,225" group="n23_iunf" layout="flow_hz" overflow="scroll" defaultItem="ui://thcq7hm4mewwg" autoClearItems="true">
+      <relation target="n19_iunf" sidePair="left-left,topext-bottom"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_iunf" name="btnAbandon" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="940,562" size="68,22" group="n23_iunf" aspect="true" visible="false">
+      <relation target="n0_y69u" sidePair="left-center,bottom-bottom"/>
+      <Button title="放弃任务"/>
+    </component>
+    <group id="n23_iunf" name="second" xy="414,81" size="595,503" advanced="true">
+      <gearDisplay controller="contrl" pages="1"/>
+    </group>
+  </displayList>
+</component>

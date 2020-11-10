@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,800">
+  <displayList>
+    <component id="n0_8tnc" name="frame" src="8tnca" fileName="SkillFrame.xml" xy="0,0"/>
+    <text id="n2_8tnc" name="n2" xy="182,646" size="124,29" fontSize="20" color="#ff9900" strokeColor="#000000" text="自动技能顺序">
+      <relation target="" sidePair="center-center,bottom-middle%"/>
+    </text>
+    <list id="n4_8tnc" name="autoSkillList" xy="70,676" size="366,57" layout="row" selectionMode="none" overflow="hidden" colGap="10" defaultItem="ui://7fc8sjen10i4t2k" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_8tnc" name="btnSave" src="8tnc1f" fileName="ButtonSave.xml" xy="450,687" size="112,46">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="保存" titleColor="#ffff99"/>
+    </component>
+    <component id="n6_10i4t" name="btnHelper" src="10i4t2j" fileName="ButtonHelp.xml" xy="1060,30"/>
+    <text id="n11_10i4t" name="n11" xy="82,122" size="180,24" fontSize="16" color="#996633" strokeColor="#000000" text="上下滑动查看更多技能！"/>
+    <component id="n13_10i4t" name="comJob1" src="10i4t2l" fileName="Skill_军官.xml" xy="65,175" size="1074,466" visible="false"/>
+    <component id="n14_dyl0" name="comJob2" src="brj8t2q" fileName="Skill_运动员.xml" xy="65,175" size="1074,466" visible="false"/>
+    <component id="n15_dyl0" name="comJob3" src="dyl0t2r" fileName="Skill_护士.xml" xy="65,175" size="1074,466" visible="false"/>
+    <component id="n16_dyl0" name="comJob4" src="dyl0t2s" fileName="Skill_超能力.xml" xy="65,175" size="1074,466" visible="false"/>
+  </displayList>
+</component>

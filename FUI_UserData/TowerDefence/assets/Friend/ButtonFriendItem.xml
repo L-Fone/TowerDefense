@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_sqcz" name="bg" src="h2b5km" fileName="Assets/CommonUI_BUFF_List.png" pkg="kqsmrpxl" xy="0,0" size="500,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_sqcz" name="txtName" xy="10,6" size="144,29" fontSize="20" color="#34270d" align="center" autoSize="none" text="我的名字叫顺溜">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+    <text id="n4_i7y3" name="txtJob" xy="179,6" size="64,29" fontSize="20" color="#34270d" align="center" autoSize="none" text="超能力">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+    <text id="n2_sqcz" name="txtLevel" xy="268,6" size="84,29" fontSize="20" color="#34270d" align="center" autoSize="none" text="一转6000">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+    <text id="n3_sqcz" name="txtState" xy="377,6" size="117,29" fontSize="20" color="#34270d" vAlign="middle" autoSize="none" text="00:00前登录">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

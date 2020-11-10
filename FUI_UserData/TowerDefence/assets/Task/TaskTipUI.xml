@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="16,38" pivot="0.5,1" anchor="true">
+  <controller name="taskState" pages="5,None,0,Waiting,2,Running,1,Compoleted" selected="0"/>
+  <displayList>
+    <image id="n0_y69u" name="n0" src="y69u5" fileName="Assets/NPC_tip1.png" xy="0,0" touchable="false">
+      <gearDisplay controller="taskState" pages="0"/>
+    </image>
+    <image id="n2_y69u" name="n2" src="y69uf" fileName="Assets/NPC_tip3.png" xy="0,0" touchable="false">
+      <gearDisplay controller="taskState" pages="2"/>
+    </image>
+    <image id="n1_y69u" name="n1" src="y69u4" fileName="Assets/NPC_tip2.png" xy="-4,-2" touchable="false">
+      <gearDisplay controller="taskState" pages="1"/>
+    </image>
+  </displayList>
+</component>

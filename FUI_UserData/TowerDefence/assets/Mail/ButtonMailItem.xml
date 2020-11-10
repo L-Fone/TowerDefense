@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="410,70" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="Read" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_ralq" name="bg" src="ralq8" fileName="Assets/Email_Xinxi.png" xy="0,0" size="410,70">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ralq" name="txtTitle" xy="77,19" size="132,31" fontSize="22" color="#ffff99" strokeColor="#2e220a" text="这是邮件表题">
+      <relation target="n2_ralq" sidePair="middle-middle,left-right"/>
+    </text>
+    <image id="n2_ralq" name="n2" src="ralq7" fileName="Assets/Email_UI_weidu.png" xy="50,29" size="24,17">
+      <gearDisplay controller="Read" pages="0"/>
+      <gearSize controller="Read" pages="1" values="0,17,1,1" default="24,17,1,1"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <text id="n3_ralq" name="txtTime" xy="298,46" size="92,16" fontSize="10" color="#ffcc33" strokeColor="#2e220a" text="有效期:6天12时36分">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n5_ralq" name="txtSenderName" xy="264,22" size="125,26" fontSize="18" color="#ffffcc" strokeColor="#2e220a" text="这是发件人名字">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1074,563" overflow="scroll" scrollBarFlags="262" clipSoftness="0,50">
+  <displayList>
+    <image id="n47_10i4t" name="n1" src="10i4t2f" fileName="Assets/Skill_link.png" xy="184,241" size="103,48" group="n10_10i4t" rotation="90" flip="vt"/>
+    <image id="n7_10i4t" name="n7" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="72,200" group="n10_10i4t"/>
+    <image id="n20_10i4t" name="n2" src="10i4t2f" fileName="Assets/Skill_link.png" xy="233,60" size="22,36" group="n10_10i4t" rotation="270"/>
+    <image id="n21_10i4t" name="n24" src="10i4t2f" fileName="Assets/Skill_link.png" xy="267,115" size="22,34" group="n10_10i4t" rotation="90" flip="vt"/>
+    <image id="n22_10i4t" name="n22" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="329,37" group="n10_10i4t"/>
+    <image id="n23_10i4t" name="n23" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="330,124" group="n10_10i4t"/>
+    <image id="n52_10i4t" name="n52" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="416,36" group="n10_10i4t"/>
+    <image id="n53_10i4t" name="n53" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="417,123" group="n10_10i4t"/>
+    <image id="n54_10i4t" name="n54" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="501,36" group="n10_10i4t"/>
+    <image id="n55_10i4t" name="n55" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="502,123" group="n10_10i4t"/>
+    <image id="n65_10i4t" name="n26" src="10i4t2f" fileName="Assets/Skill_link.png" xy="233,302" size="22,36" group="n10_10i4t" rotation="270"/>
+    <image id="n66_10i4t" name="n27" src="10i4t2f" fileName="Assets/Skill_link.png" xy="267,357" size="22,34" group="n10_10i4t" rotation="90" flip="vt"/>
+    <image id="n67_10i4t" name="n67" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="329,279" group="n10_10i4t"/>
+    <image id="n68_10i4t" name="n68" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="330,366" group="n10_10i4t"/>
+    <image id="n69_10i4t" name="n69" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="416,278" group="n10_10i4t"/>
+    <image id="n70_10i4t" name="n70" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="417,365" group="n10_10i4t"/>
+    <image id="n71_10i4t" name="n71" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="501,278" group="n10_10i4t"/>
+    <image id="n72_10i4t" name="n72" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="502,365" group="n10_10i4t"/>
+    <image id="n73_10i4t" name="n25" src="10i4t2f" fileName="Assets/Skill_link.png" xy="90,269" size="267,48" group="n10_10i4t" rotation="90" flip="vt"/>
+    <image id="n76_10i4t" name="n76" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="155,513" size="23,19" group="n10_10i4t"/>
+    <image id="n78_10i4t" name="n6" src="10i4t2f" fileName="Assets/Skill_link.png" xy="135,176" size="103,48" group="n10_10i4t" rotation="270"/>
+    <image id="n81_10i4t" name="n81" src="10i4t2g" fileName="Assets/Skill_link1.png" xy="60,410" group="n10_10i4t"/>
+    <group id="n10_10i4t" name="n10" xy="60,36" size="464,496" group="n79_10i4t"/>
+    <component id="n4_10i4t" name="root" src="10i4t2m" fileName="LabelBTRoot.xml" xy="21,149" group="n19_10i4t">
+      <Label title="超能力"/>
+    </component>
+    <component id="n80_10i4t" name="400001" src="10i4t2o" fileName="ButtonBT.xml" xy="99,391" group="n19_10i4t"/>
+    <component id="n3_10i4t" name="410101" src="10i4t2o" fileName="ButtonBT.xml" xy="98,181" group="n19_10i4t"/>
+    <component id="n5_10i4t" name="410201" src="10i4t2o" fileName="ButtonBT.xml" xy="189,61" group="n19_10i4t"/>
+    <component id="n11_10i4t" name="410301" src="10i4t2o" fileName="ButtonBT.xml" xy="272,22" group="n19_10i4t"/>
+    <component id="n12_10i4t" name="410302" src="10i4t2o" fileName="ButtonBT.xml" xy="272,106" group="n19_10i4t"/>
+    <component id="n13_10i4t" name="410401" src="10i4t2o" fileName="ButtonBT.xml" xy="357,21" group="n19_10i4t"/>
+    <component id="n16_10i4t" name="410402" src="10i4t2o" fileName="ButtonBT.xml" xy="358,105" group="n19_10i4t"/>
+    <component id="n48_10i4t" name="410501" src="10i4t2o" fileName="ButtonBT.xml" xy="442,20" group="n19_10i4t"/>
+    <component id="n49_10i4t" name="410502" src="10i4t2o" fileName="ButtonBT.xml" xy="443,104" group="n19_10i4t"/>
+    <component id="n50_10i4t" name="410601" src="10i4t2o" fileName="ButtonBT.xml" xy="529,21" group="n19_10i4t"/>
+    <component id="n51_10i4t" name="410602" src="10i4t2o" fileName="ButtonBT.xml" xy="530,105" group="n19_10i4t"/>
+    <component id="n77_10i4t" name="410202" src="10i4t2o" fileName="ButtonBT.xml" xy="189,305" group="n19_10i4t"/>
+    <component id="n57_10i4t" name="410303" src="10i4t2o" fileName="ButtonBT.xml" xy="273,264" group="n19_10i4t"/>
+    <component id="n58_10i4t" name="410304" src="10i4t2o" fileName="ButtonBT.xml" xy="273,348" group="n19_10i4t"/>
+    <component id="n59_10i4t" name="410403" src="10i4t2o" fileName="ButtonBT.xml" xy="358,263" group="n19_10i4t"/>
+    <component id="n60_10i4t" name="410404" src="10i4t2o" fileName="ButtonBT.xml" xy="359,347" group="n19_10i4t"/>
+    <component id="n61_10i4t" name="410503" src="10i4t2o" fileName="ButtonBT.xml" xy="443,262" group="n19_10i4t"/>
+    <component id="n62_10i4t" name="410504" src="10i4t2o" fileName="ButtonBT.xml" xy="444,346" group="n19_10i4t"/>
+    <component id="n63_10i4t" name="410603" src="10i4t2o" fileName="ButtonBT.xml" xy="530,263" group="n19_10i4t"/>
+    <component id="n64_10i4t" name="410604" src="10i4t2o" fileName="ButtonBT.xml" xy="531,347" group="n19_10i4t"/>
+    <component id="n74_10i4t" name="420101" src="10i4t2o" fileName="ButtonBT.xml" xy="98,497" group="n19_10i4t"/>
+    <component id="n75_10i4t" name="420201" src="10i4t2o" fileName="ButtonBT.xml" xy="184,497" group="n19_10i4t"/>
+    <group id="n19_10i4t" name="n19" xy="21,20" size="564,531" group="n79_10i4t"/>
+    <group id="n79_10i4t" name="all" xy="21,20" size="564,531" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+  </displayList>
+</component>

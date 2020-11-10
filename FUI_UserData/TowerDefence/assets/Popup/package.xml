@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ldwujxh9">
+  <resources>
+    <image id="lsk10" name="h0.png" path="/Assets/"/>
+    <image id="lsk11" name="h1.png" path="/Assets/"/>
+    <image id="lsk12" name="h2.png" path="/Assets/"/>
+    <image id="lsk13" name="h3.png" path="/Assets/"/>
+    <image id="lsk14" name="h4.png" path="/Assets/"/>
+    <image id="lsk15" name="h5.png" path="/Assets/"/>
+    <image id="lsk16" name="h6.png" path="/Assets/"/>
+    <image id="lsk17" name="h7.png" path="/Assets/"/>
+    <image id="lsk18" name="h8.png" path="/Assets/"/>
+    <image id="lsk19" name="h9.png" path="/Assets/"/>
+    <font id="lsk1a" name="CritDamageFont.fnt" path="/Damage/" exported="true"/>
+    <component id="lsk1c" name="Damage.xml" path="/Damage/" exported="true"/>
+    <component id="hri1d" name="RewardUI.xml" path="/Reward/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

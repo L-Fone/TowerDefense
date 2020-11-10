@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ba6u515v">
+  <resources>
+    <image id="ralq0" name="Email_Bottom_Delet_All.png" path="/Assets/"/>
+    <image id="ralq1" name="Email_Bottom_Delet_Select.png" path="/Assets/"/>
+    <image id="ralq2" name="Email_Bottom_Delet_This.png" path="/Assets/"/>
+    <image id="ralq3" name="Email_Bottom_Get.png" path="/Assets/"/>
+    <image id="ralq6" name="Email_Interface.png" path="/Assets/"/>
+    <image id="ralq7" name="Email_UI_weidu.png" path="/Assets/"/>
+    <image id="ralq8" name="Email_Xinxi.png" path="/Assets/"/>
+    <component id="ralq9" name="FrameMailUI.xml" path="/"/>
+    <component id="ralqa" name="MailUI.xml" path="/" exported="true"/>
+    <component id="ralqb" name="ButtonMailItem.xml" path="/" exported="true"/>
+    <component id="ralqc" name="ButtonReceive.xml" path="/"/>
+    <component id="ralqd" name="ButtonDeleteSelete.xml" path="/"/>
+    <component id="ralqe" name="ButtonDeleteAll.xml" path="/"/>
+    <component id="ralqf" name="ButtonDeleteOne.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

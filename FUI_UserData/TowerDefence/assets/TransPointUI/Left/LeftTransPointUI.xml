@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="495,323" designImage="ui://7kiucqowptly0">
+  <displayList>
+    <component id="n0_ptly" name="frame" src="ptly1" fileName="FrameLeftTransPointUI.xml" xy="0,0"/>
+    <component id="n1_ptly" name="btn1" src="ptly8" fileName="Button1.xml" xy="71,79"/>
+    <component id="n2_ptly" name="btn2" src="ptly9" fileName="Button2.xml" xy="262,80"/>
+    <component id="n3_ptly" name="btn3" src="ptlya" fileName="Button3.xml" xy="75,177"/>
+    <component id="n4_ptly" name="btn4" src="ptlyb" fileName="Button4.xml" xy="260,177"/>
+    <text id="n5_ptly" name="txtName" xy="254,263" size="10,23" fontSize="15" color="#ffffff" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

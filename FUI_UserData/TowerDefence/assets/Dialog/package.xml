@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cb3q22ao">
+  <resources>
+    <component id="t4cw5" name="PvpPopupMenu_item.xml" path="/Team/"/>
+    <component id="t4cw6" name="PvpPopupMenu.xml" path="/Team/" exported="true"/>
+    <component id="la9r7" name="TeamRequest.xml" path="/Team/" exported="true"/>
+    <image id="la9r8" name="Team_no.png" path="/Assets/"/>
+    <image id="la9ra" name="Team_yes.png" path="/Assets/"/>
+    <component id="la9rb" name="LabelTeamRequest.xml" path="/Team/" exported="true"/>
+    <component id="la9rc" name="ButtonYes.xml" path="/Team/"/>
+    <component id="la9rd" name="ButtonNo.xml" path="/Team/"/>
+    <component id="km2qe" name="pBarTeamRequest.xml" path="/Team/"/>
+    <image id="iwo2f" name="Common_Tip.png" path="/Assets/" scale="9grid" scale9grid="12,39,252,65"/>
+    <component id="iwo2g" name="FrameTip.xml" path="/Tip/"/>
+    <component id="iwo2h" name="TipUI.xml" path="/Tip/" exported="true"/>
+    <component id="p2c6i" name="TabUI.xml" path="/Tab/" exported="true"/>
+    <image id="p2c6j" name="28374_100121145041_1 (1).jpg" path="/Tab/"/>
+    <component id="jafgk" name="NoticeUI.xml" path="/Tip/" exported="true"/>
+    <component id="l5nym" name="FrameNotice.xml" path="/Tip/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

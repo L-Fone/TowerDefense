@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_eh2a" name="n0" src="eh2au" fileName="MainUI/Assets/MainUI_fignt.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_eh2a" name="title" xy="-6,59" size="77,26" fontSize="18" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="自动战斗">
+      <relation target="n0_eh2a" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button mode="Check" downEffect="dark" downEffectValue=".8"/>
+</component>

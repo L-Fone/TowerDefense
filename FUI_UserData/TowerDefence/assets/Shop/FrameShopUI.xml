@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,400" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_cm4u" name="bg" src="cm4u4" fileName="Assets/Market_UI.png" xy="0,0" size="500,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_cm4u" name="title" xy="110,-1" size="280,34" fontSize="24" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#315833" shadowColor="#355835" shadowOffset="1,1" singleLine="true" text="商城">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n2_cm4u" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="464,6">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n3_cm4u" name="dragArea" xy="0,0" size="470,38">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_cm4u" name="contentArea" xy="0,39" size="500,362">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

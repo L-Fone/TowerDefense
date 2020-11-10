@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="738,60" extention="Label">
+  <controller name="canForge" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n1_mj9w" name="btnForge" src="mj9wjs" fileName="ButtonFoge.xml" xy="606,4" size="119,51" touchable="false" grayed="true">
+      <gearLook controller="canForge" pages="0,1" values="1,0,1,0|1,0,0,1"/>
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </component>
+    <loader id="n2_mj9w" name="loaderIcon" xy="14,7" size="48,48" url="ui://71ktouo7rybex" fill="scaleFree"/>
+    <text id="n3_mj9w" name="txtName" xy="76,-4" size="205,68" fontSize="18" color="#6d5b1d" align="center" vAlign="middle" autoSize="shrink" strokeColor="#f7f4c5" text="我的名字叫装备">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n4_mj9w" name="txtLevel" xy="312,-3" size="45,68" fontSize="18" color="#6d5b1d" align="center" vAlign="middle" autoSize="none" strokeColor="#f7f4c5" text="7000">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <image id="n17_mj9w" name="n17" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="413,23">
+      <relation target="n20_mj9w" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n18_mj9w" name="n18" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="474,23">
+      <relation target="n21_mj9w" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n19_mj9w" name="n19" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="523,23">
+      <relation target="n22_mj9w" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n20_mj9w" name="txtGold" xy="432,19" size="34,26" fontSize="18" color="#6d5b1d" strokeColor="#f7f4c5" text="200">
+      <relation target="n18_mj9w" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n21_mj9w" name="txtSliver" xy="493,19" size="24,26" fontSize="18" color="#6d5b1d" strokeColor="#f7f4c5" text="99">
+      <relation target="n19_mj9w" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n22_mj9w" name="txtCoin" xy="543,19" size="24,26" fontSize="18" color="#6d5b1d" strokeColor="#f7f4c5" text="99">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+    <image id="n9_mj9w" name="n9" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="0,0" size="738,2" group="n23_mj9w"/>
+    <image id="n10_mj9w" name="n10" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="0,60" size="738,2" group="n23_mj9w"/>
+    <image id="n11_mj9w" name="n11" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="2,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <image id="n12_mj9w" name="n12" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="76,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <image id="n13_mj9w" name="n13" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="298,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <image id="n14_mj9w" name="n14" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="380,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <image id="n15_mj9w" name="n15" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="594,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <image id="n16_mj9w" name="n16" src="vulqji" fileName="Assets/EquipHecheng_xiantiao.png" xy="738,0" size="61,2" group="n23_mj9w" rotation="90"/>
+    <group id="n23_mj9w" name="n23" xy="0,0" size="799,62"/>
+  </displayList>
+</component>

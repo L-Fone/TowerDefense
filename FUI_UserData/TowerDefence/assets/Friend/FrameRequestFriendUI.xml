@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,400" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_j03x" name="n0" src="j03xg" fileName="Assets/Friend_infer.png" xy="0,0" size="600,400" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_j03x" name="title" xy="240,6" size="101,29" fontSize="20" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" bold="true" strokeColor="#4c3a16" strokeSize="2" singleLine="true" text="申请列表">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n4_j03x" name="closeButton" src="j03xjz" fileName="ButtonClose_ToonBlue.xml" pkg="kqsmrpxl" xy="543,5" size="40,40" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <graph id="n1_j03x" name="dragArea" xy="0,6" size="545,35">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n2_j03x" name="contentArea" xy="0,41" size="600,360">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

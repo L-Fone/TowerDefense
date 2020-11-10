@@ -1,0 +1,7 @@
+{
+  "FGUI2ET": "Yes",
+  "FGUI2ET.NameSpace": "ETHotfix",
+  "FGUI2ET.GetMemberByIndexOrName": "Name",
+  "FGUI2ET.ClassNamePrefix": "FUI",
+  "FGUI2ET.GetMemberByTypeOrName": "Name"
+}

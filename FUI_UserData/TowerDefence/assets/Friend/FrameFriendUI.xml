@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="528,640" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_sqcz" name="n0" src="h2b5ks" fileName="Assets/CommonUI_BUFFinfoone.png" pkg="kqsmrpxl" xy="0,0" size="528,640" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_i7y3" name="title" xy="213,0" size="100,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="社交">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_sqcz" name="closeButton" src="h2b5ku" fileName="ButtonClose_Yellow.xml" pkg="kqsmrpxl" xy="482,4" size="34,34">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_sqcz" name="dragArea" xy="4,2" size="469,37">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_sqcz" name="contentArea" xy="0,44" size="528,597">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="333,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_o3cn" name="bg" src="eh2aj" fileName="Assets/Common_SlotBG.png" pkg="kqsmrpxl" xy="0,0" size="333,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n1_o3cn" name="title" xy="6,7" size="321,26" fontSize="18" color="#669933" ubb="true" autoSize="none" strokeColor="#000000" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+  <Button mode="Radio" downEffect="dark" downEffectValue=".5"/>
+</component>

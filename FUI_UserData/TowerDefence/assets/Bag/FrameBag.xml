@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,640" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_fyvb" name="n0" src="mj9wjq" fileName="Assets/bag(1).png" xy="0,0" size="594,640" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_fyvb" name="title" xy="200,23" size="194,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="背包">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <graph id="n3_fyvb" name="dragArea" xy="80,18" size="434,66">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_fyvb" name="contentArea" xy="0,88" size="594,553">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_fyvb" name="closeButton" src="ptly64" fileName="ButtonClose_Blue.xml" pkg="kqsmrpxl" xy="531,90" size="31,27" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

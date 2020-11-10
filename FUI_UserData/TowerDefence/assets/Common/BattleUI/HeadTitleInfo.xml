@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,70" pivot="0.5,1" anchor="true">
+  <controller name="job" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <component id="n1_qyfh" name="progress" src="eh2a1c" fileName="MainUI/ProgressHp.xml" xy="61,51" size="127,8" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n4_qyfh" name="txtTitle" xy="120,-6" size="10,29" fontSize="20" color="#cccccc" align="center" vAlign="middle" italic="true" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n5_qyfh" name="icon" xy="30,26" size="0,20" group="n8_hxsk" touchable="false" url="ui://kqsmrpxlqyfh6j" fill="scaleNoBorder">
+      <gearSize controller="job" pages="0" values="0,20,1,1" default="20,20,1,1"/>
+      <gearIcon controller="job" pages="2,3,4" values="ui://kqsmrpxlqyfh6k|ui://kqsmrpxlqyfh6l|ui://kqsmrpxlqyfh6m" default="ui://kqsmrpxlqyfh6j"/>
+    </loader>
+    <text id="n3_qyfh" name="txtName" xy="101,22" size="116,24" group="n8_hxsk" fontSize="16" color="#ff0000" vAlign="middle" strokeColor="#000000" text="我的名字叫顺溜">
+      <relation target="n7_qyfh" sidePair="middle-middle,left-right"/>
+    </text>
+    <image id="n6_qyfh" name="imgLevelBG" src="spuy6h" fileName="Assets/Common_baiban.png" xy="33,23" size="68,24" group="n7_qyfh" color="#ff0000">
+      <relation target="n2_qyfh" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <text id="n2_qyfh" name="txtLevel" xy="33,21" size="66,26" group="n7_qyfh" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="Lv.1000"/>
+    <group id="n7_qyfh" name="n7" xy="33,21" size="68,26" group="n8_hxsk" advanced="true">
+      <relation target="n5_qyfh" sidePair="middle-middle,left-right"/>
+      <relation target="n2_qyfh" sidePair="width-width,height-height"/>
+    </group>
+    <group id="n8_hxsk" name="group" xy="30,21" size="187,26" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

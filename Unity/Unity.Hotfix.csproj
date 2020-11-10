@@ -145,6 +145,10 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\AI\Monster\MonsterAI.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode3.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\MessagePool.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPoint.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPointComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\TowerPoinHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\TargetComponent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Hotfix\Unity.Hotfix.asmdef" />

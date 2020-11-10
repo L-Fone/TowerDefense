@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,800" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_8tnc" name="n0" src="10i4t27" fileName="Assets/Skill_info.png" xy="0,0" size="1200,800">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_8tnc" name="title" xy="377,38" size="445,42" fontSize="30" color="#ffcc00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="技能">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <graph id="n3_8tnc" name="dragArea" xy="18,33" size="1030,45">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_8tnc" name="contentArea" xy="0,91" size="1200,710">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_8tnc" name="closeButton" src="10i4t2i" fileName="ButtonClose.xml" xy="1120,38">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <image id="n6_10i4t" name="n6" src="10i4t28" fileName="Assets/Skill_info_BG.png" xy="62,149" size="1081,557" group="n11_10i4t" touchable="false"/>
+    <image id="n8_10i4t" name="n8" src="10i4t29" fileName="Assets/Skill_info_BG2.png" xy="60,110" size="1082,63" group="n11_10i4t" touchable="false"/>
+    <image id="n9_10i4t" name="n9" src="10i4t2a" fileName="Assets/Skill_info_BG3.png" xy="62,641" size="1081,103" group="n11_10i4t" touchable="false"/>
+    <image id="n10_10i4t" name="n10" src="10i4t2e" fileName="Assets/Skill_info2(1).png" xy="57,101" size="1090,646" group="n11_10i4t" touchable="false"/>
+    <group id="n11_10i4t" name="bg" xy="57,101" size="1090,646" advanced="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+  </displayList>
+</component>

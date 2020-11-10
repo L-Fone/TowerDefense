@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,400">
+  <displayList>
+    <component id="n0_j03x" name="frame" src="j03xi" fileName="FrameRequestFriendUI.xml" xy="0,0">
+      <Label title="好友申请"/>
+    </component>
+    <list id="n2_j03x" name="itemList" xy="32,71" size="528,290" overflow="scroll" scrollBarFlags="256" clipSoftness="0,50" defaultItem="ui://0nnc7y49j03xk" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

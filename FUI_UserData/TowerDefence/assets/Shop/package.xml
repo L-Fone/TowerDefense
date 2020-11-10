@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9r7gspay">
+  <resources>
+    <image id="cm4u0" name="Market_chongzhi.png" path="/Assets/"/>
+    <image id="cm4u1" name="Market_daojv.png" path="/Assets/"/>
+    <image id="cm4u2" name="Market_goumai.png" path="/Assets/"/>
+    <image id="cm4u3" name="Market_qita.png" path="/Assets/"/>
+    <image id="cm4u4" name="Market_UI.png" path="/Assets/"/>
+    <image id="cm4u5" name="Market_xingxiang.png" path="/Assets/"/>
+    <image id="cm4u6" name="Market_yuancailiao.png" path="/Assets/"/>
+    <image id="cm4u7" name="Market_zhuangbei.png" path="/Assets/"/>
+    <component id="cm4u8" name="FrameShopUI.xml" path="/"/>
+    <component id="cm4u9" name="MarketUI.xml" path="/" exported="true"/>
+    <component id="cm4ua" name="ButtonGoods.xml" path="/"/>
+    <component id="cm4ub" name="ButtonOther.xml" path="/"/>
+    <component id="cm4uc" name="ButtonSkin.xml" path="/"/>
+    <component id="cm4ud" name="ButtonMaterial.xml" path="/"/>
+    <component id="cm4ue" name="ButtonEquip.xml" path="/"/>
+    <component id="rttnf" name="ShopUI.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

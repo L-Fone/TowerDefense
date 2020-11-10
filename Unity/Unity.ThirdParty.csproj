@@ -281,6 +281,7 @@
     <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonBinaryReaderBookmark.cs" />
     <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonMaxKeySerializer.cs" />
     <Compile Include="Packages\ThirdParty\FairyGUI\Scripts\UI\GComboBox.cs" />
+    <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\Serialization\StructBsonSerialize.cs" />
     <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\IO\ArrayElementNameAccelerator.cs" />
     <Compile Include="Packages\ThirdParty\FairyGUI\Scripts\Core\Text\SelectionShape.cs" />
     <Compile Include="Packages\ThirdParty\FairyGUI\Scripts\Core\Mesh\EllipseMesh.cs" />
@@ -560,7 +561,6 @@
     <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\Decimal128Serializer.cs" />
     <Compile Include="Packages\ThirdParty\FairyGUI\Scripts\Core\Mesh\RectMesh.cs" />
     <Compile Include="Packages\ThirdParty\FairyGUI\Scripts\Core\DisplayObject.cs" />
-    <Compile Include="Packages\ThirdParty\MongoDB\MongoDB.Bson\Serialization\StructBsonSerialize.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Packages\ThirdParty\FairyGUI\Resources\Shaders\AddOn\FairyGUI-BlurFilter.shader" />

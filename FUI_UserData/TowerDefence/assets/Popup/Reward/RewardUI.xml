@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,64" pivot="0.33,0.5" anchor="true">
+  <displayList>
+    <loader id="n0_hri1" name="icon" xy="0,8" pivot="0.5,0.5" size="48,48" group="n2_hri1" url="ui://71ktouo7rybex" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n1_hri1" name="title" xy="59,11" pivot="0,0.5" size="55,41" group="n2_hri1" fontSize="30" color="#ffcc00" strokeColor="#000000" text="455">
+      <relation target="n0_hri1" sidePair="middle-middle"/>
+    </text>
+    <group id="n2_hri1" name="n2" xy="0,8" size="114,48" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n2_hri1" value="1"/>
+    <item time="0" type="Scale" target="n0_hri1" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12" ease="Expo.Out"/>
+    <item time="0" type="Scale" target="n1_hri1" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n2_hri1" tween="true" startValue="0,8" endValue="0,0" duration="6"/>
+    <item time="6" type="XY" target="n2_hri1" tween="true" startValue="0,0" endValue="0,-180" duration="66"/>
+    <item time="12" type="Scale" target="n0_hri1" tween="true" startValue="1.3,1.3" endValue="1,1" duration="30" ease="Quad.In"/>
+    <item time="12" type="Scale" target="n1_hri1" tween="true" startValue="1.3,1.3" endValue="1,1" duration="30" ease="Quad.In"/>
+    <item time="24" type="Alpha" target="n2_hri1" tween="true" startValue="1" endValue="0" duration="48"/>
+  </transition>
+</component>

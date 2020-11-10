@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g4444q3a">
+  <resources>
+    <image id="vj0y0" name="d1461b1ea40781e266ab6f6c2e2f7605_35_113235_1_lit.jpg" path="/Assets/"/>
+    <image id="vj0y1" name="Ranking_bottom_guanbi.png" path="/Assets/"/>
+    <image id="vj0y4" name="Ranking_icon_guanjun.png" path="/Assets/"/>
+    <image id="vj0y5" name="Ranking_icon_jijun.png" path="/Assets/"/>
+    <image id="vj0y6" name="Ranking_icon_yajun .png" path="/Assets/"/>
+    <image id="vj0y7" name="Ranking_infer.png" path="/Assets/"/>
+    <image id="vj0y8" name="Ranking_wenbenkuang.png" path="/Assets/"/>
+    <component id="vj0y9" name="ButtonClose.xml" path="/"/>
+    <component id="vj0ya" name="FrameRank.xml" path="/"/>
+    <component id="vj0yb" name="RankUI.xml" path="/" exported="true"/>
+    <component id="vj0yc" name="LabelRankItem.xml" path="/" exported="true"/>
+    <component id="vj0yd" name="ButtonRank3.xml" path="/"/>
+    <component id="vj0yg" name="ButtonRank4.xml" path="/"/>
+    <component id="vj0yh" name="ButtonRank7.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

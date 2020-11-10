@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7kiucqow">
+  <resources>
+    <image id="ptly0" name="City_Transfer_Left.png" path="/Assets/"/>
+    <component id="ptly1" name="FrameLeftTransPointUI.xml" path="/Left/"/>
+    <image id="ptly3" name="City_Transfer_Left(1).png" path="/Assets/"/>
+    <image id="ptly5" name="City_Transfer_Left_2.png" path="/Assets/"/>
+    <image id="ptly6" name="City_Transfer_Left_3.png" path="/Assets/"/>
+    <image id="ptly7" name="City_Transfer_Left_4.png" path="/Assets/"/>
+    <component id="ptly8" name="Button1.xml" path="/Left/"/>
+    <component id="ptly9" name="Button2.xml" path="/Left/"/>
+    <component id="ptlya" name="Button3.xml" path="/Left/"/>
+    <component id="ptlyb" name="Button4.xml" path="/Left/"/>
+    <image id="ptlyc" name="City_Transfer_Left_1.png" path="/Assets/"/>
+    <component id="ptlyd" name="LeftTransPointUI.xml" path="/Left/" exported="true"/>
+    <image id="iha8e" name="City_tranfer_1.png" path="/Assets/Right/"/>
+    <image id="iha8f" name="City_tranfer_10.png" path="/Assets/Right/"/>
+    <image id="iha8g" name="City_tranfer_11.png" path="/Assets/Right/"/>
+    <image id="iha8h" name="City_tranfer_12.png" path="/Assets/Right/"/>
+    <image id="iha8i" name="City_tranfer_2.png" path="/Assets/Right/"/>
+    <image id="iha8j" name="City_tranfer_3.png" path="/Assets/Right/"/>
+    <image id="iha8k" name="City_tranfer_4.png" path="/Assets/Right/"/>
+    <image id="iha8l" name="City_tranfer_5.png" path="/Assets/Right/"/>
+    <image id="iha8m" name="City_tranfer_6.png" path="/Assets/Right/"/>
+    <image id="iha8n" name="City_tranfer_7.png" path="/Assets/Right/"/>
+    <image id="iha8o" name="City_tranfer_8.png" path="/Assets/Right/"/>
+    <image id="iha8p" name="City_tranfer_9.png" path="/Assets/Right/"/>
+    <image id="iha8q" name="City_tranfer_Right.png" path="/Assets/Right/"/>
+    <image id="iha8r" name="City_tranfer_Right_anniu.png" path="/Assets/Right/"/>
+    <image id="iha8s" name="City_tranfer_shilianzhidi.png" path="/Assets/Right/"/>
+    <image id="iha8t" name="主线地图按钮模板.png" path="/Assets/Right/"/>
+    <image id="iha8w" name="选取效果.png" path="/Assets/Right/"/>
+    <component id="iha8x" name="FrameRightTransPointUI.xml" path="/Right/"/>
+    <component id="iha8y" name="RightTransPointUI.xml" path="/Right/" exported="true"/>
+    <image id="iha8z" name="效果图.png" path="/Assets/Right/"/>
+    <component id="iha810" name="Button1.xml" path="/Right/"/>
+    <component id="iha811" name="Button2.xml" path="/Right/"/>
+    <component id="iha812" name="Button3.xml" path="/Right/"/>
+    <component id="iha813" name="Button5.xml" path="/Right/"/>
+    <component id="iha814" name="Button4.xml" path="/Right/"/>
+    <component id="iha815" name="Button6.xml" path="/Right/"/>
+    <image id="iha81i" name="City_tranfer_gundong1.png" path="/Assets/Right/"/>
+    <image id="iha81j" name="City_tranfer_gundong3.png" path="/Assets/Right/"/>
+    <image id="iha81k" name="City_tranfer_gundong4.png" path="/Assets/Right/"/>
+    <component id="meww1l" name="ButtonTransPointActiveItem.xml" path="/Right/"/>
+    <image id="vj0y1m" name="City_tranfer_boss_17.png" path="/Assets/Right/"/>
+    <image id="vj0y1n" name="City_tranfer_boss_18.png" path="/Assets/Right/"/>
+    <image id="vj0y1o" name="City_tranfer_boss_19.png" path="/Assets/Right/"/>
+    <image id="vj0y1p" name="City_tranfer_boss_20.png" path="/Assets/Right/"/>
+    <image id="vj0y1q" name="City_tranfer_boss_21.png" path="/Assets/Right/"/>
+    <image id="vj0y1r" name="City_tranfer_boss_22.png" path="/Assets/Right/"/>
+    <image id="vj0y1s" name="City_tranfer_boss_23.png" path="/Assets/Right/"/>
+    <image id="vj0y1t" name="City_tranfer_boss_24.png" path="/Assets/Right/"/>
+    <image id="vj0y1u" name="City_tranfer_active_25.png" path="/Assets/Right/"/>
+    <image id="vj0y1v" name="City_tranfer_active_26.png" path="/Assets/Right/" scale9grid="0,0,0,-13"/>
+    <image id="vj0y1w" name="City_tranfer_active_27.png" path="/Assets/Right/" scale9grid="0,0,-2,-9"/>
+    <image id="vj0y1x" name="City_tranfer_active_28.png" path="/Assets/Right/" scale9grid="0,0,0,-19"/>
+    <component id="vj0y1y" name="ButtonTransPointBossItem.xml" path="/Right/"/>
+    <component id="vj0y1z" name="ButtonMainStory.xml" path="/Right/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

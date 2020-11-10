@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_mj9w" name="n0" src="vulqjh" fileName="Assets/EquipHecheng_Inferrence.png" xy="0,0" size="800,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_mj9w" name="title" xy="327,28" size="130,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="打造">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_mj9w" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="755,41">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_mj9w" name="dragArea" xy="12,24" size="737,42">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_mj9w" name="contentArea" xy="0,71" size="800,530">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>
