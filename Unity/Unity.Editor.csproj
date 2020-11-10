@@ -132,6 +132,8 @@
     <Compile Include="Assets\Editor\ComponentViewEditor\ITypeDrawer.cs" />
     <Compile Include="Assets\Editor\Assistent\Misc\ScriptTemplate.cs" />
     <Compile Include="Assets\Editor\TilemapEditor\TilemapEditor.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\ListTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\ArrayTypeDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Editor\Unity.Editor.asmdef" />

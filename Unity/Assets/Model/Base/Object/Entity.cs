@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 #if !SERVER
@@ -212,14 +213,24 @@ namespace ET
 		{
 			return this.Parent as T;
 		}
-		
-		public override string ToString()
-		{
-			return this.ToJson();
-		}
-		
-		
-		[BsonIgnoreIfDefault]
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"\nt:{GetType().Name},\nId:{Id},\nInstanceId:{InstanceId},\nC:\n[");
+			if(components!=null)
+            foreach (var item in components)
+            {
+                sb.Append($"\n\t{item.Value.Id}:{item.Key.Name},");
+            }
+            sb.Remove(sb.Length - 1, 1);
+            sb.Append("\n]");
+            return sb.ToString();
+        }
+
+
+
+        [BsonIgnoreIfDefault]
 		[BsonDefaultValue(0L)]
 		[BsonElement]
 		[BsonId]

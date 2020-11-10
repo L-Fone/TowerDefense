@@ -20,6 +20,9 @@ namespace ET
             }
         }
         private event Action<GameObject> _onTriggerExit2D;
+
+    
+
         public event Action<GameObject> onTriggerExit2D
         {
             add
@@ -31,6 +34,11 @@ namespace ET
             {
                 _onTriggerExit2D -= value;
             }
+        }
+        public void Clear()
+        {
+            _onTriggerEnter2D = null;
+            _onTriggerExit2D = null;
         }
 
 

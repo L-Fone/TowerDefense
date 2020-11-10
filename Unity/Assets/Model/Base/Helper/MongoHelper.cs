@@ -16,9 +16,7 @@ namespace ET
             Type[] types = typeof(Game).Assembly.GetTypes();
             foreach (Type type in types)
             {
-                if (!type.IsSubclassOf(typeof(Entity))&&
-                    !type.IsSubclassOf(typeof(SkillOptionBase))&&
-                    !type.IsSubclassOf(typeof(SelectTargetBase))
+                if (!type.IsSubclassOf(typeof(Entity))
                     )
                 {
                     continue;

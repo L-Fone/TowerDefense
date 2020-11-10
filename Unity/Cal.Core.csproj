@@ -86,6 +86,7 @@
     <Compile Include="Assets\Cal\Core\ClassHelper.cs" />
     <Compile Include="Assets\Cal\Core\Math\TSMatrix.cs" />
     <Compile Include="Assets\Cal\Core\Math\Fix64SinLut.cs" />
+    <Compile Include="Assets\Cal\Core\GenericHelper.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Cal\Core\Cal.Core.asmdef" />

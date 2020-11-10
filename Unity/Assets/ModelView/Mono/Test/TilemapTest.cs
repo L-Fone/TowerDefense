@@ -34,12 +34,22 @@ namespace ET
             tran.position = info.initPos.ToUnityVector3();
         }
 
-        [Button()]
+        [Button("加载")]
         private void LoadConfig()
         {
             string path = $"Assets/Download/Config/Levels/{SceneManager.GetActiveScene().name}.json";
             var str = AssetDatabase.LoadAssetAtPath<TextAsset>(path);
             info = MongoHelper.FromJson<LevelInfo>(str.text);
+        }
+        [Button("清理路径")]
+        private void ClearPath()
+        {
+            info.path.Clear();
+        }
+        [Button("清理防御塔")]
+        private void ClearTower()
+        {
+            info.towerList.Clear(); 
         }
 
         private void Update()

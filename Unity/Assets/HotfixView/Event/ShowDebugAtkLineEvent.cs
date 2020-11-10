@@ -19,10 +19,12 @@ namespace ET
                 GameObject go = new GameObject("Go");
                 tran = go.transform;
                 tran.SetParent(view.transform);
-                tran.localPosition = Vector3.zero;
+                tran.localPosition = new Vector3(-.77f, 0.96f, 0) ;
             }
             var text = tran.gameObject.GetOrAddComponent<TextMesh>();
-            text.fontSize = 12;
+            text.fontSize = 100;
+            text.characterSize = 0.05f;
+            text.color = Color.black;
             text.text = $"{args.hp-args.damage}/{args.maxHp}";
             
         }

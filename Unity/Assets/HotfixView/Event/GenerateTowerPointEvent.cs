@@ -3,6 +3,7 @@ using Cal.DataTable;
 using ET.EventType;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace ET
 {
@@ -11,8 +12,9 @@ namespace ET
         public override async ETTask Run(GenerateTowerPoint args)
         {
             var tran = await ResourceViewHelper.LoadPrefabAsync(PrefabConfigId.TowerPointTrigger);
-            tran.position = args.point;
-            tran.gameObject.AddComponent<TowerPointMono>().Id = args.Id;
+            UnitView unitView = args.towerPointInfo.AddComponent<UnitView,GameObject>(tran.gameObject);
+            unitView.Position = args.point;
+            unitView.gameObject.GetOrAddComponent<TowerPointMono>().Id = args.towerPointInfo.Id;
 
             await ETTask.CompletedTask;
         }

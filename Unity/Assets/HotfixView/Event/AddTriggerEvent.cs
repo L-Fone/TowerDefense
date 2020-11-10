@@ -16,6 +16,7 @@ namespace ET
             }
             var go = unitView.gameObject;
             var triggerMono = go.GetOrAddComponent<TriggerMono>();
+            triggerMono.Clear();
 
             if (args.onEnter != null)
                 triggerMono.onTriggerEnter2D += obj =>

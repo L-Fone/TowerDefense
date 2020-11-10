@@ -280,7 +280,7 @@ namespace ET
             public Unit unit;
             public AinmationKey ainmationKey;
             public Vector3 dir;
-        }    
+        }
         //public struct UnitMove
         //{
         //    public Unit unit;
@@ -366,18 +366,21 @@ namespace ET
         public struct EnterGame_Open
         {
             public Scene zoneScene;
-        }public struct GenerateTowerPoint
+        }
+        public struct GenerateTowerPoint
         {
             public Scene zoneScene;
             public Vector3 point;
 
-            public long Id;
-        }public struct AddTrigger
+            public TowerPointInfo towerPointInfo;
+        }
+        public struct AddTrigger
         {
             public Unit unit;
             public Action<Unit> onEnter;
             public Action<Unit> onExit;
-        }public struct ShowDebugAtkLine
+        }
+        public struct ShowDebugAtkLine
         {
             public Unit unit;
             public Unit target;

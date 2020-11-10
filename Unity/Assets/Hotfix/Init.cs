@@ -11,6 +11,7 @@ namespace ET
             try
             {
                 Log.Info($"进入热更");
+                HotfixMongoHelper.Init();
                 Scene zoneScene = Game.Hotfix.zoneScene;
                 string clientVersion = await GlobalHotfixProtoHelper.GetClintVersion();
                 if (!clientVersion.Equals(GlobalConfigComponent.Instance.GlobalProto.ClientVersion))

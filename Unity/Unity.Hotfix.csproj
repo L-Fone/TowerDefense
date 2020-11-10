@@ -56,8 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Hotfix\Logic\Model\Config\PrefabConfigId.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\ModifierOption.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\TowerPoinHelper.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Config\RoleConfig.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\MessageDispatcherComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\DamageComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\SelectTarget.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Config\PrefabConfig.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\Battles\NormalBattle.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode8.cs" />
@@ -66,6 +70,7 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode5.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Base\Log.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode2.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPoint.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage7.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage8.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\User\HideUnitComponent.cs" />
@@ -74,6 +79,7 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Common\GlobalVariable.cs" />
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Event\Other\EnterGame_InitDataEvent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\BattleMgrComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\BsonHelper.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode6.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\User\UserData.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\IMessage.cs" />
@@ -110,6 +116,7 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage2.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Config\LevelConfig.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\BattleBase.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPointComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\MapSceneComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\OpcodeTypeComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage0.cs" />
@@ -121,8 +128,11 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Config\ConfigComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Unit\UnitCharacter.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage6.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\Skill\SkillAndModifierSObject.cs" />
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\GlobalHotfixProtoHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\SkillEventType.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Entity\Scene.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\Skill\SkillLogicConfigSObject.cs" />
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Event\Login\EnterGameFinish.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Unit\UnitCharacterComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Unit\UnitFactory.cs" />
@@ -133,6 +143,7 @@
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\GameObjectHelper.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\AMHandler.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Common\UnitType.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\SkillLogicConfig.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\User\User.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessage10.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixMessageDispatcher.cs" />
@@ -142,15 +153,47 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Base\Event\EventIdType.cs" />
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\FUIHelper.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Base\Event\IEvent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\SkillOption.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\AI\Monster\MonsterAI.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode3.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\MessagePool.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPoint.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPointComponent.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\TowerPoinHelper.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\TargetComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Common\KillInfo.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\AttackComponent.cs" />
-    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\DamageComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\HotfixOpcode3.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\SkillSystem\NewSkill\RunTime\ModifierConfig.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Module\Message\MessagePool.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\TargetComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\ModifierContainerComponentSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\SelectTargetHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\TargetableUnitComponentSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\TargetableUnitComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\SkillHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\AttackComponentSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\TargetableUnit.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\ModifierLogicSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\SkillLogic.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\SkillMgrComponentSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\AttackComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\TargetableSingleUnitSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\BattleHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\SkillLogicSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\SkillSender.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\ModifierContainerComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\System\TargetableMultiUnitSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\SkillMgrComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\ModifierLogic.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\NewSkill\Component\SkillOptions\SkillOptionLogicBase.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Common\TreatBuffDamageCalculate.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Common\RealBuffDamageCalculate.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Common\PhyBuffDamageCalculate.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Common\SpiBuffDamageCalculate.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\HotfixMongoHelper.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Skill\UnitSkill.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Skill\UnitSkillComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Skill\SkillAI.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Skill\UserSetting.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Config\SkillConfigId.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Config\SkillConfig.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\BattleComponentSystem.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\BattleComponent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Hotfix\Unity.Hotfix.asmdef" />

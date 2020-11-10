@@ -64,6 +64,7 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Task\FUI_TaskTipUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Shop\PackageShop.cs" />
     <Compile Include="Assets\HotfixView\UI\EnterGame\EnterGameUIEvent.cs" />
+    <Compile Include="Assets\HotfixView\Entity\TowerPointViewComponent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Character\FUI_Label3.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_ButtonText_Blue.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Consignment\FUI_FrameConsignmentPutInUI.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Assets\HotfixView\Helper\PosHelper.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_FrameCheat.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Character\FUI_Label2.cs" />
+    <Compile Include="Assets\HotfixView\Event\ShowDebugAtkLineEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_NetLoading.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\FUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_MainUI.cs" />
@@ -142,7 +144,9 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Rank\FUI_FrameRank.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Skill\FUI_Skill_HuShi.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Common\FUI_CheatUI.cs" />
+    <Compile Include="Assets\HotfixView\Event\AddTriggerEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Skill\PackageSkill.cs" />
+    <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Battle\PackageBattle.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Mail\PackageMail.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Consignment\FUI_ConsignmentPutInUI.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Character\FUI_Label1.cs" />
@@ -170,6 +174,7 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Login\FUI_EnterGame.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Character\PackageCharacter.cs" />
     <Compile Include="Assets\HotfixView\Event\OnCreateUnitEvent.cs" />
+    <Compile Include="Assets\HotfixView\Event\GenerateTowerPointEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Bag\FUI_UpgradeTreeUI.cs" />
     <Compile Include="Assets\HotfixView\Event\OnDisposeUnitEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Rank\PackageRank.cs" />
@@ -198,11 +203,6 @@
     <Compile Include="Assets\HotfixView\Model\FGUI\GObjectHelper.cs" />
     <Compile Include="Assets\HotfixView\UI\MainUI\MainUIEvent.cs" />
     <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Shop\FUI_ShopUI.cs" />
-    <Compile Include="Assets\HotfixView\Model\FGUI\AutoCode\Battle\PackageBattle.cs" />
-    <Compile Include="Assets\HotfixView\Event\GenerateTowerPointEvent.cs" />
-    <Compile Include="Assets\HotfixView\Entity\TowerPointViewComponent.cs" />
-    <Compile Include="Assets\HotfixView\Event\AddTriggerEvent.cs" />
-    <Compile Include="Assets\HotfixView\Event\ShowDebugAtkLineEvent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\HotfixView\Unity.HotfixView.asmdef" />

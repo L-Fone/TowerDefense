@@ -31,13 +31,13 @@ namespace ET
 			int value = random.Next(lower, upper);
 			return value;
         }
-        public static float RandFloat()
+        public static float RandomFloat()
         {
             return (float)random.NextDouble();
         }
         public static UnityEngine.Color RandColor()
         {
-            return new UnityEngine.Color(RandomHelper.RandFloat(), RandomHelper.RandFloat(), RandomHelper.RandFloat());
+            return new UnityEngine.Color(RandomHelper.RandomFloat(), RandomHelper.RandomFloat(), RandomHelper.RandomFloat());
         }
 
     }

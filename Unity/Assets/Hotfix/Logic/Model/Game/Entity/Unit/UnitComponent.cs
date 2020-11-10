@@ -78,19 +78,21 @@ namespace ET
         private List<Unit> _needRemoveUnitList;
         public void RemoveAll()
         {
-            _needRemoveUnitList = _needRemoveUnitList ?? new List<Unit>();
-            _needRemoveUnitList.Clear();
+            //_needRemoveUnitList = _needRemoveUnitList ?? new List<Unit>();
+            //_needRemoveUnitList.Clear();
             foreach (var unit in GetAll())
             {
-                if (unit.Id != MyUnit.Id)
-                {
-                    _needRemoveUnitList.Add(unit);
-                }
+                //if (unit.Id != MyUnit.Id)
+                //{
+                    //_needRemoveUnitList.Add(unit);
+                //}
+               unit.Dispose();
             }
-            foreach (var id in _needRemoveUnitList)
-            {
-                Remove(id);
-            }
+            idUnits.Clear();
+            //foreach (var id in _needRemoveUnitList)
+            //{
+            //    Remove(id);
+            //}
         }
 
         public void RemoveNoDispose(long id)

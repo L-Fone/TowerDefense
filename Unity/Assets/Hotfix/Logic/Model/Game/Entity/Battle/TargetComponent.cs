@@ -10,6 +10,13 @@ namespace ET
             self.Awake();
         }
     }
+    public class TargetComponentDestroySystem : DestroySystem<TargetComponent>
+    {
+    	public override void Destroy(TargetComponent self)
+    	{
+    		self.Destroy();
+    	}
+    }
     public class TargetComponent : Entity
     {
         private List<Unit> targets = new List<Unit>();
@@ -37,8 +44,8 @@ namespace ET
 
             if (targets.Count <= 0)
                 return null;
-            int i = targets.Count;
-            while (--i >= 0)
+            int i = -1;
+            while (++i < targets.Count)
             {
                 var unit = targets[i];
                 if (unit.IsAlive)
@@ -52,6 +59,11 @@ namespace ET
         public void RemoveTraget(Unit unit)
         {
             targets.Remove(unit);
+        }
+
+        internal void Destroy()
+        {
+            targets.Clear();
         }
     }
 }

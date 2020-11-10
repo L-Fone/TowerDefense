@@ -1,4 +1,7 @@
 [
 [1001, {"_id":1001,"Name":"TestTower","Desc":"测试防御塔","PrefabId":10001,"AsltasPath":"Assets/Download/Texture/Role/Role1.png","Frame":6,"Atk":50,"Def":12,"Hp":2300,"Spd":0,"AtkField":2.5,"AtkInterval":0.8}],
-[1002, {"_id":1002,"Name":"TestMonster","Desc":"测试小怪","PrefabId":10002,"AsltasPath":"Assets/Download/Texture/Role/Role2.png","Frame":6,"Atk":20,"Def":18,"Hp":256,"Spd":125,"AtkField":2.1,"AtkInterval":3}],
+[2002, {"_id":2002,"Name":"TestMonster1","Desc":"测试小怪1","PrefabId":10002,"AsltasPath":"Assets/Download/Texture/Role/Role2.png","Frame":6,"Atk":20,"Def":18,"Hp":256,"Spd":125,"AtkField":2.1,"AtkInterval":3}],
+[2003, {"_id":2003,"Name":"TestMonster2","Desc":"测试小怪1","PrefabId":10002,"AsltasPath":"Assets/Download/Texture/Role/Role2.png","Frame":6,"Atk":20,"Def":20,"Hp":365,"Spd":80,"AtkField":2.1,"AtkInterval":3}],
+[2004, {"_id":2004,"Name":"TestMonster3","Desc":"测试小怪1","PrefabId":10002,"AsltasPath":"Assets/Download/Texture/Role/Role2.png","Frame":6,"Atk":20,"Def":30,"Hp":390,"Spd":130,"AtkField":2.1,"AtkInterval":3}],
+[2005, {"_id":2005,"Name":"TestMonster4","Desc":"测试小怪1","PrefabId":10002,"AsltasPath":"Assets/Download/Texture/Role/Role2.png","Frame":6,"Atk":20,"Def":42,"Hp":280,"Spd":150,"AtkField":2.1,"AtkInterval":3}],
 ]

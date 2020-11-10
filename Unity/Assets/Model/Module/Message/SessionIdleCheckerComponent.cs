@@ -41,7 +41,7 @@
 
     public static class SessionIdleCheckerComponentSystem
     {
-        public static void Check(this SessionIdleCheckerComponent self)
+        public static void Check(this SessionIdleCheckerComponent self,bool result)
         {
             Session session = self.GetParent<Session>();
             long timeNow = TimeHelper.Now();

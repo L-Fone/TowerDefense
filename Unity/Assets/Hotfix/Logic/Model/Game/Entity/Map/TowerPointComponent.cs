@@ -44,7 +44,15 @@ namespace ET
             return towerPoint;
         }
 
-      
+        public void RemoveAll()
+        {
+            foreach (var item in towerDic.Values)
+            {
+                item.Dispose();
+            }
+            towerDic.Clear();
+        }
+
         internal void Destroy()
         {
             towerDic.Clear();

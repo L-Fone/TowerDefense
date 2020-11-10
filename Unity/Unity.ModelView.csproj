@@ -70,6 +70,7 @@
     <Compile Include="Assets\ModelView\Debugger\DebuggerComponent.cs" />
     <Compile Include="Assets\ModelView\Mono\UI\BuildinSceneLoader.cs" />
     <Compile Include="Assets\ModelView\Mono\MonoAnimancer.cs" />
+    <Compile Include="Assets\ModelView\Mono\TowerPointMono.cs" />
     <Compile Include="Assets\ModelView\Mono\Test\Line.cs" />
     <Compile Include="Assets\ModelView\PoolManager\PoolManager.cs" />
     <Compile Include="Assets\ModelView\Event\ShowMessageBoxEvent.cs" />
@@ -78,13 +79,12 @@
     <Compile Include="Assets\ModelView\Mono\Test\TilemapTest.cs" />
     <Compile Include="Assets\ModelView\Entity\SpriteComponent.cs" />
     <Compile Include="Assets\ModelView\Mono\UnityRoot.cs" />
+    <Compile Include="Assets\ModelView\Mono\TriggerMono.cs" />
     <Compile Include="Assets\ModelView\Event\MessageBox_DisposeEvent.cs" />
+    <Compile Include="Assets\ModelView\Mono\AtkFieldDebugMono.cs" />
     <Compile Include="Assets\ModelView\Event\AppStartInitFinish_StartUpdater.cs" />
     <Compile Include="Assets\ModelView\PoolManager\SpawnPool.cs" />
     <Compile Include="Assets\ModelView\PoolManager\PreRuntimePoolItem.cs" />
-    <Compile Include="Assets\ModelView\Mono\TowerPointMono.cs" />
-    <Compile Include="Assets\ModelView\Mono\AtkFieldDebugMono.cs" />
-    <Compile Include="Assets\ModelView\Mono\TriggerMono.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ModelView\Unity.ModelView.asmdef" />

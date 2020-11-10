@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEditor.UI;
 using UnityEngine;
 
 namespace ET
@@ -34,7 +33,7 @@ namespace ET
         {
             pathIndex = 0;
             unit = GetParent<Unit>();
-            moveSpd = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.MoveSpd)/100;
+            moveSpd = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.MoveSpd) / 100;
         }
 
         internal void Update()
@@ -68,6 +67,14 @@ namespace ET
             unit.ChangePosition(dV3.normalized * Time.deltaTime * moveSpd);
             if (!isRun)
             {
+                var battle = BattleMgrComponent.currBattle;
+                if (battle == null)
+                {
+                    Log.Error($" battle == null when unit which id is{unit.Id} dead");
+                    return;
+                }
+                if (!battle.MonterEnterHeart())
+                    battle.MonsterDead();
                 UnitComponent.Instance.Remove(unit);
             }
         }

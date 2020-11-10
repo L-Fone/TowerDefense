@@ -19,9 +19,14 @@ namespace ET
 
         private static void GenerateTowerAsync(TowerPointInfo towerPoint)
         {
-
+            if (towerPoint.unit != null)
+            {
+                Log.Info($"重复放置防御塔");
+                return;
+            }
             RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestTower);
             Unit unit = UnitFactory.Create(roleConfig, UnitType.Tower);
+            towerPoint.unit = unit;
             unit.Position = towerPoint.position;
             unit.AddComponent<TargetComponent>();
 
