@@ -377,6 +377,13 @@ namespace ET
             public Unit unit;
             public Action<Unit> onEnter;
             public Action<Unit> onExit;
+        }public struct ShowDebugAtkLine
+        {
+            public Unit unit;
+            public Unit target;
+            public int damage;
+            public int hp;
+            public int maxHp;
         }
     }
 }

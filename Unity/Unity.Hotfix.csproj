@@ -149,6 +149,8 @@
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Map\TowerPointComponent.cs" />
     <Compile Include="Assets\Hotfix\Logic\Behaviour\Game\Helper\TowerPoinHelper.cs" />
     <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\TargetComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\AttackComponent.cs" />
+    <Compile Include="Assets\Hotfix\Logic\Model\Game\Entity\Battle\DamageComponent.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Hotfix\Unity.Hotfix.asmdef" />

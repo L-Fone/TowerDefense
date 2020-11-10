@@ -14,16 +14,16 @@ namespace ET
             var unit = self.unit = self.GetParent<Unit>();
             self.gameObject = gameObject;
             self.transform = gameObject.transform;
-            self.spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-            self.monoAnimancer = gameObject.GetComponent<MonoAnimancer>();
-            if (self.monoAnimancer && self.monoAnimancer.Animator == null)
-                self.monoAnimancer.Animator = gameObject.GetComponentInChildren<Animator>();
+            if(!self.spriteRenderer)
+                self.spriteRenderer = gameObject.GetOrAddComponent<SpriteRenderer>();
+            if (!self.spriteAnimator)
+                self.spriteAnimator = gameObject.GetOrAddComponent<SpriteAnimator>();
             gameObject.GetOrAddComponent<ComponentView>().Component = self;
 
             var children = gameObject.GetComponentsInChildren<Transform>();
             foreach (var item in children)
             {
-                if (item.name.Equals("HeadBarPoint"))
+                if (item.name.Equals("HeadPoint"))
                 {
                     self.HeadPoint = item;
                 }
@@ -31,32 +31,13 @@ namespace ET
                 {
                     self.FootPoint = item;
                 }
-                else if (item.name.Equals("Select"))
-                {
-                    self.footEffect = item.GetComponent<SpriteRenderer>();
-                }
             }
             if (self.FootPoint)
             {
                 self.yDelta = self.transform.position.y - self.FootPoint.position.y;
                 self.xDelta = self.transform.position.x - self.FootPoint.position.x;
             }
-            if (self.footEffect)
-                SetColor().Coroutine();
-            async ETVoid SetColor()
-            {
-                Color footEffectColor = Color.white;
-                if (self.FootPoint)
-                {
-                    //var footEffctTran = await ResourceViewHelper.LoadPrefabAsync(PrefabConfigId.);
-                    //footEffctTran.name = "Select";
-                    //footEffctTran.SetParent(self.transform);
-                    //footEffctTran.position = self.FootPoint.position;
-                    //self.footEffect = footEffctTran.GetComponent<SpriteRenderer>();
-                    //self.footEffect.sortingLayerName = "FootEffct";
-                }
-                self.SetFootEffcetActive(true, footEffectColor);
-            }
+           
         }
     }
     public class UnitViewDestroySystem : DestroySystem<UnitView>
@@ -66,23 +47,16 @@ namespace ET
             ResourceViewHelper.DestoryPrefabAsync(self.gameObject);
             self.gameObject = null;
             self.transform = null;
+            self.spriteAnimator = null;
             self.spriteRenderer = null;
-            self.monoAnimancer = null;
             self.HeadPoint = null;
             self.FootPoint = null;
-            self.footEffect = null;
         }
     }
 
     public static class UnitViewSystem
     {
 
-        public static void SetFootEffcetActive(this UnitView self, bool isActive, Color color)
-        {
-            if (!self.footEffect) return;
-            self.footEffect.gameObject.SetActive(isActive);
-            self.footEffect.color = color;
-        }
         public static async ETTask ChangeSkin(this UnitView self, int prefabId)
         {
             ResourceViewHelper.DestoryPrefabAsync(self.gameObject);
@@ -113,7 +87,6 @@ namespace ET
                 default:
                     break;
             }
-            self.SetFootEffcetActive(true, footEffectColor);
         }
     }
 }

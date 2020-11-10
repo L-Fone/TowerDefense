@@ -125,6 +125,17 @@ namespace ET
                 await TimerComponent.Instance.WaitAsync(2000);
                 var unit = UnitFactory.Create(roleConfig, UnitType.Monster);
                 unit.Position = info.initPos.ToUnityVector3();
+
+                unit.AddComponent<DamageComponent>();
+                var num = unit.AddComponent<NumericComponent>();
+                num.Set(NumericType.HpBase,roleConfig.Hp);
+                num.Set(NumericType.MaxHpBase,roleConfig.Hp);
+                num.Set(NumericType.AtkBase,roleConfig.Atk);
+                num.Set(NumericType.DefBase,roleConfig.Def);
+                num.Set(NumericType.AtkFieldBase,roleConfig.AtkField);
+                num.Set(NumericType.AtkSpdBase,roleConfig.AtkInterval);
+                num.Set(NumericType.MoveSpdBase,roleConfig.Spd);
+
                 var monsterAI = unit.AddComponent<MonsterAI>();
                 monsterAI.path = info.path;
                 if (!this.aiDic.TryAdd(unit.Id, monsterAI))

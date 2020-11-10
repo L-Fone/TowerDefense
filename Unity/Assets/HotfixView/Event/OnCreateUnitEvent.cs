@@ -19,9 +19,9 @@ namespace ET
             RoleConfig roleConfig = args.roleConfig;
 
             GameObject go = (await ResourceViewHelper.LoadPrefabAsync(roleConfig.PrefabId)).gameObject;
-            unit.AddComponent<UnitView, GameObject>(go);
+            UnitView  unitView = unit.AddComponent<UnitView, GameObject>(go);
             unit.AddComponent<PopupComponent>();
-            var animation = go.GetOrAddComponent<SpriteAnimator>();
+            var animation = unitView.spriteAnimator;
 
             animation.texture2D = await ResourceHelper.LoadAssetAsync<Texture2D>(roleConfig.AsltasPath);
             animation.framesPerSecond = roleConfig.Frame;

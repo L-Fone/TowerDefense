@@ -9,10 +9,6 @@ namespace ET
 {
     public class AnimancerHelper
     {
-        public static MonoAnimancer GetAnimancers(Unit unit = null)
-        {
-            unit = unit??UnitComponent.MyUnit;
-            return unit.GetComponent<UnitView>()?.monoAnimancer;
-        }
+
     }
 }

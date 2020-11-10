@@ -27,10 +27,14 @@ namespace ET
 
         public List<System.Numerics.Vector3> path;
         private bool isTurn;
+        private float moveSpd;
+        private Unit unit;
 
         internal void Awake()
         {
             pathIndex = 0;
+            unit = GetParent<Unit>();
+            moveSpd = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.MoveSpd)/100;
         }
 
         internal void Update()
@@ -38,19 +42,18 @@ namespace ET
             if (!isRun)
                 return;
 
-            var unit = GetParent<Unit>();
             var point = path[pathIndex];
             var unityPoint = point.ToUnityVector3();
             var dV3 = unityPoint - unit.Position;
             if (isTurn)
             {
                 isTurn = false;
-                Game.EventSystem.Publish(new ET.EventType.PlayAnimation
+                Game.EventSystem.Publish_Sync(new ET.EventType.PlayAnimation
                 {
                     unit = unit,
                     ainmationKey = AinmationKey.Walk,
                     dir = dV3,
-                }).Coroutine();
+                });
             }
             var dis = dV3.sqrMagnitude;
             if (dis <= 0.2f * 0.2f)
@@ -62,7 +65,7 @@ namespace ET
                 }
                 isTurn = true;
             }
-            unit.ChangePosition(dV3.normalized * Time.deltaTime * 1);
+            unit.ChangePosition(dV3.normalized * Time.deltaTime * moveSpd);
             if (!isRun)
             {
                 UnitComponent.Instance.Remove(unit);

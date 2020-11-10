@@ -14,16 +14,26 @@ namespace ET
                 Log.Error($"towerPoint == null when id == {id}");
                 return;
             }
-            GenerateTowerAsync(towerPoint).Coroutine();
+            GenerateTowerAsync(towerPoint);
         }
 
-        private static async ETVoid GenerateTowerAsync(TowerPointInfo towerPoint)
+        private static void GenerateTowerAsync(TowerPointInfo towerPoint)
         {
 
             RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestTower);
             Unit unit = UnitFactory.Create(roleConfig, UnitType.Tower);
             unit.Position = towerPoint.position;
             unit.AddComponent<TargetComponent>();
+
+            var num = unit.AddComponent<NumericComponent>();
+            num.Set(NumericType.HpBase, roleConfig.Hp);
+            num.Set(NumericType.MaxHpBase, roleConfig.Hp);
+            num.Set(NumericType.AtkBase, roleConfig.Atk);
+            num.Set(NumericType.DefBase, roleConfig.Def);
+            num.Set(NumericType.AtkFieldBase, roleConfig.AtkField);
+            num.Set(NumericType.AtkSpdBase, roleConfig.AtkInterval);
+            num.Set(NumericType.MoveSpdBase, roleConfig.Spd);
+
             var ai = unit.AddComponent<TowerAI>();
         }
     }

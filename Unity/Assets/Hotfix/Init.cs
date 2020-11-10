@@ -40,6 +40,7 @@ namespace ET
                 Game.Scene.GetOrAddComponent<MessageDispatcherComponent>();
 
                 Game.Scene.GetOrAddComponent<ConfigComponent>();
+                Game.Scene.GetOrAddComponent<NumericWatcherComponent>();
 
 
                 zoneScene.AddComponent<UserComponent>();

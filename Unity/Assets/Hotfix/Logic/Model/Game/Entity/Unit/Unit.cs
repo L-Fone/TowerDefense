@@ -21,13 +21,19 @@ namespace ET
             self.Destroy();
         }
     }
-
+    public enum UnitState
+    {
+        Alive,
+        Dead
+    }
     public sealed class Unit : Entity
     {
         public int ConfigId;
         public bool IsLeader { get; set; }
         public bool IsFight { get; set; }
-        public bool IsAlive { get; set; }
+        public bool IsAlive => unitState == UnitState.Alive;
+
+        public UnitState unitState;
 
         private UnitType unitType;
         public UnitType UnitType
@@ -84,7 +90,7 @@ namespace ET
         {
             IsLeader = true;
             IsFight = false;
-            IsAlive = true;
+            unitState = UnitState.Alive;
         }
 
         private Vector3 position;
@@ -145,6 +151,11 @@ namespace ET
         {
             Position +=vector3;
         }
+        internal void Dead()
+        {
+            unitState = UnitState.Dead;
+            this.Dispose();
+        }
         public override void Dispose()
         {
             if (!this)
@@ -163,8 +174,8 @@ namespace ET
             rotation = default;
             position = default;
             IsLeader = false;
-            IsAlive = false;
             IsFight = false;
         }
+
     }
 }

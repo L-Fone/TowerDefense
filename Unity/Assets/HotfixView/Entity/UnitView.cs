@@ -15,9 +15,8 @@ namespace ET
 
         public SpriteRenderer spriteRenderer;
 
-        public MonoAnimancer monoAnimancer;
+        public SpriteAnimator spriteAnimator;
 
-        public SpriteRenderer footEffect;
         public Transform HeadPoint;
         public Transform FootPoint;
         public Unit unit;

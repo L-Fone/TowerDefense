@@ -12,6 +12,7 @@ TagManager:
   - MeltSlot
   - UIComponent
   - TowerPoint
+  - Atker
   layers:
   - Default
   - TransparentFX
