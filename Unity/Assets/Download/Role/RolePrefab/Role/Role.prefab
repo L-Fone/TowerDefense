@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 727512168316819443}
   - component: {fileID: 727512168316819437}
   - component: {fileID: -496565543437605232}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Role
   m_TagString: Atker
   m_Icon: {fileID: 0}
@@ -49,7 +49,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -121,7 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2487408823644774934}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: FootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3176230716296573710}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HeadPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

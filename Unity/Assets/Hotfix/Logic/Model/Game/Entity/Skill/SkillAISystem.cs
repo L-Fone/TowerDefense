@@ -11,7 +11,7 @@ namespace ET
         public override void Awake(SkillAI self)
         {
             var num = self.Parent.GetComponent<NumericComponent>();
-            self.roundCD = num.GetAsFloat(NumericType.AtkSpd)*1000;
+            self.roundCD = num.GetAsFloat(NumericType.AtkSpd) * 1000;
         }
     }
     public class SkillAIDestroySystem : DestroySystem<SkillAI>
@@ -94,6 +94,21 @@ namespace ET
                         {
                             skillLogic.lastCDTime = time;
                         }
+                        else
+                        {
+                            TargetableUnitComponent targetableUnitComponent = unit.GetComponent<TargetableUnitComponent>();
+                            var target = targetableUnitComponent.currTarget;
+                            if (target)
+                            {
+                                var dV3 = target.Position - unit.Position;
+                                Game.EventSystem.Publish_Sync(new ET.EventType.PlayAnimation
+                                {
+                                    unit = unit,
+                                    ainmationKey = AinmationKey.Idle,
+                                    dir = dV3,
+                                });
+                            }
+                        }
                         break;
                     }
                 }
@@ -145,7 +160,7 @@ namespace ET
             }
 
         }
-        public static void UpdateAutoSkill(this SkillAI self,IEnumerable<int> skillList)
+        public static void UpdateAutoSkill(this SkillAI self, IEnumerable<int> skillList)
         {
             //var list = self.Parent.GetComponent<UserSetting>().GetAutoSkills();
             self.AutoSkillList = self.AutoSkillList ?? new LinkedList<int>();
@@ -162,7 +177,7 @@ namespace ET
                    Check(modifierContainer, ModifierStateType.石化) &&
                    Check(modifierContainer, ModifierStateType.冰冻) &&
                    Check(modifierContainer, ModifierStateType.沉默);
-           
+
         }
         private static bool Check(ModifierContainerComponent modifierContainer, ModifierStateType modifierStateType)
         {

@@ -33,6 +33,12 @@ namespace ET
             targetComponent = unit.GetComponent<TargetableUnitComponent>();
             targetComponent.AddTrigger(unit, OnEnermyEnter, OnEnermyExit);
             state = State.Run;
+            Game.EventSystem.Publish_Sync(new ET.EventType.PlayAnimation
+            {
+                unit = unit,
+                ainmationKey = AinmationKey.Idle,
+                dir = default,
+            });
         }
 
 

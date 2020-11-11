@@ -12,7 +12,7 @@ namespace ET
            
             Unit unit = EntityFactory.CreateWithParent<Unit>(UnitComponent.Instance);
             unit.UnitType = unitType;
-            unit.ConfigId = (int)roleConfig.Id;
+            unit.ConfigId = roleConfig.Id;
 
             Game.EventSystem.Publish_Sync(new ET.EventType.OnCreateUnit { unit = unit, roleConfig = roleConfig });
 

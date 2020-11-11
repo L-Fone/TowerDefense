@@ -7,6 +7,10 @@ namespace Cal.DataTable
 		/// </summary>
 		public const int TestTower = 1001;
 		/// <summary>
+		/// 测试防御塔升级1
+		/// </summary>
+		public const int TestTower1 = 1002;
+		/// <summary>
 		/// 测试小怪1
 		/// </summary>
 		public const int TestMonster1 = 2002;

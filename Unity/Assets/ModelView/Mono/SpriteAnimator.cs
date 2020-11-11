@@ -98,14 +98,16 @@ namespace ET
 
         public void PlayAnimation(AinmationKey animationKey, Vector3 vector3 = default)
         {
+            var key = AnimationHelper.GetAnimation8DirectionKey(vector3);
             switch (animationKey)
             {
                 case AinmationKey.None:
                     break;
                 case AinmationKey.Idle:
+                    this.aimpationKey = animationKey;
+                    this.ainmation8DirectionKey = key;
                     break;
                 case AinmationKey.Walk:
-                    var key = AnimationHelper.GetAnimation8DirectionKey(vector3);
                     this.aimpationKey = animationKey;
                     this.ainmation8DirectionKey = key;
                     break;

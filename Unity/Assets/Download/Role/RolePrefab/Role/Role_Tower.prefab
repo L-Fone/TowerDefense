@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 727512168316819443}
   - component: {fileID: 727512168316819437}
   - component: {fileID: -4128333429522783282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Role_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2487408823644774934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3176230716296573710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HeadPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

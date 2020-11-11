@@ -28,7 +28,7 @@ namespace ET
     }
     public sealed class Unit : Entity
     {
-        public int ConfigId;
+        public long ConfigId;
         public bool IsLeader { get; set; }
         public bool IsFight { get; set; }
         public bool IsAlive => unitState == UnitState.Alive;

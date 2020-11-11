@@ -1,7 +1,199 @@
 fileFormatVersion: 2
 guid: 9ef987c45975a81478c6b084320cf96f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7668839913345297378
+    second: Role5_Walk_0
+  - first:
+      213: -3754880805440611446
+    second: Role5_Walk_1
+  - first:
+      213: -8384393029439118114
+    second: Role5_Walk_2
+  - first:
+      213: -7935846224435983641
+    second: Role5_Walk_3
+  - first:
+      213: 6773773805805018433
+    second: Role5_Walk_4
+  - first:
+      213: 2912497870780866335
+    second: Role5_Walk_5
+  - first:
+      213: -2154311929083237010
+    second: Role5_Walk_6
+  - first:
+      213: 8764660444249722543
+    second: Role5_Walk_7
+  - first:
+      213: -7396859914508220795
+    second: Role5_Walk_8
+  - first:
+      213: -6113487543063454540
+    second: Role5_Walk_9
+  - first:
+      213: 5251869094839067674
+    second: Role5_Walk_10
+  - first:
+      213: 3452462334732274356
+    second: Role5_Walk_11
+  - first:
+      213: 4556996375729779945
+    second: Role5_Walk_12
+  - first:
+      213: 3235849137177585475
+    second: Role5_Walk_13
+  - first:
+      213: -1170295771765771074
+    second: Role5_Walk_14
+  - first:
+      213: 6951368573528799731
+    second: Role5_Walk_15
+  - first:
+      213: 5328504279331247372
+    second: Role5_Walk_16
+  - first:
+      213: -6189814854758765545
+    second: Role5_Walk_17
+  - first:
+      213: -927648568191110848
+    second: Role5_Walk_18
+  - first:
+      213: 5113996605915419734
+    second: Role5_Walk_19
+  - first:
+      213: 6539872301912934423
+    second: Role5_Walk_20
+  - first:
+      213: -164933400399911155
+    second: Role5_Walk_21
+  - first:
+      213: -914847206411096229
+    second: Role5_Walk_22
+  - first:
+      213: 1409063460218240612
+    second: Role5_Walk_23
+  - first:
+      213: 5474376088020915485
+    second: Role5_Walk_24
+  - first:
+      213: -3774923472358314298
+    second: Role5_Walk_25
+  - first:
+      213: -7678977154416102635
+    second: Role5_Walk_26
+  - first:
+      213: 5905262262792562752
+    second: Role5_Walk_27
+  - first:
+      213: -8312805334589399752
+    second: Role5_Walk_28
+  - first:
+      213: -7119273238962633344
+    second: Role5_Walk_29
+  - first:
+      213: -3982780296176438885
+    second: Role5_Walk_30
+  - first:
+      213: -615719730959141224
+    second: Role5_Walk_31
+  - first:
+      213: 4751293853915222307
+    second: Role5_Walk_32
+  - first:
+      213: -6816805184553193007
+    second: Role5_Walk_33
+  - first:
+      213: -370719828369943925
+    second: Role5_Walk_34
+  - first:
+      213: -2431273335191314086
+    second: Role5_Walk_35
+  - first:
+      213: 5497877555110782940
+    second: Role5_Walk_36
+  - first:
+      213: -4246937576147498995
+    second: Role5_Walk_37
+  - first:
+      213: 5734339887278039431
+    second: Role5_Walk_38
+  - first:
+      213: -4854963325094833143
+    second: Role5_Walk_39
+  - first:
+      213: 3340797037377716001
+    second: Role5_Walk_40
+  - first:
+      213: 422838784665742981
+    second: Role5_Walk_41
+  - first:
+      213: -8005714407815442545
+    second: Role5_Walk_42
+  - first:
+      213: 6104339522609426070
+    second: Role5_Walk_43
+  - first:
+      213: -3267686519096796859
+    second: Role5_Walk_44
+  - first:
+      213: -5385047907197236184
+    second: Role5_Walk_45
+  - first:
+      213: -4029306916706552763
+    second: Role5_Walk_46
+  - first:
+      213: 6128118209895051476
+    second: Role5_Walk_47
+  - first:
+      213: -5006595619023508004
+    second: Role5_Walk_48
+  - first:
+      213: -1631924382148028192
+    second: Role5_Walk_49
+  - first:
+      213: 5347070413231908095
+    second: Role5_Walk_50
+  - first:
+      213: -1129025627317791209
+    second: Role5_Walk_51
+  - first:
+      213: -7713053404995158846
+    second: Role5_Walk_52
+  - first:
+      213: -2827564721158789859
+    second: Role5_Walk_53
+  - first:
+      213: 7839816081255468468
+    second: Role5_Walk_54
+  - first:
+      213: -3510601348817077004
+    second: Role5_Walk_55
+  - first:
+      213: -6062613475724640157
+    second: Role5_Walk_56
+  - first:
+      213: 3270725657718735451
+    second: Role5_Walk_57
+  - first:
+      213: 3002303947645200411
+    second: Role5_Walk_58
+  - first:
+      213: -7973264395384825678
+    second: Role5_Walk_59
+  - first:
+      213: -8230440042560253192
+    second: Role5_Walk_60
+  - first:
+      213: 239683773635104963
+    second: Role5_Walk_61
+  - first:
+      213: -4218899738885122010
+    second: Role5_Walk_62
+  - first:
+      213: 907685237804059993
+    second: Role5_Walk_63
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +232,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +263,1377 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Role5_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba84a15413d6a60800000000000000
+      internalID: 7668839913345297378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b97c93dcbf3ebc0800000000000000
+      internalID: -3754880805440611446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4250f46f6a4ab80800000000000000
+      internalID: -8384393029439118114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea4e50a7e53ed190800000000000000
+      internalID: -7935846224435983641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d9adb2367410e50800000000000000
+      internalID: 6773773805805018433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f99f4e1654b6820800000000000000
+      internalID: 2912497870780866335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d6b9be6b85a12e0800000000000000
+      internalID: -2154311929083237010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 728
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae0c64ac3452a970800000000000000
+      internalID: 8764660444249722543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58649661913195990800000000000000
+      internalID: -7396859914508220795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc5de06877882ba0800000000000000
+      internalID: -6113487543063454540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142cbcbd1362e840800000000000000
+      internalID: 5251869094839067674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba0226933c99ef20800000000000000
+      internalID: 3452462334732274356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4bd1a4f04bd3f30800000000000000
+      internalID: 4556996375729779945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347693065ab08ec20800000000000000
+      internalID: 3235849137177585475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb472c1323642cfe0800000000000000
+      internalID: -1170295771765771074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 624
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97fff33e8387060800000000000000
+      internalID: 6951368573528799731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0510b11966a2f940800000000000000
+      internalID: 5328504279331247372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ceaa44f2c591aa0800000000000000
+      internalID: -6189814854758765545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041b198ca845023f0800000000000000
+      internalID: -927648568191110848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654542661d098f640800000000000000
+      internalID: 5113996605915419734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718cfe7753b42ca50800000000000000
+      internalID: 6539872301912934423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e09932f906bdf0800000000000000
+      internalID: -164933400399911155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fab16105fcd43f0800000000000000
+      internalID: -914847206411096229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 520
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e7a4460cffd8310800000000000000
+      internalID: 1409063460218240612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15116d2c04e8fb40800000000000000
+      internalID: 5474376088020915485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6ccf2a17cc9bc0800000000000000
+      internalID: -3774923472358314298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51330b886face6590800000000000000
+      internalID: -7678977154416102635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04825479db4b3f150800000000000000
+      internalID: 5905262262792562752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d93d0679bf2ac80800000000000000
+      internalID: -8312805334589399752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08500bc65b2433d90800000000000000
+      internalID: -7119273238962633344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b917afb1c625ab8c0800000000000000
+      internalID: -3982780296176438885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 416
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8963bfaba268477f0800000000000000
+      internalID: -615719730959141224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3211d12369cffe140800000000000000
+      internalID: 4751293853915222307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d17aa73dc7d561a0800000000000000
+      internalID: -6816805184553193007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82d0deb740fadaf0800000000000000
+      internalID: -370719828369943925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51ea0878c1624ed0800000000000000
+      internalID: -2431273335191314086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a8f2e1826c4c40800000000000000
+      internalID: 5497877555110782940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08487696c8df05c0800000000000000
+      internalID: -4246937576147498995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781af82eeb7749f40800000000000000
+      internalID: 5734339887278039431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 312
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045c2a1494bf9cb0800000000000000
+      internalID: -4854963325094833143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f73978435ec5e20800000000000000
+      internalID: 3340797037377716001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e624562a93ed500800000000000000
+      internalID: 422838784665742981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f0fe4892df5e090800000000000000
+      internalID: -8005714407815442545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e23812478f6b450800000000000000
+      internalID: 6104339522609426070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54917ef7c68d6a2d0800000000000000
+      internalID: -3267686519096796859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4c09a5777445b0800000000000000
+      internalID: -5385047907197236184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5447eaa15b60518c0800000000000000
+      internalID: -4029306916706552763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 208
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0b5623b037b0550800000000000000
+      internalID: 6128118209895051476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdda3128fcff48ab0800000000000000
+      internalID: -5006595619023508004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e894c5bb6d3a59e0800000000000000
+      internalID: -1631924382148028192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff460b9f53c943a40800000000000000
+      internalID: 5347070413231908095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716196d7c25e450f0800000000000000
+      internalID: -1129025627317791209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc75ad2bcab5f490800000000000000
+      internalID: -7713053404995158846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_53
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1567effdd872c8d0800000000000000
+      internalID: -2827564721158789859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_54
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd80a3503f9ccc60800000000000000
+      internalID: 7839816081255468468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_55
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 104
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc30c75ca6d74fc0800000000000000
+      internalID: -3510601348817077004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360cfe83a254ddba0800000000000000
+      internalID: -6062613475724640157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52c41a18a3f36d20800000000000000
+      internalID: 3270725657718735451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18252398835aa920800000000000000
+      internalID: 3002303947645200411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_59
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b851dcc646495190800000000000000
+      internalID: -7973264395384825678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29b06536a97cd80800000000000000
+      internalID: -8230440042560253192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c012f94f17835300800000000000000
+      internalID: 239683773635104963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_62
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62893c84a057375c0800000000000000
+      internalID: -4218899738885122010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role5_Walk_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d4d272aeeb89c00800000000000000
+      internalID: 907685237804059993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

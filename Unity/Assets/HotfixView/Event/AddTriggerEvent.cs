@@ -21,16 +21,12 @@ namespace ET
             if (args.onEnter != null)
                 triggerMono.onTriggerEnter2D += obj =>
                 {
-                    if (!obj.CompareTag("Atker"))
-                        return;
                     Unit unit = obj.GetComponent<ComponentView>().Component.As<UnitView>().GetParent<Unit>();
                     args.onEnter.Invoke(unit);
                 };
             if (args.onExit != null)
                 triggerMono.onTriggerExit2D += obj =>
                {
-                   if (!obj.CompareTag("Atker"))
-                       return;
                    Unit unit = obj.GetComponent<ComponentView>().Component.As<UnitView>().GetParent<Unit>();
                    args.onExit.Invoke(unit);
                };

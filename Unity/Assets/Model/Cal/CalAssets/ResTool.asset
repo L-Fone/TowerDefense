@@ -23,9 +23,9 @@ MonoBehaviour:
     SerializationNodes: []
   animationPath: Assets/Download/Animators/RoleEffect
   animationRolePath: Assets/Download/Animators
-  texture2D: {fileID: 2800000, guid: 7cc350446788dcd4387a6635fee853b1, type: 3}
-  aimpationKey: 2
-  ainmation8DirectionKey: 1
-  firstFrame: 48
+  texture2D: {fileID: 2800000, guid: 868e9a0a37bef2c48b47273e6d84c964, type: 3}
+  aimpationKey: 1
+  ainmation8DirectionKey: 4
+  firstFrame: 40
   frameCount: 8
-  endFrame: 55
+  endFrame: 47

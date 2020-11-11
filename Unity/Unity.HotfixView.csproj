@@ -85,6 +85,7 @@
     <Compile Include="Assets\HotfixView\Event\ShowDebugAtkLineEvent.cs" />
     <Compile Include="Assets\HotfixView\Event\UI\InitSceneEndEvent.cs" />
     <Compile Include="Assets\HotfixView\Event\UI\OpenUI\EnterGameFinish_CreateMainUIEvent.cs" />
+    <Compile Include="Assets\HotfixView\Event\UI\OpenUI\ShowPopupUIEvent.cs" />
     <Compile Include="Assets\HotfixView\Event\UI\OpenUI\StartGameUI_OpenEvent.cs" />
     <Compile Include="Assets\HotfixView\Event\UI\SetHudCharacterEvent.cs" />
     <Compile Include="Assets\HotfixView\Event\UI\SetHudCharacter_ChangeHpEvent.cs" />

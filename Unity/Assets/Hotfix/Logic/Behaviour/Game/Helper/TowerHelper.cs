@@ -2,30 +2,32 @@
 using ET.EventType;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace ET
 {
     public static class TowerHelper
     {
+        private static TowerPointInfo towerPoint;
         public static void GenerateTower(long id)
         {
-            var towerPoint = TowerPointComponent.instance.Get(id);
+            towerPoint = TowerPointComponent.instance.Get(id);
             if (towerPoint == null)
             {
                 Log.Error($"towerPoint == null when id == {id}");
                 return;
             }
-            GenerateTower(towerPoint);
+            GenerateTowerUnit(RoleConfigId.TestTower);
         }
 
-        private static void GenerateTower(TowerPointInfo towerPoint)
+        private static void GenerateTowerUnit(long towerId)
         {
             if (towerPoint.unit != null)
             {
-                Log.Info($"重复放置防御塔");
+                OnClickTower();
                 return;
             }
-            RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestTower);
+            RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(towerId);
             Unit unit = UnitFactory.Create(roleConfig, UnitType.Tower);
             towerPoint.unit = unit;
             unit.Position = towerPoint.position;
@@ -37,7 +39,7 @@ namespace ET
             skillComponent.LearnSkill(100001);
 
             var skillAI = unit.AddComponent<SkillAI>();
-            skillAI.UpdateAutoSkill(new int[] { 100001});
+            skillAI.UpdateAutoSkill(new int[] { 100001 });
 
             unit.AddComponent<BattleComponent>();
             unit.AddComponent<AttackComponent>();
@@ -61,6 +63,50 @@ namespace ET
             num.Set(NumericType.MoveSpdBase, roleConfig.Spd);
 
             unit.AddComponent<TowerAI>();
+        }
+
+        static List<ShowPopupUI.PopupMenuInfo> list = new List<ShowPopupUI.PopupMenuInfo>();
+        private static void OnClickTower()
+        {
+            list.Clear();
+            list.Add(new ShowPopupUI.PopupMenuInfo
+            {
+                name = "升级",
+                action = OnUpgradeTower
+            });
+            list.Add(new ShowPopupUI.PopupMenuInfo
+            {
+                name = "拆卸",
+                action = OnRemoveTower
+            });
+            Game.EventSystem.Publish_Sync(new ET.EventType.ShowPopupUI
+            {
+                zoneScene = towerPoint.unit.ZoneScene(),
+                popupMenuInfo = list
+            });
+        }
+
+
+        private static void OnUpgradeTower()
+        {
+            var unit = towerPoint.unit;
+            long configId = unit.ConfigId;
+            RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(configId);
+            if (roleConfig.UpgradeId == 0)
+            {
+                Log.Error($"不能升级了");
+                return;
+            }
+            UnitComponent.Instance.Remove(unit);
+            towerPoint.unit = null;
+            GenerateTowerUnit(roleConfig.UpgradeId);
+        }
+        private static void OnRemoveTower()
+        {
+            Log.Info($"移除防御塔");
+            var unit = towerPoint.unit;
+            UnitComponent.Instance.Remove(unit);
+            towerPoint.unit = null;
         }
     }
 }

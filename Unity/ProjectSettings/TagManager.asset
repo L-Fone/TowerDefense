@@ -24,8 +24,8 @@ TagManager:
   - 
   - Map
   - Hidden
-  - Player
-  - OtherPlayer
+  - Tower
+  - 
   - Monster
   - NPC
   - Collider

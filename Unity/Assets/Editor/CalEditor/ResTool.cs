@@ -1,4 +1,4 @@
-﻿using ET;
+﻿ using ET;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson.Serialization.Options;
 using Sirenix.OdinInspector;
@@ -17,8 +17,7 @@ using UnityEngine;
 using Component = UnityEngine.Component;
 
 namespace ETEditor
-{
-
+{ 
     [CreateAssetMenu]
     [InitializeOnLoad]
     public class ResTool : SerializedScriptableObject
@@ -40,7 +39,6 @@ namespace ETEditor
         public Texture2D texture2D;
 
         public AinmationKey aimpationKey;
-        [ShowIf("aimpationKey", AinmationKey.Walk)]
         public Ainmation8DirectionKey ainmation8DirectionKey;
 
         [OnValueChanged("FrameChanged")]

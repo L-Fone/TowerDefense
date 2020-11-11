@@ -386,5 +386,25 @@ namespace ET
             public int hp;
             public int maxHp;
         }
+        public struct ShowPopupUI
+        {
+            public struct PopupMenuInfo:IComparable<PopupMenuInfo>,IEquatable<PopupMenuInfo>
+            {
+                public string name;
+                public Action action;
+
+                public int CompareTo(PopupMenuInfo other)
+                {
+                   return name.CompareTo(other.name);
+                }
+
+                public bool Equals(PopupMenuInfo other)
+                {
+                    return name.Equals(other.name);
+                }
+            }
+            public Scene zoneScene;
+            public List<PopupMenuInfo> popupMenuInfo;
+        }
     }
 }
