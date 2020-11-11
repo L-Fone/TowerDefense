@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,414">
+  <displayList>
+    <component id="n3_4wfc" name="frame" src="4wfcutlj" fileName="Cheat/FrameCheat.xml" xy="0,0"/>
+    <text id="n4_4wfc" name="n4" xy="47,53" size="64,29" fontSize="20" color="#ff9900" strokeColor="#000000" text="等级："/>
+    <text id="n5_4wfc" name="n5" xy="47,114" size="134,29" fontSize="20" color="#ff9900" strokeColor="#000000" text="添加随机装备:"/>
+    <text id="n6_4wfc" name="n6" xy="46,178" size="134,29" fontSize="20" color="#ff9900" strokeColor="#000000" text="添加随机道具:"/>
+    <text id="n7_4wfc" name="n7" xy="47,243" size="134,29" fontSize="20" color="#ff9900" strokeColor="#000000" text="添加随机材料:"/>
+    <text id="n8_4wfc" name="txtLevel" xy="145,53" size="164,29" fontSize="20" color="#ffff33" autoSize="none" italic="true" strokeColor="#000000" text="" input="true" prompt="输入等级" maxLength="5"/>
+    <text id="n9_4wfc" name="txtEquip" xy="195,113" size="164,29" fontSize="20" color="#ffff33" autoSize="none" italic="true" strokeColor="#000000" text="" input="true" prompt="输入1或者0" maxLength="1"/>
+    <text id="n10_4wfc" name="txtGoods" xy="195,178" size="164,29" fontSize="20" color="#ffff33" autoSize="none" italic="true" strokeColor="#000000" text="" input="true" prompt="输入1或者0" maxLength="1"/>
+    <text id="n11_4wfc" name="txtMetarials" xy="196,242" size="164,29" fontSize="20" color="#ffff33" autoSize="none" italic="true" strokeColor="#000000" text="" input="true" prompt="输入1或者0" maxLength="1"/>
+    <component id="n12_4wfc" name="btnSend" src="jshj1y" fileName="ButtonText.xml" xy="45,321">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

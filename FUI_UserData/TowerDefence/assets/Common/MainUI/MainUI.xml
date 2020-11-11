@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" opaque="false">
+  <controller name="setting" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n5_eh2a" name="mineHeadInfo" src="uuap62" fileName="MainUI/HeadInfoItemMain.xml" xy="0,3" aspect="true"/>
+    <image id="n1_eh2a" name="n1" src="y69ujn" fileName="MainUI/Assets/MainUI_Map.png" xy="1205,10" size="384,199" group="n25_eh2a" aspect="true"/>
+    <text id="n9_eh2a" name="txtEnergy" xy="1393,150" size="85,29" group="n25_eh2a" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#097b88" text="0"/>
+    <group id="n25_eh2a" name="n25" xy="1205,10" size="384,199" group="n7_eh2a" advanced="true"/>
+    <text id="n8_eh2a" name="txtMapName" xy="1332,30" size="159,47" group="n7_eh2a" fontSize="35" color="#ffffff" align="center" vAlign="middle" strokeColor="#097b88" strokeSize="2" text="地图 一层">
+      <relation target="n25_eh2a" sidePair="center-center"/>
+    </text>
+    <group id="n7_eh2a" name="MapNameGroup" xy="1205,10" size="384,199" advanced="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </group>
+    <component id="n16_eh2a" name="btnRank" src="eh2a1m" fileName="MainUI/ButtonRank.xml" xy="34,189"/>
+    <component id="n17_eh2a" name="btnLittleGame" src="eh2a1n" fileName="MainUI/ButtonLittleGame.xml" xy="29,253"/>
+    <component id="n18_eh2a" name="btnTeam" src="eh2a1o" fileName="MainUI/ButtonTeam.xml" xy="34,307"/>
+    <list id="n26_uuap" name="HeadInfoList" xy="354,50" size="797,73" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://kqsmrpxleh2a1b" autoItemSize="false"/>
+    <image id="n42_xzxo" name="n42" src="ozr3ii" fileName="Assets/Common_Equiptips.png" xy="5,501" size="525,360" group="n45_xzxo" alpha="0.8" color="#999999"/>
+    <list id="n44_xzxo" name="chatContentList" xy="17,512" size="503,307" group="n45_xzxo" touchable="false" selectionMode="none" overflow="scroll" scrollBarFlags="1280" scrollBar="auto" clipSoftness="0,50" lineGap="5" defaultItem="ui://kqsmrpxlxzxoke" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n52_er7j" name="n52" xy="448,828" size="47,26" group="n45_xzxo" fontSize="18" color="#ffffff" autoSize="none" strokeColor="#000000" text="交互:">
+      <relation target="n51_er7j" sidePair="middle-middle,right-left"/>
+    </text>
+    <component id="n51_er7j" name="btnInteractive" src="czagl" fileName="ButtonSingle.xml" xy="499,831" size="20,20" group="n45_xzxo" aspect="true">
+      <relation target="n42_xzxo" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n45_xzxo" name="chatBoard" xy="5,501" size="525,360" group="n46_gx46" advanced="true"/>
+    <image id="n61_k9cw" name="n61" src="k9cwtlb" fileName="MainUI/Assets/BG1.png" xy="1,795" size="622,104" group="n46_gx46"/>
+    <list id="n37_xzxo" name="chatList" xy="101,824" size="336,36" group="n46_gx46" layout="row" overflow="hidden">
+      <item url="ui://kqsmrpxlxzxok9"/>
+      <item url="ui://kqsmrpxlxzxokb"/>
+      <item url="ui://kqsmrpxlxzxokd"/>
+      <item url="ui://kqsmrpxlxzxokc"/>
+      <item url="ui://kqsmrpxlxzxoka"/>
+    </list>
+    <component id="n38_xzxo" name="btnChatReceive" src="xzxok7" fileName="MainUI/ButtonChatReceive.xml" xy="31,823" group="n46_gx46"/>
+    <component id="n39_xzxo" name="btnChatSend" src="xzxok8" fileName="MainUI/ButtonChatSend.xml" xy="567,836" group="n46_gx46"/>
+    <text id="n40_xzxo" name="txtChatType" xy="35,866" size="39,26" group="n46_gx46" fontSize="18" color="#ffffff" strokeColor="#000000" text="世界"/>
+    <text id="n41_xzxo" name="inptChatContent" xy="91,866" size="401,26" group="n46_gx46" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" strokeColor="#241606" singleLine="true" text="" input="true" prompt="[color=#999999][i]跟大家聊聊吧！[/i][/color]" maxLength="50">
+      <relation target="n40_xzxo" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n46_gx46" name="chatGroup" xy="1,501" size="622,398" advanced="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <component id="n48_ud62" name="txtGlobal" src="ud62ki" fileName="MainUI/LabelGlobalText.xml" xy="0,133">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </component>
+    <image id="n54_rirs" name="n54" src="ozr3ii" fileName="Assets/Common_Equiptips.png" xy="1605,217" size="476,99" group="n53_rirs" alpha="0.5" color="#ffff99"/>
+    <component id="n13_eh2a" name="btnAuto" src="eh2a1j" fileName="MainUI/ButtonAuto.xml" xy="1621,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+      <Button title="开始自动" selectedTitle="自动中"/>
+    </component>
+    <component id="n55_rirs" name="btnBattleIdle" src="eh2a1j" fileName="MainUI/ButtonAuto.xml" xy="1694,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+      <Button title="开始挂机" selectedTitle="挂机中"/>
+    </component>
+    <component id="n58_rirs" name="btnExit" src="eh2a1l" fileName="MainUI/ButtonDisplayOther.xml" xy="1767,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+      <Button title="退出游戏"/>
+    </component>
+    <component id="n14_eh2a" name="btnDisOther" src="eh2a1l" fileName="MainUI/ButtonDisplayOther.xml" xy="1842,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n15_eh2a" name="btnMail" src="eh2a1k" fileName="MainUI/ButtonMail.xml" xy="1914,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n60_h2b5" name="btnStateBuff" src="eh2a1k" fileName="MainUI/ButtonMail.xml" xy="1985,225" size="64,64" group="n53_rirs">
+      <relation target="n54_rirs" sidePair="left-left,top-top"/>
+      <Button title="查看buff"/>
+    </component>
+    <group id="n53_rirs" name="Setting" xy="1605,217" size="476,99" advanced="true">
+      <gearXY controller="setting" pages="0,1" values="1605,217|1095,217" tween="true" duration=".7"/>
+      <relation target="" sidePair="left-right"/>
+    </group>
+    <component id="n57_rirs" name="btnShowSetting" src="rirskk" fileName="MainUI/ButtonShowSetting.xml" xy="1572,216">
+      <relation target="" sidePair="right-right"/>
+      <Button checked="true" controller="setting" page="0"/>
+    </component>
+    <image id="n63_k9cw" name="n63" src="k9cwtld" fileName="MainUI/Assets/BG3.png" xy="1208,811" size="388,88" group="n64_k9cw"/>
+    <list id="n29_y69u" name="FunctionList" xy="1227,816" size="362,81" group="n64_k9cw" layout="row" overflow="hidden" colGap="4" autoItemSize="false" vAlign="bottom">
+      <item url="ui://kqsmrpxleh2a1p" name="人物"/>
+      <item url="ui://kqsmrpxleh2a1q" name="技能"/>
+      <item url="ui://kqsmrpxleh2a1r" name="背包"/>
+      <item url="ui://kqsmrpxly69ujm" name="任务"/>
+      <item url="ui://kqsmrpxlsqczjy" name="社交"/>
+      <item url="ui://kqsmrpxly69ujm"/>
+      <item url="ui://kqsmrpxlrttnjr" name="商城"/>
+    </list>
+    <group id="n64_k9cw" name="funcGroup" xy="1208,811" size="388,88" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <image id="n62_k9cw" name="n62" src="k9cwtlc" fileName="MainUI/Assets/BG2.png" xy="621,822" size="586,77" group="n65_k9cw"/>
+    <list id="n27_hg0f" name="mainUISlotList" xy="622,823" size="586,64" group="n65_k9cw" layout="row" overflow="hidden" colGap="1" defaultItem="ui://kqsmrpxlhg0f6g" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n65_k9cw" name="mainUISlotGroup" xy="621,822" size="587,77" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

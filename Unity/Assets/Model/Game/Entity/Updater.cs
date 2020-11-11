@@ -133,16 +133,11 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         _monitor.listener = this;
 
         _savePath = string.Format("{0}/TTL/", Application.persistentDataPath);
-        //!清楚旧资源
-        string oldPath = string.Format("{0}/DLC/", Application.persistentDataPath);
-        if (Directory.Exists(oldPath))
-        {
-            Directory.Delete(oldPath, true);
-        }
-        if (ET.Utility.FileOpation.GetFiles(_savePath, "*.bundle", SearchOption.AllDirectories).Length > 0)
-        {
-            ET.Utility.FileOpation.ClearDirectory(_savePath);
-        }
+        if (Directory.Exists(_savePath))
+            if (ET.Utility.FileOpation.GetFiles(_savePath, "*.bundle", SearchOption.AllDirectories).Length > 0)
+            {
+                ET.Utility.FileOpation.ClearDirectory(_savePath);
+            }
 
 
         _platform = GetPlatformForAssetBundles(Application.platform);
@@ -414,7 +409,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         if (_step == Step.Coping)
         {
             Log.Info($"Update4");
-            var path = Path.Combine(_savePath , Versions.Filename + ".tmp");
+            var path = Path.Combine(_savePath, Versions.Filename + ".tmp");
             var versions = Versions.LoadVersions(path);
             var basePath = GetBasePath();
             await UpdateCopy(versions, basePath);
@@ -495,7 +490,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         }
 
         var request = UnityWebRequest.Get(GetDownloadURL(Versions.Filename));
-        request.downloadHandler = new DownloadHandlerFile(Path.Combine(_savePath ,Versions.Filename));
+        request.downloadHandler = new DownloadHandlerFile(Path.Combine(_savePath, Versions.Filename));
         await SendWebRequest(request);
         var error = request.error;
         request.Dispose();
@@ -527,7 +522,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         }
         try
         {
-            _versions = Versions.LoadVersions(Path.Combine(_savePath , Versions.Filename), true);
+            _versions = Versions.LoadVersions(Path.Combine(_savePath, Versions.Filename), true);
             if (_versions.Count > 0)
             {
                 PrepareDownloads();
@@ -583,10 +578,10 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         return "file://" + Application.streamingAssetsPath + "/";
     }
     private async ETTask RequestCopy()
-    { 
+    {
         int v1 = Versions.LoadVersion(Path.Combine(_savePath, Versions.Filename));
         var basePath = GetBasePath();
-        var request = UnityWebRequest.Get(Path.Combine(basePath , Versions.Filename));
+        var request = UnityWebRequest.Get(Path.Combine(basePath, Versions.Filename));
         var path = _savePath + Versions.Filename + ".tmp";
         request.downloadHandler = new DownloadHandlerFile(path);
         await SendWebRequest(request);
@@ -607,7 +602,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
                         if (id == MessageBoxEventId.Ok)
                         {
                             _step = Step.Coping;
-                            tcs .SetResult();
+                            tcs.SetResult();
                         }
                         else
                         {
@@ -636,7 +631,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
     }
 
 
-   private async ETTask SendWebRequest(UnityWebRequest request)
+    private async ETTask SendWebRequest(UnityWebRequest request)
     {
         ETTaskCompletionSource tcs = new ETTaskCompletionSource();
         var option = request.SendWebRequest();
@@ -652,7 +647,7 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
         Log.Info($"{version.name}");
         if (version.name.Equals(Versions.Dataname))
         {
-            var request = UnityWebRequest.Get(Path.Combine( basePath,version.name));
+            var request = UnityWebRequest.Get(Path.Combine(basePath, version.name));
             request.downloadHandler = new DownloadHandlerFile(_savePath + version.name);
             Log.Info($"url:{request.url}");
             await SendWebRequest(request);
@@ -673,8 +668,8 @@ public class Updater : Entity, IUpdater, INetworkMonitorListener
             for (var index = 0; index < versions.Count; index++)
             {
                 var item = versions[index];
-                var request = UnityWebRequest.Get(Path.Combine(basePath ,item.name));
-                request.downloadHandler = new DownloadHandlerFile(Path.Combine(_savePath,item.name));
+                var request = UnityWebRequest.Get(Path.Combine(basePath, item.name));
+                request.downloadHandler = new DownloadHandlerFile(Path.Combine(_savePath, item.name));
                 Log.Info($"url:{request.url}");
                 await SendWebRequest(request);
                 if (string.IsNullOrEmpty(request.error))

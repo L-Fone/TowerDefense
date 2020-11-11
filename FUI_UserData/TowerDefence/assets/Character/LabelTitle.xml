@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,24" extention="Label">
+  <displayList>
+    <image id="n1_7bww" name="n1" src="la9r9" fileName="Assets/Team_tip.png" pkg="kqsmrpxl" xy="0,0" size="120,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_7bww" name="title" xy="8,-1" size="102,26" fontSize="18" color="#cccccc" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="抗物理暴击伤害">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

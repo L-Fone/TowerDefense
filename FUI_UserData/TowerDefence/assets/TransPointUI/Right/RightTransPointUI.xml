@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="692,618" designImage="ui://7kiucqowiha8z">
+  <controller name="contrl" pages="0,mainstory1,1,mainstory2,2,mainstory3,3,mainstory4,4,boss,5,active" selected="0">
+    <remark page="0" value="初级"/>
+    <remark page="1" value="熟练"/>
+    <remark page="2" value="会心"/>
+    <remark page="3" value="达人"/>
+    <remark page="4" value="Boss"/>
+    <remark page="5" value="活动"/>
+  </controller>
+  <displayList>
+    <component id="n0_iha8" name="frame" src="iha8x" fileName="Right/FrameRightTransPointUI.xml" xy="0,0"/>
+    <component id="n1_iha8" name="btn1" src="iha810" fileName="Right/Button1.xml" xy="32,67" group="n8_iha8">
+      <Button checked="true" controller="contrl" page="0"/>
+    </component>
+    <component id="n2_iha8" name="btn2" src="iha811" fileName="Right/Button2.xml" xy="138,67" group="n8_iha8">
+      <relation target="n1_iha8" sidePair="middle-middle,left-right"/>
+      <Button controller="contrl" page="1"/>
+    </component>
+    <component id="n3_iha8" name="btn3" src="iha812" fileName="Right/Button3.xml" xy="242,67" group="n8_iha8">
+      <relation target="n2_iha8" sidePair="middle-middle,left-right"/>
+      <Button controller="contrl" page="2"/>
+    </component>
+    <component id="n5_iha8" name="btn4" src="iha814" fileName="Right/Button4.xml" xy="346,69" group="n8_iha8">
+      <relation target="n3_iha8" sidePair="middle-middle,left-right"/>
+      <Button controller="contrl" page="3"/>
+    </component>
+    <component id="n4_iha8" name="btn5" src="iha813" fileName="Right/Button5.xml" xy="451,68" group="n8_iha8">
+      <relation target="n5_iha8" sidePair="middle-middle,left-right"/>
+      <Button controller="contrl" page="4"/>
+    </component>
+    <component id="n6_iha8" name="btn6" src="iha815" fileName="Right/Button6.xml" xy="557,68" group="n8_iha8">
+      <relation target="n4_iha8" sidePair="middle-middle,left-right"/>
+      <Button controller="contrl" page="5"/>
+    </component>
+    <group id="n8_iha8" name="PageBtns" xy="32,67" size="625,62"/>
+    <text id="n29_iha8" name="n29" xy="244,493" size="153,42" group="n31_iha8" fontSize="30" color="#ffcc66" autoSize="none" strokeColor="#000000" text="推荐等级："/>
+    <text id="n30_iha8" name="txtLevel" xy="389,493" size="57,41" group="n31_iha8" fontSize="30" color="#ffcc66" underline="true" bold="true" italic="true" strokeColor="#000000" text="120">
+      <relation target="n29_iha8" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n31_iha8" name="n31" xy="244,493" size="202,42" advanced="true">
+      <gearDisplay controller="contrl" pages="0,1,2,3"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <list id="n34_vj0y" name="mainstoryList" xy="87,173" size="514,300" pageController="contrl" layout="pagination" overflow="scroll" scroll="horizontal" scrollBarFlags="8" lineItemCount="2" lineItemCount2="2" defaultItem="ui://7kiucqowvj0y1z">
+      <gearDisplay controller="contrl" pages="0,1,2,3"/>
+      <item title="勃岛" icon="ui://7kiucqowiha8e"/>
+      <item title="神异之岛" icon="ui://7kiucqowiha8i"/>
+      <item title="死亡征途" icon="ui://7kiucqowiha8j"/>
+      <item title="妖魔道" icon="ui://7kiucqowiha8k"/>
+      <item title="勃岛" icon="ui://7kiucqowiha8e"/>
+      <item title="神异之岛" icon="ui://7kiucqowiha8i"/>
+      <item title="死亡征途" icon="ui://7kiucqowiha8j"/>
+      <item title="妖魔岛" icon="ui://7kiucqowiha8k"/>
+      <item title="精灵之森" icon="ui://7kiucqowiha8l"/>
+      <item title="绿野仙踪" icon="ui://7kiucqowiha8m"/>
+      <item title="迷失城市" icon="ui://7kiucqowiha8n"/>
+      <item title="无尽长湖" icon="ui://7kiucqowiha8o"/>
+      <item title="海底世界" icon="ui://7kiucqowiha8p"/>
+      <item title="浩瀚雪山" icon="ui://7kiucqowiha8f"/>
+      <item title="水晶矿洞" icon="ui://7kiucqowiha8g"/>
+      <item title="天空之城" icon="ui://7kiucqowiha8h"/>
+    </list>
+    <list id="n33_vj0y" name="bossList" xy="69,165" size="550,314" layout="flow_hz" overflow="scroll" clipSoftness="0,100" lineGap="16" defaultItem="ui://7kiucqowvj0y1y" align="center">
+      <gearDisplay controller="contrl" pages="4"/>
+      <item icon="ui://7kiucqowvj0y1m"/>
+      <item icon="ui://7kiucqowvj0y1n"/>
+      <item icon="ui://7kiucqowvj0y1o"/>
+      <item icon="ui://7kiucqowvj0y1p"/>
+      <item icon="ui://7kiucqowvj0y1q"/>
+      <item icon="ui://7kiucqowvj0y1r"/>
+      <item icon="ui://7kiucqowvj0y1s"/>
+      <item icon="ui://7kiucqowvj0y1t"/>
+    </list>
+    <list id="n32_meww" name="activeList" xy="69,165" size="550,314" layout="flow_hz" overflow="scroll" clipSoftness="0,100" defaultItem="ui://7kiucqowmeww1l" align="center">
+      <gearDisplay controller="contrl" pages="5"/>
+      <item icon="ui://7kiucqowvj0y1u" name="热斗场"/>
+      <item icon="ui://7kiucqowvj0y1v" name="试炼之地1"/>
+      <item icon="ui://7kiucqowvj0y1w" name="试炼之地2"/>
+      <item icon="ui://7kiucqowvj0y1x" name="试炼之地3"/>
+    </list>
+  </displayList>
+</component>

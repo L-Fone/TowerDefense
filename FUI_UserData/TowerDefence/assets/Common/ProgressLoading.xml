@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,25" extention="ProgressBar">
+  <displayList>
+    <image id="n1_ik03" name="bar" src="eh2a1a" fileName="Assets/Common_Progress.png" xy="17,4" size="266,17">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_ik03" name="n0" src="eh2a3" fileName="Assets/Common_Progress_BG.png" xy="0,0" size="300,25">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_ik03" name="title" xy="-3,-3" size="301,29" fontSize="20" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <movieclip id="n3_ik03" name="n3" src="ik031u" fileName="AnimLoading.jta" xy="243,-51">
+      <relation target="n1_ik03" sidePair="right-right"/>
+    </movieclip>
+  </displayList>
+  <ProgressBar/>
+</component>

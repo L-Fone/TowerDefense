@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ih6n" name="bg" src="ih6n1" fileName="Assets/NPC_jimai_good.png" xy="0,0" size="601,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n7_ih6n" name="icon" xy="3,1" size="48,48" url="ui://71ktouo7rybex" fill="scaleFree"/>
+    <text id="n1_ih6n" name="txtName" xy="57,1" size="159,48" fontSize="16" color="#6d5b1d" vAlign="middle" autoSize="shrink" strokeColor="#f7f4c5" text="我的名字叫装备">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n4_ih6n" name="txtLevel" xy="219,1" size="45,48" fontSize="16" color="#6d5b1d" align="center" vAlign="middle" autoSize="none" strokeColor="#f7f4c5" text="7000">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <text id="n5_ih6n" name="txtTime" xy="274,1" size="52,48" fontSize="16" color="#6d5b1d" align="center" vAlign="middle" autoSize="none" strokeColor="#f7f4c5" text="23:15">
+      <relation target="" sidePair="width-width,height-height,left-left"/>
+    </text>
+    <richtext id="n6_ih6n" name="txtPrice" xy="327,0" size="152,49" fontSize="16" color="#6d5b1d" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" strokeColor="#f7f4c5" text="{gold=999999}[img]ui://kqsmrpxleh2aa[/img]{sliver=99}[img]ui://kqsmrpxleh2ab[/img]{coin=99}[img]ui://kqsmrpxleh2am[/img]"/>
+    <text id="n3_ih6n" name="txtSeller" xy="480,1" size="120,48" fontSize="16" color="#6d5b1d" align="center" vAlign="middle" autoSize="none" strokeColor="#f7f4c5" text="我的名字叫顺溜">
+      <relation target="" sidePair="width-width,height-height,right-center"/>
+    </text>
+    <text id="n10_ih6n" name="txtCount" xy="39,25" size="10,23" touchable="false" fontSize="15" color="#ffffff" align="right" vAlign="middle" letterSpacing="1" italic="true" strokeColor="#000000" text="">
+      <relation target="n7_ih6n" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" downEffect="dark" downEffectValue=".8"/>
+</component>

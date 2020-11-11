@@ -41,13 +41,16 @@ namespace ET
         }
         private State state;
         private LevelInfo info;
-        private bool isRun;
 
         public override GameType gameType => GameType.Normal;
 
+
         internal void Awake()
         {
+            health = 10;
             state = State.Wait;
+            killInfo = new KillInfo();
+            battleResult = BattleResultType.None;
         }
         public void Init()
         {
@@ -67,7 +70,6 @@ namespace ET
                     return;
                 case State.Statements:
                     Statements();
-                    state = State.End;
                     return;
                 case State.End:
                     EndEvent();
@@ -85,33 +87,47 @@ namespace ET
 
         private async ETVoid ReadyAsync()
         {
-            LevelConfig levelConfig = ConfigHelper.Get<LevelConfig>(GlobalVariable.MapId);
-            RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(RoleConfigId.TestMonster);
-
             MapSceneConfig mapSceneConfig = ConfigHelper.Get<MapSceneConfig>(GlobalVariable.MapId);
             string path = $"Assets/Download/Config/Levels/{mapSceneConfig.Name}.json";
             var str = await ResourceHelper.LoadAssetAsync<TextAsset>(path);
             info = MongoHelper.FromJson<LevelInfo>(str.text);
 
+            TowerPointGenerate();
+            int count = 50;
+            killInfo = killInfo.Init(this, count,OnVictory);
+            MonsterSpawn(count).Coroutine();
 
-            MonsterSpawn(levelConfig.Id, roleConfig.PrefabId).Coroutine();
-
+            
 
             //!开始
             state = State.Battle;
 
         }
-
-
-        private async ETVoid MonsterSpawn(long id, int prefabId)
+        private void TowerPointGenerate()
         {
-            int count = 500;
+            foreach (var v3 in info.towerList)
+            {
+                Vector3 vector3 = v3.ToUnityVector3();
+                TowerPointInfo towerPointInfo = TowerPointComponent.instance.Create(vector3);
+                Game.EventSystem.Publish(new ET.EventType.GenerateTowerPoint
+                {
+                    zoneScene = null,
+                    towerPointInfo = towerPointInfo,
+                    point = vector3
+                }).Coroutine();
+            }
+        }
+
+        private async ETVoid MonsterSpawn( int count)
+        {
             for (int i = 0; i < count; i++)
             {
-                await TimerComponent.Instance.WaitAsync(500);
-                var unit = await UnitFactory.Create((int)id, prefabId, UnitType.Monster);
+                await TimerComponent.Instance.WaitAsync(2000);
+
+                var unit =  MonsterHelper.GenerateMonster();
                 unit.Position = info.initPos.ToUnityVector3();
-                var monsterAI = unit.AddComponent<MonsterAI>();
+
+                var monsterAI = unit.GetComponent<MonsterAI>();
                 monsterAI.path = info.path;
                 if (!this.aiDic.TryAdd(unit.Id, monsterAI))
                     Log.Error($"aiDic hasc the key = {unit.Id}");
@@ -125,20 +141,40 @@ namespace ET
 
 
         }
+        private void OnVictory(BattleBase battle)
+        {
+            Log.Info($"战斗胜利啦");
+            battleResult = BattleResultType.Victory;
+            state = State.Statements;
+        }
+        protected override void OnDefeat()
+        {
+            Log.Info($"战斗失败啦");
+            battleResult = BattleResultType.Defeat;
+            state = State.Statements;
+        }
         /// <summary>
         /// 结算
         /// </summary>
         private void Statements()
         {
+            Log.Info($"结算啦");
 
+
+            state = State.End;
         }
         private void EndEvent()
         {
+            Log.Info($"战斗结束啦");
+            state = State.Wait;
 
+            BattleMgrComponent.Remove();
         }
         internal void Destroy()
         {
-
+            TowerPointComponent.instance.RemoveAll();
+            aiDic.Clear();
+            UnitComponent.Instance.RemoveAll();
         }
 
     }

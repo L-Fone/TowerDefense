@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="495,323" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_ptly" name="bg" src="ptly3" fileName="Assets/City_Transfer_Left(1).png" xy="0,0" size="495,323">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ptly" name="title" xy="194,10" size="125,29" fontSize="16" color="#164e8b" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" singleLine="true" text="传送门">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n2_ptly" name="closeButton" src="ptly64" fileName="ButtonClose_Blue.xml" pkg="kqsmrpxl" xy="461,28" size="24,22">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n3_ptly" name="dragArea" xy="129,8" size="236,39">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_ptly" name="contentArea" xy="-2,45" size="495,279">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

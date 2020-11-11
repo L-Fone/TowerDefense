@@ -17,6 +17,16 @@ namespace ET
 
         public abstract ETTask Run(A args);
     }
+    [Event]
+    public abstract class AEvent_Sync<A> : IEvent where A : struct
+    {
+        public Type GetEventType()
+        {
+            return typeof(A);
+        }
+
+        public abstract void Run(A args);
+    }
     public interface IOldEvent
 	{
 		void Handle();

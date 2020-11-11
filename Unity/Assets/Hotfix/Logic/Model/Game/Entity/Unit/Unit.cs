@@ -21,13 +21,19 @@ namespace ET
             self.Destroy();
         }
     }
-
+    public enum UnitState
+    {
+        Alive,
+        Dead
+    }
     public sealed class Unit : Entity
     {
-        public int ConfigId;
+        public long ConfigId;
         public bool IsLeader { get; set; }
         public bool IsFight { get; set; }
-        public bool IsAlive { get; set; }
+        public bool IsAlive => unitState == UnitState.Alive;
+
+        public UnitState unitState;
 
         private UnitType unitType;
         public UnitType UnitType
@@ -84,7 +90,7 @@ namespace ET
         {
             IsLeader = true;
             IsFight = false;
-            IsAlive = true;
+            unitState = UnitState.Alive;
         }
 
         private Vector3 position;
@@ -99,11 +105,11 @@ namespace ET
                 if (position == value)
                     return;
                 position = value;
-                Game.EventSystem.Publish(new ET.EventType.UpdateUnitPosition
+                Game.EventSystem.Publish_Sync(new ET.EventType.UpdateUnitPosition
                 {
                     unit = this,
                     pos = value
-                }).Coroutine();
+                });
 
 
             }
@@ -117,11 +123,11 @@ namespace ET
                 if (rotation == value)
                     return;
                 rotation = value;
-                Game.EventSystem.Publish(new ET.EventType.UpdateUnitRotation
+                Game.EventSystem.Publish_Sync(new ET.EventType.UpdateUnitRotation
                 {
                     unit = this,
                     rotation = value
-                }).Coroutine();
+                });
 
             }
         }
@@ -145,14 +151,19 @@ namespace ET
         {
             Position +=vector3;
         }
+        internal void Dead()
+        {
+            unitState = UnitState.Dead;
+            this.Dispose();
+        }
         public override void Dispose()
         {
             if (!this)
                 return;
-            Game.EventSystem.Publish(new ET.EventType.OnDisposeUnit
+            Game.EventSystem.Publish_Sync(new ET.EventType.OnDisposeUnit
             {
                 unit = this
-            }).Coroutine();
+            });
             base.Dispose();
         }
         public void Destroy()
@@ -163,8 +174,8 @@ namespace ET
             rotation = default;
             position = default;
             IsLeader = false;
-            IsAlive = false;
             IsFight = false;
         }
+
     }
 }

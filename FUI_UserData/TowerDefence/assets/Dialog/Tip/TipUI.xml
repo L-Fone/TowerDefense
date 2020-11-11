@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <controller name="c1" pages="0,single,1,singleInput,2,double,3,doubleInput" selected="0"/>
+  <displayList>
+    <image id="n0_iwo2" name="frame" src="iwo2f" fileName="Assets/Common_Tip.png" xy="660,392" size="280,116" group="n11_iwo2">
+      <relation target="n2_iwo2" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n1_iwo2" name="txtContent" xy="674,440" size="251,23" group="n11_iwo2" fontSize="15" color="#ffff99" align="center" autoSize="height" strokeColor="#000000" text=""/>
+    <image id="n5_iwo2" name="n5" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="798,464" size="0,0" group="n11_iwo2" aspect="true" touchable="false" color="#585858">
+      <gearSize controller="c1" pages="0,2" values="0,0,1,1|0,0,1,1" default="103,20,1,1"/>
+      <relation target="n1_iwo2" sidePair="center-center,top-bottom"/>
+    </image>
+    <component id="n2_iwo2" name="btnSure" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="766,470" group="n11_iwo2">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n5_iwo2" sidePair="center-center,top-bottom"/>
+      <Button title="确定"/>
+    </component>
+    <component id="n9_iwo2" name="btnYes" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="714,470" group="n11_iwo2">
+      <gearDisplay controller="c1" pages="2,3"/>
+      <relation target="n5_iwo2" sidePair="top-bottom"/>
+      <relation target="" sidePair="left-left"/>
+      <Button title="是"/>
+    </component>
+    <component id="n8_iwo2" name="btnNo" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="825,470" group="n11_iwo2">
+      <gearDisplay controller="c1" pages="2,3"/>
+      <relation target="n9_iwo2" sidePair="middle-middle,left-right"/>
+      <Button title="否"/>
+    </component>
+    <text id="n10_iwo2" name="IptTxt" xy="798,464" size="0,0" group="n11_iwo2" fontSize="12" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#333333" singleLine="true" text="" input="true">
+      <relation target="n5_iwo2" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <group id="n11_iwo2" name="n11" xy="660,392" size="280,116" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n11_iwo2" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="XY" target="n11_iwo2" tween="true" startValue="660,-116" endValue="660,392" duration="6" path="2,0,0,-229,100,185,210,1,2,0,508,-269.7706,431.2397,0,0,1"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n11_iwo2" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="XY" target="n11_iwo2" tween="true" startValue="660,900" endValue="660,392" duration="6" path="2,0,0,220,-44,-191,-243,1,2,0,-508,287.472,-385.7901,0,0,1"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n11_iwo2" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="XY" target="n11_iwo2" tween="true" startValue="-280,392" endValue="660,392" duration="6" path="2,0,0,261,301,585,-176,1,2,940,0,1296.389,406.3462,0,0,1"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n11_iwo2" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="XY" target="n11_iwo2" tween="true" startValue="1600,392" endValue="660,392" duration="6" path="2,0,0,-307,301,-369,-172,1,2,-940,0,-2783.31,791.4832,0,0,1"/>
+  </transition>
+</component>

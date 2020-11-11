@@ -1,4 +1,5 @@
-﻿using ET;
+﻿using Cal.DataTable;
+using ET;
 using Google.Protobuf.Collections;
 using System;
 using System.Collections.Generic;
@@ -38,7 +39,7 @@ namespace ET
         public struct OnCreateUnit
         {
             public Unit unit;
-            public int prefabId;
+            public RoleConfig roleConfig;
         }
         public struct OnDisposeUnit
         {
@@ -253,14 +254,12 @@ namespace ET
             public int maxHp;
             public int level;
             public string name;
-            public JobType jobType;
             public FairyGUI.ProgressTitleType progressTitleType;
         }
         public struct SetHudCharacter_ChangeHp
         {
             public Scene zoneScene;
             public Unit unit;
-            public int hp;
         }
         public struct SetHudCharacter_ChangeLevel
         {
@@ -279,7 +278,7 @@ namespace ET
             public Unit unit;
             public AinmationKey ainmationKey;
             public Vector3 dir;
-        }    
+        }
         //public struct UnitMove
         //{
         //    public Unit unit;
@@ -365,6 +364,47 @@ namespace ET
         public struct EnterGame_Open
         {
             public Scene zoneScene;
+        }
+        public struct GenerateTowerPoint
+        {
+            public Scene zoneScene;
+            public Vector3 point;
+
+            public TowerPointInfo towerPointInfo;
+        }
+        public struct AddTrigger
+        {
+            public Unit unit;
+            public Action<Unit> onEnter;
+            public Action<Unit> onExit;
+        }
+        public struct ShowDebugAtkLine
+        {
+            public Unit unit;
+            public Unit target;
+            public int damage;
+            public int hp;
+            public int maxHp;
+        }
+        public struct ShowPopupUI
+        {
+            public struct PopupMenuInfo:IComparable<PopupMenuInfo>,IEquatable<PopupMenuInfo>
+            {
+                public string name;
+                public Action action;
+
+                public int CompareTo(PopupMenuInfo other)
+                {
+                   return name.CompareTo(other.name);
+                }
+
+                public bool Equals(PopupMenuInfo other)
+                {
+                    return name.Equals(other.name);
+                }
+            }
+            public Scene zoneScene;
+            public List<PopupMenuInfo> popupMenuInfo;
         }
     }
 }

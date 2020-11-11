@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7fc8sjen">
+  <resources>
+    <component id="8tnc9" name="SkillUI.xml" path="/" exported="true"/>
+    <component id="8tnca" name="SkillFrame.xml" path="/"/>
+    <component id="8tnc1e" name="ButtonAutoSkill.xml" path="/"/>
+    <component id="8tnc1f" name="ButtonSave.xml" path="/"/>
+    <image id="h4rg1l" name="Skill_Ge.png" path="/Assets/"/>
+    <image id="h4rg1m" name="Skill_Interface.png" path="/Assets/"/>
+    <image id="h4rg1n" name="Skill_Save.png" path="/Assets/"/>
+    <image id="10i4t24" name="Skill_Bt_Help.png" path="/Assets/"/>
+    <image id="10i4t25" name="Skill_BT1.png" path="/Assets/"/>
+    <image id="10i4t26" name="Skill_BT2.png" path="/Assets/"/>
+    <image id="10i4t27" name="Skill_info.png" path="/Assets/"/>
+    <image id="10i4t28" name="Skill_info_BG.png" path="/Assets/"/>
+    <image id="10i4t29" name="Skill_info_BG2.png" path="/Assets/"/>
+    <image id="10i4t2a" name="Skill_info_BG3.png" path="/Assets/"/>
+    <image id="10i4t2b" name="Skill_info_Gezi.png" path="/Assets/"/>
+    <image id="10i4t2e" name="Skill_info2(1).png" path="/Assets/"/>
+    <image id="10i4t2f" name="Skill_link.png" path="/Assets/" scale="9grid" scale9grid="7,7,38,4"/>
+    <image id="10i4t2g" name="Skill_link1.png" path="/Assets/"/>
+    <image id="10i4t2h" name="Skill_Bt_close.png" path="/Assets/"/>
+    <component id="10i4t2i" name="ButtonClose.xml" path="/"/>
+    <component id="10i4t2j" name="ButtonHelp.xml" path="/"/>
+    <component id="10i4t2k" name="ButtonSlot.xml" path="/"/>
+    <component id="10i4t2l" name="Skill_军官.xml" path="/"/>
+    <component id="10i4t2m" name="LabelBTRoot.xml" path="/"/>
+    <component id="10i4t2o" name="ButtonBT.xml" path="/"/>
+    <image id="10i4t2p" name="100001.png" path="/Icons/" exported="true"/>
+    <component id="brj8t2q" name="Skill_运动员.xml" path="/"/>
+    <component id="dyl0t2r" name="Skill_护士.xml" path="/"/>
+    <component id="dyl0t2s" name="Skill_超能力.xml" path="/"/>
+    <image id="sxdbt52" name="210404.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt53" name="210501.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt54" name="210502.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt55" name="210503.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt56" name="210504.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt57" name="210601.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt58" name="210602.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt59" name="210603.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5a" name="110502.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5b" name="220101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5c" name="220201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5d" name="310101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5e" name="310201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5f" name="310301.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5g" name="310302.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5h" name="310304.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5i" name="310401.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5l" name="310404.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5m" name="310501.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5n" name="310502.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5o" name="310503.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5p" name="310504.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5q" name="310601.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5r" name="310602.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5s" name="310603.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5t" name="310604.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5u" name="320101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5v" name="320201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5w" name="410101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5x" name="410201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5y" name="410202.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt5z" name="410301.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt60" name="410302.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt61" name="410303.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt62" name="410304.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt63" name="410401.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt64" name="410402.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt65" name="410403.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt66" name="410404.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt67" name="410501.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt68" name="410503.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt69" name="410504.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6a" name="410601.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6b" name="410602.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6c" name="410603.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6d" name="410604.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6e" name="420101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6f" name="420201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6g" name="110101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6h" name="110201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6i" name="110202.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6j" name="110301.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6k" name="110302.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6l" name="110303.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6m" name="110304.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6n" name="110401.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6o" name="110402.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6p" name="110403.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6q" name="110404.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6r" name="110501.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6s" name="210604.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6t" name="110503.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6u" name="110504.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6v" name="110601.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6w" name="110603.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6x" name="110602.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6y" name="110604.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt6z" name="120101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt70" name="120201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt71" name="210101.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt72" name="210201.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt73" name="210202.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt74" name="210301.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt75" name="210302.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt76" name="210303.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt77" name="210304.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt78" name="210401.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt79" name="210402.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt7a" name="210403.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt7b" name="200001.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt7c" name="300001.png" path="/Icons/" exported="true"/>
+    <image id="sxdbt7d" name="400001.png" path="/Icons/" exported="true"/>
+    <image id="4wfct7e" name="310303.png" path="/Icons/" exported="true"/>
+    <image id="4wfct7h" name="310202.png" path="/Icons/" exported="true"/>
+    <image id="iy4mt7i" name="310403.png" path="/Icons/" exported="true"/>
+    <image id="iy4mt7j" name="310402.png" path="/Icons/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

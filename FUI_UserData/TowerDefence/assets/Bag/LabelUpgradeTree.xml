@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,100" extention="Label">
+  <controller name="control" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n2_il72" name="n2" src="g7gkkp" fileName="Assets/JinHua_jiantoudown.png" xy="18,59" size="27,37">
+      <gearDisplay controller="control" pages="0"/>
+    </image>
+    <image id="n4_gug3" name="n4" src="gug3ko" fileName="Assets/Shop_SlotBG.png" xy="6,3" size="52,52" group="n6_gug3">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5_gug3" name="icon" xy="8,5" size="48,48" group="n6_gug3" url="ui://71ktouo7rybex" fill="scaleFree" clearOnPublish="true"/>
+    <group id="n6_gug3" name="n6" xy="6,3" size="52,52" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,50" extention="Label">
+  <displayList>
+    <richtext id="n1_ud62" name="title" xy="27,1" size="1514,42" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" strokeColor="#000000" singleLine="true" autoClearText="true" text="[color=#ff0000]顶顶顶顶顶顶顶随着一声巨响，在[color=#ffff00]{names}&lt;/color&gt;队伍强力攻击和完美防御下，[color=#009900]{self.GetBossBossName(layer)}[/color]应地倒下！[/color]">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n1_ud62" value="1"/>
+    <item time="0" type="XY" target="n1_ud62" tween="true" startValue="1600,0" endValue="0,0" duration="120"/>
+    <item time="240" type="XY" target="n1_ud62" tween="true" startValue="0,0" endValue="-1600,0" duration="48"/>
+    <item time="288" type="Alpha" target="n1_ud62" value="0"/>
+  </transition>
+</component>

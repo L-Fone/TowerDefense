@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,400">
+  <displayList>
+    <component id="n0_rttn" name="frame" src="cm4u8" fileName="FrameShopUI.xml" xy="0,0">
+      <Label title="商店"/>
+    </component>
+    <list id="n3_rttn" name="pageList" xy="38,56" size="425,40" layout="row" overflow="hidden" align="center">
+      <item url="ui://9r7gspaycm4ua" name="道具"/>
+      <item url="ui://9r7gspaycm4ud" name="材料"/>
+      <item url="ui://9r7gspaycm4uc" name="形象"/>
+      <item url="ui://9r7gspaycm4ue" name="装备"/>
+      <item url="ui://9r7gspaycm4ub" name="其他"/>
+    </list>
+    <list id="n4_rttn" name="slotList" xy="40,96" size="424,265" layout="flow_hz" overflow="scroll" lineGap="1" colGap="1" defaultItem="ui://kqsmrpxls8hrkf" autoClearItems="true">
+      <relation target="n3_rttn" sidePair="center-center,top-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

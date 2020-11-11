@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="768,500">
+  <controller name="addPoint" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_7bww" name="frame" src="7bwwh" fileName="FrameCharacter.xml" xy="0,0" size="768,501" group="n17_tbic"/>
+    <loader id="n18_l1mx" name="bg" xy="24,50" size="218,276" group="n17_tbic" url="ui://768jx61wl1mx1e" fill="scaleFree"/>
+    <image id="n1_7bww" name="n1" src="7bwwf" fileName="Asstes/Character_rolege.png" xy="24,50" size="219,280" group="n17_tbic">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <list id="n3_7bww" name="atkEquipList" xy="26,335" size="214,136" group="n17_tbic" layout="flow_hz" overflow="hidden" lineGap="16" colGap="20" defaultItem="ui://768jx61w7bwwi" align="center" vAlign="middle">
+      <relation target="n1_7bww" sidePair="left-left,right-right"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n5_7bww" name="commonEquipList" xy="252,52" size="59,416" group="n17_tbic" overflow="hidden" lineGap="16" defaultItem="ui://768jx61w7bwwi" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n32_8dtq" name="n32" src="7bwwf" fileName="Asstes/Character_rolege.png" xy="320,60" size="181,208" group="n35_8dtq"/>
+    <component id="n33_8dtq" name="n33" src="8dtq1g" fileName="LabelTitle.xml" xy="350,49" group="n35_8dtq">
+      <Label title="人物信息" titleColor="#ffcc99"/>
+    </component>
+    <list id="n12_7bww" name="infoList" xy="325,77" size="173,189" group="n35_8dtq" overflow="hidden" lineGap="1" defaultItem="ui://768jx61w7bwwm" autoItemSize="false">
+      <item title="昵称" name="昵称"/>
+      <item title="性别" name="性别"/>
+      <item title="阵营" name="阵营"/>
+      <item title="荣誉值" name="荣誉值"/>
+      <item title="职业" name="职业"/>
+      <item title="家族" name="家族"/>
+      <item title="等级" name="等级"/>
+      <item title="经验" name="经验"/>
+    </list>
+    <group id="n35_8dtq" name="infoGroup" xy="320,49" size="181,219" group="n17_tbic" advanced="true"/>
+    <image id="n36_8dtq" name="n36" src="7bwwf" fileName="Asstes/Character_rolege.png" xy="505,60" size="238,208" group="n39_8dtq">
+      <relation target="n20_8dtq" sidePair="bottomext-bottom"/>
+    </image>
+    <component id="n37_8dtq" name="n37" src="8dtq1g" fileName="LabelTitle.xml" xy="566,49" size="120,24" group="n39_8dtq">
+      <Label title="战斗属性" titleColor="#ffcc99"/>
+    </component>
+    <list id="n20_8dtq" name="battleAttributeList" xy="510,77" size="230,183" group="n39_8dtq" overflow="scroll" scrollBarFlags="256" clipSoftness="0,100" lineGap="1" defaultItem="ui://768jx61w7bwwp" autoItemSize="false">
+      <gearDisplay controller="addPoint" pages=""/>
+      <gearSize controller="addPoint" pages="0,1" values="230,383,1,1|230,183,1,1"/>
+      <item title="当前生命" name="当前生命"/>
+      <item title="当前精力" name="当前精力"/>
+      <item title="最大生命" name="最大生命"/>
+      <item title="最大精力" name="最大精力"/>
+      <item title="物理攻击" name="物理攻击"/>
+      <item title="精神攻击" name="精神攻击"/>
+      <item title="物理防御" name="物理防御"/>
+      <item title="精神防御" name="精神防御"/>
+      <item title="物理暴击率" name="物理暴击率"/>
+      <item title="精神暴击率" name="精神暴击率"/>
+      <item title="物理暴击值" name="物理暴击值"/>
+      <item title="精神暴击值" name="精神暴击值"/>
+      <item title="抗物理暴击率" name="抗物理暴击率"/>
+      <item title="抗精神暴击率" name="抗精神暴击率"/>
+      <item title="抗物理暴击值" name="抗物理暴击值"/>
+      <item title="抗精神暴击值" name="抗精神暴击值"/>
+      <item title="物理免伤" name="物理免伤"/>
+      <item title="精神免伤" name="精神免伤"/>
+      <item title="辅助值" name="辅助值"/>
+    </list>
+    <group id="n39_8dtq" name="battleGroup" xy="505,49" size="238,219" group="n17_tbic" advanced="true"/>
+    <loader id="n15_7bww" name="icon" xy="-316,-75" size="900,400" group="n17_tbic" touchable="false" align="center" vAlign="middle"/>
+    <image id="n24_8dtq" name="n24" src="7bwwf" fileName="Asstes/Character_rolege.png" xy="320,295" size="181,173" group="n25_8dtq"/>
+    <component id="n23_8dtq" name="n23" src="8dtq1g" fileName="LabelTitle.xml" xy="352,284" group="n25_8dtq">
+      <Label title="基础属性" titleColor="#ffcc99"/>
+    </component>
+    <list id="n21_8dtq" name="basicAttributeList" xy="325,315" size="173,148" group="n25_8dtq" overflow="hidden" lineGap="3" defaultItem="ui://768jx61w7bwwp" autoItemSize="false">
+      <item url="ui://768jx61w7bwwo" title="力量" name="力量"/>
+      <item url="ui://768jx61w7bwwo" title="智慧" name="智慧"/>
+      <item url="ui://768jx61w7bwwo" title="体质" name="体质"/>
+      <item url="ui://768jx61w7bwwo" title="耐力" name="耐力"/>
+      <item url="ui://768jx61w7bwwo" title="敏捷" name="敏捷"/>
+      <item url="ui://768jx61w7bwwo" title="精神" name="精神"/>
+    </list>
+    <group id="n25_8dtq" name="basicGroup" xy="320,284" size="181,184" group="n17_tbic" advanced="true"/>
+    <image id="n26_8dtq" name="n26" src="7bwwf" fileName="Asstes/Character_rolege.png" xy="505,295" size="239,173" group="n29_8dtq"/>
+    <component id="n27_8dtq" name="n27" src="8dtq1g" fileName="LabelTitle.xml" xy="565,284" size="120,24" group="n29_8dtq">
+      <Label title="属性加点" titleColor="#ffcc99"/>
+    </component>
+    <list id="n28_8dtq" name="addPointAttributeList" xy="510,315" size="230,148" group="n29_8dtq" overflow="hidden" lineGap="3" defaultItem="ui://768jx61w8dtq1h" autoItemSize="false">
+      <item title="力量" name="力量"/>
+      <item title="智慧" name="智慧"/>
+      <item title="体质" name="体质"/>
+      <item title="耐力" name="耐力"/>
+      <item title="敏捷" name="敏捷"/>
+      <item title="精神" name="精神"/>
+    </list>
+    <component id="n42_i7y3" name="btnAddPoint" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="659,433" group="n29_8dtq">
+      <Button title="确认加点" titleFontSize="12"/>
+    </component>
+    <component id="n43_i7y3" name="btnResetPoint" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="659,403" group="n29_8dtq">
+      <Button title="重置" titleFontSize="12"/>
+    </component>
+    <text id="n40_8dtq" name="txtPoint" xy="660,359" size="62,16" group="n51_lkzy" fontSize="10" color="#ffffcc" strokeColor="#000000" text="属性点:31500">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n46_lkzy" name="n46" xy="660,318" size="47,16" group="n51_lkzy" fontSize="10" color="#ffffcc" strokeColor="#000000" text="转生等级:"/>
+    <image id="n50_lkzy" name="n50" src="spuy6h" fileName="Assets/Common_baiban.png" pkg="kqsmrpxl" xy="675,338" size="39,14" group="n51_lkzy" color="#333333"/>
+    <component id="n47_lkzy" name="btnPlusTransLevel" src="lkzyutlf" fileName="ButtonPlus.xml" pkg="kqsmrpxl" xy="711,337" size="16,16" group="n51_lkzy"/>
+    <component id="n48_lkzy" name="btnMinusTransLevel" src="lkzyutlg" fileName="ButtonMinus.xml" pkg="kqsmrpxl" xy="660,337" size="16,16" group="n51_lkzy"/>
+    <text id="n49_lkzy" name="txtTransLevel" xy="689,337" size="10,16" group="n51_lkzy" fontSize="10" color="#ffffcc" autoSize="none" strokeColor="#000000" text="0"/>
+    <group id="n51_lkzy" name="n51" xy="660,318" size="67,57" group="n29_8dtq"/>
+    <group id="n29_8dtq" name="addpointGroup" xy="505,284" size="239,184" group="n17_tbic" advanced="true">
+      <gearDisplay controller="addPoint" pages="1"/>
+    </group>
+    <component id="n30_8dtq" name="n30" src="czagl" fileName="ButtonSingle.xml" pkg="kqsmrpxl" xy="483,271" size="20,20" group="n17_tbic">
+      <relation target="n31_8dtq" sidePair="middle-middle,left-right"/>
+      <Button checked="true" controller="addPoint" page="1"/>
+    </component>
+    <text id="n31_8dtq" name="n31" xy="457,272" size="28,16" group="n17_tbic" fontSize="10" color="#ffffff" text="加点:"/>
+    <group id="n17_tbic" name="n17" xy="-316,-75" size="1084,576" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n17_tbic" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n17_tbic" tween="true" startValue="0,-300" endValue="-,0" duration="18"/>
+  </transition>
+</component>

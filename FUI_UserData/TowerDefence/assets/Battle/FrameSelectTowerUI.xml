@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,800" extention="Label" initName="frame">
+  <displayList>
+    <image id="n5_10i4t" name="n5" src="10i4tl0" fileName="Assets/CommonUI_BUFFinfo_Head.png" pkg="kqsmrpxl" xy="0,0" size="1000,30" group="n9_10i4t"/>
+    <image id="n6_10i4t" name="n6" src="10i4tky" fileName="Assets/CommonUI_BUFFinfo(1).png" pkg="kqsmrpxl" xy="0,30" size="1000,770" group="n9_10i4t"/>
+    <image id="n8_10i4t" name="n8" src="10i4tkz" fileName="Assets/CommonUI_BUFFinfo_BG1.png" pkg="kqsmrpxl" xy="6,35" size="989,758" group="n9_10i4t"/>
+    <image id="n7_10i4t" name="n7" src="10i4tl1" fileName="Assets/CommonUI_BUFFinfo_kuang.png" pkg="kqsmrpxl" xy="5,33" size="990,762" group="n9_10i4t"/>
+    <group id="n9_10i4t" name="n9" xy="0,0" size="1000,800" advanced="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+    <text id="n4_h2b5" name="title" xy="247,0" size="505,30" fontSize="20" color="#ffff00" align="center" vAlign="middle" letterSpacing="3" autoSize="none" strokeColor="#000000" singleLine="true" text="选择防御塔">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_h2b5" name="closeButton" src="h2b5ku" fileName="ButtonClose_Yellow.xml" pkg="kqsmrpxl" xy="966,3" size="24,23">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_h2b5" name="dragArea" xy="0,0" size="963,28">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_h2b5" name="contentArea" xy="0,30" size="1000,771">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

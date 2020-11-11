@@ -21,8 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  newSkillId: 120201
-  dataSo: {fileID: 11400000, guid: 4ab128bdabca12046b9b01188e5c4721, type: 2}
+  newSkillId: 100001
+  dataSo: {fileID: 11400000, guid: 3a23ee1bceab6924bb1d825868459c5a, type: 2}
   soPath: Assets/Model/Cal/CalAssets/Ability/Skill
   path: C:/Users/86155/Desktop/CTT/Skill/Skill
   logPath: C:/Users/86155/Desktop/CTT/Skill/Logs

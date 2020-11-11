@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,40" extention="Label">
+  <displayList>
+    <image id="n1_la9r" name="n1" src="la9r9" fileName="Assets/Team_tip.png" xy="0,0" size="400,40" group="n9_la9r" pkg="kqsmrpxl"/>
+    <text id="n0_la9r" name="Title" xy="27,6" size="73,26" group="n9_la9r" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" singleLine="true" text="组队邀请">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n2_la9r" name="Name" xy="106,10" size="87,19" group="n9_la9r" fontSize="12" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="我的名字叫顺溜">
+      <relation target="n0_la9r" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n3_la9r" name="Job" xy="199,10" size="72,19" group="n9_la9r" fontSize="12" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="超能力(一转)">
+      <relation target="n2_la9r" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n4_la9r" name="Level" xy="280,10" size="32,19" group="n9_la9r" fontSize="12" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="7000">
+      <relation target="n3_la9r" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n7_la9r" name="btnYes" src="la9rc" fileName="Team/ButtonYes.xml" xy="318,10" size="25,17" group="n9_la9r" aspect="true">
+      <relation target="n4_la9r" sidePair="middle-middle,left-right"/>
+    </component>
+    <component id="n8_la9r" name="btnNo" src="la9rd" fileName="Team/ButtonNo.xml" xy="353,7" size="25,25" group="n9_la9r" aspect="true">
+      <relation target="n7_la9r" sidePair="middle-middle,left-right"/>
+    </component>
+    <component id="n10_km2q" name="progress" src="km2qe" fileName="Team/pBarTeamRequest.xml" xy="27,34" size="346,3" group="n9_la9r">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <group id="n9_la9r" name="n9" xy="0,0" size="400,40" advanced="true"/>
+  </displayList>
+  <transition name="trans">
+    <item time="0" type="Alpha" target="n9_la9r" tween="true" startValue="0" endValue="1" duration="24" ease="Quad.InOut"/>
+    <item time="0" type="XY" target="n9_la9r" tween="true" startValue="-402,0" endValue="0,0" duration="24" ease="Quad.InOut"/>
+  </transition>
+</component>

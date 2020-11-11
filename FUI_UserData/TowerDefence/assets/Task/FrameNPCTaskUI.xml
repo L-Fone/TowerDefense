@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,450" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_y69u" name="n0" src="y69u3" fileName="Assets/Task_info.png" xy="0,0" size="520,450" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_y69u" name="title" xy="221,8" size="77,26" fontSize="18" color="#ffffcc" align="center" vAlign="middle" letterSpacing="1" strokeColor="#6a664e" shadowColor="#6a664e" shadowOffset="1,1" singleLine="true" text="任务NPC">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </text>
+    <component id="n1_y69u" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="497,13" size="20,19">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <graph id="n2_y69u" name="dragArea" xy="0,12" size="490,31">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3_y69u" name="contentArea" xy="0,46" size="520,405">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

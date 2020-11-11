@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,20" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_ih6n" name="bg" src="ih6n3" fileName="Assets/NPC_jimai_menu.png" xy="0,0" size="66,20"/>
+    <image id="n0_ih6n" name="btn" src="ih6n4" fileName="Assets/NPC_jimai_xiala.png" xy="66,0" size="24,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ih6n" name="title" xy="1,-1" size="62,22" fontSize="14" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#996633" singleLine="true" text="下拉框">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://ivv55tvqih6nl"/>
+</component>

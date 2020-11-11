@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,600">
+  <displayList>
+    <component id="n0_o3cn" name="frame" src="o3cnio" fileName="FrameMeltingUI.xml" xy="0,0" group="n31_o3cn">
+      <Label title="进化"/>
+    </component>
+    <image id="n3_o3cn" name="n3" src="vulqj7" fileName="Assets/Bag_lianhua_1.png" xy="38,60" size="169,130" group="n31_o3cn"/>
+    <image id="n33_il72" name="n33" src="vulqj7" fileName="Assets/Bag_lianhua_1.png" xy="228,60" size="169,130" group="n31_o3cn"/>
+    <image id="n32_il72" name="n32" src="vulqj9" fileName="Assets/Bag_lianhua_4.png" xy="37,190" size="361,306" group="n31_o3cn"/>
+    <component id="n6_o3cn" name="btnFinalItem" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="96,91" group="n31_o3cn"/>
+    <component id="n34_il72" name="btnItem" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="286,90" group="n31_o3cn"/>
+    <text id="n12_o3cn" name="n12" xy="66,148" size="113,26" group="n31_o3cn" fontSize="18" color="#624e2f" align="center" letterSpacing="1" strokeColor="#dfd0ae" text="进化后的物品"/>
+    <text id="n35_il72" name="n35" xy="276,147" size="76,26" group="n31_o3cn" fontSize="18" color="#624e2f" align="center" letterSpacing="1" strokeColor="#dfd0ae" text="放入物品"/>
+    <component id="n2_o3cn" name="btnUpgrade" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="16,535" size="202,50" group="n31_o3cn" aspect="true">
+      <Button title="进化" titleFontSize="24"/>
+    </component>
+    <component id="n36_il72" name="btnTree" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="217,535" size="202,50" group="n31_o3cn" aspect="true">
+      <Button title="进化树" titleFontSize="24"/>
+    </component>
+    <text id="n37_il72" name="txtMaterial" xy="46,239" size="339,248" group="n31_o3cn" fontSize="20" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" text="sfhsjs  *1&#xA;sddfdsdff*5&#xA;sfhsjs  *1&#xA;sddfdsdff*5&#xA;sfhsjs  *1&#xA;sddfdsdff*5&#xA;sfhsjs  *1&#xA;sddfdsdff*5&#xA;sfhsjs  *1"/>
+    <text id="n39_il72" name="n39" xy="147,195" size="146,34" group="n31_o3cn" fontSize="24" color="#624e2f" align="center" strokeColor="#dfd0ae" text="进化所需材料"/>
+    <group id="n31_o3cn" name="n31" xy="0,0" size="439,600" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n31_o3cn" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n31_o3cn" tween="true" startValue="0,-300" endValue="0,0" duration="18"/>
+  </transition>
+</component>

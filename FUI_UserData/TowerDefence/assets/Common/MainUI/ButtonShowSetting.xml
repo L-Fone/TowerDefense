@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_rirs" name="n0" src="ozr3ii" fileName="Assets/Common_Equiptips.png" xy="0,0" size="30,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_rirs" name="title" xy="3,14" size="24,66" fontSize="18" color="#ffff99" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="展开"/>
+  </displayList>
+  <Button mode="Check" downEffect="dark" downEffectValue=".8"/>
+</component>

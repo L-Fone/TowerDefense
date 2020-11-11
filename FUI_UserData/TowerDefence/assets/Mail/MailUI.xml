@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,550">
+  <displayList>
+    <component id="n0_ralq" name="frame" src="ralq9" fileName="FrameMailUI.xml" xy="0,0"/>
+    <list id="n1_ralq" name="itemList" xy="27,68" size="412,367" overflow="scroll" clipSoftness="0,100" defaultItem="ui://ba6u515vralqb" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_ralq" name="btnLastPage" src="ih6nju" fileName="ButtonLastPage.xml" pkg="kqsmrpxl" xy="144,444"/>
+    <component id="n3_ralq" name="btnNextPage" src="ih6njv" fileName="ButtonNextPage.xml" pkg="kqsmrpxl" xy="294,443">
+      <relation target="n2_ralq" sidePair="middle-middle,left-right"/>
+    </component>
+    <text id="n4_ralq" name="txtPage" xy="204,439" size="85,26" fontSize="18" color="#312207" align="center" vAlign="middle" autoSize="none" text="1/4">
+      <relation target="n2_ralq" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n5_ralq" name="btnDeleteAll" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="55,500" size="126,31">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="一键删除已读"/>
+    </component>
+    <component id="n6_ralq" name="btnReceiveAll" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="286,500" size="126,31">
+      <relation target="n5_ralq" sidePair="middle-middle,left-right"/>
+      <Button title="一键领取附件"/>
+    </component>
+    <component id="n7_ralq" name="btnDelete" src="ralqf" fileName="ButtonDeleteOne.xml" xy="763,422">
+      <relation target="" sidePair="left-right,bottom-bottom"/>
+    </component>
+    <component id="n8_ralq" name="btnReceive" src="ralqc" fileName="ButtonReceive.xml" xy="763,459">
+      <relation target="n7_ralq" sidePair="center-center,top-bottom"/>
+    </component>
+    <text id="n9_ralq" name="txtTitle" xy="506,75" size="51,34" fontSize="24" color="#312207" align="center" text="标题"/>
+    <text id="n10_ralq" name="txtSenderName" xy="802,80" size="63,29" fontSize="20" color="#312207" align="center" text="发件人">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n11_ralq" name="txtContent" xy="506,126" size="357,257" fontSize="18" color="#ffff99" ubb="true" autoSize="none" strokeColor="#332409" text="标题">
+      <relation target="n9_ralq" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n12_ralq" name="n12" xy="504,408" size="25,91" fontSize="16" color="#ffffcc" align="center" vAlign="middle" autoSize="none" text="附件">
+      <relation target="n11_ralq" sidePair="left-left,top-bottom"/>
+    </text>
+    <component id="n13_ralq" name="btnRewordSlotLeft" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="564,414"/>
+    <component id="n14_ralq" name="btnRewordSlotRight" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="630,414"/>
+    <image id="n15_ralq" name="n15" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="562,479">
+      <relation target="n18_ralq" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n16_ralq" name="n16" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="601,479">
+      <relation target="n19_ralq" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n17_ralq" name="n17" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="647,479">
+      <relation target="n20_ralq" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n18_ralq" name="txtGold" xy="581,475" size="12,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n16_ralq" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n19_ralq" name="txtSliver" xy="620,475" size="21,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="00">
+      <relation target="n17_ralq" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n20_ralq" name="txtCoin" xy="667,475" size="21,22" fontSize="15" color="#ffffff" strokeColor="#000000" text="00">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+  </displayList>
+</component>

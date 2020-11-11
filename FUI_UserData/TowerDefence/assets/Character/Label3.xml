@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,22" extention="Label">
+  <displayList>
+    <image id="n1_7bww" name="n1" src="7bwwk" fileName="Asstes/Character_Interface_xinxikuanglv.png" xy="0,0" size="120,22">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_7bww" name="n3" src="7bwwc" fileName="Asstes/Character_Interface_xiantiao.png" xy="121,20" size="105,2"/>
+    <text id="n4_7bww" name="title" xy="10,0" size="99,22" fontSize="14" color="#cccccc" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="抗物理暴击伤害">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_7bww" name="txt" xy="121,0" size="104,22" fontSize="14" color="#ffff99" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="1800000">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+</component>

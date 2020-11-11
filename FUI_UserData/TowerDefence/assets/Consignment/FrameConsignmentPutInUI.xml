@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_m1qu" name="n0" src="m1qujx" fileName="Assets/Common_lianhua_4.png" pkg="kqsmrpxl" xy="0,-4" size="400,305">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_m1qu" name="title" xy="60,2" size="280,34" fontSize="24" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#644f30" shadowColor="#644f30" shadowOffset="1,1" singleLine="true" text="寄售">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_m1qu" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="350,3" size="44,39">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n2_m1qu" name="dragArea" xy="0,0" size="350,41">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_m1qu" name="contentArea" xy="0,43" size="400,258">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

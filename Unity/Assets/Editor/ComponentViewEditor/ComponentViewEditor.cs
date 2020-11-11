@@ -77,6 +77,7 @@ namespace ET
                                 fieldName = fieldName.Substring(1, fieldName.Length - 17);
                             }
                             value = typeDrawer.DrawAndGetNewValue(type, fieldName, value, null);
+                            if(obj.GetType().Equals(value.GetType()))
                             fieldInfo.SetValue(obj, value);
                             break;
                         }

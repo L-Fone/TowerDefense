@@ -23,6 +23,12 @@ namespace ET
         private void InternelAwake()
         {
             ui.m_btnLittleGame.onClick.Set(()=> { StartNormalBattle().Coroutine(); });
+            ui.m_btnChatReceive.onClick.Set(SwitchChatUI);
+        }
+
+        private void SwitchChatUI()
+        {
+            ui.m_chatBoard.visible = !ui.m_chatBoard.visible;
         }
 
         private async ETVoid StartNormalBattle()

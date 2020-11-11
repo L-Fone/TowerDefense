@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" opaque="false">
+  <displayList>
+    <list id="n2_la9r" name="list" xy="0,0" size="402,898" overflow="scroll" scrollBarFlags="512" defaultItem="ui://cb3q22aola9rb" autoItemSize="false" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

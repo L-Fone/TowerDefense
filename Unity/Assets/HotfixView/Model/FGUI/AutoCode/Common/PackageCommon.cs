@@ -17,7 +17,7 @@ namespace ET
         public const string Common_ButtonText = "ui://Common/ButtonText";
         public const string Common_ButtonText_Blue = "ui://Common/ButtonText_Blue";
         public const string Common_ButtonClose_Blue = "ui://Common/ButtonClose_Blue";
-        public const string Common_HeadTitleInfo = "ui://Common/HeadTitleInfo";
+        public const string Common_Hud = "ui://Common/Hud";
         public const string Common_SkillNameUI = "ui://Common/SkillNameUI";
         public const string Common_NetLoading = "ui://Common/NetLoading";
         public const string Common_LabelGlobalText = "ui://Common/LabelGlobalText";

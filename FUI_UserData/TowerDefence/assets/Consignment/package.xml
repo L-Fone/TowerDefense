@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ivv55tvq">
+  <resources>
+    <image id="ih6n0" name="NPC_jimai.png" path="/Assets/"/>
+    <image id="ih6n1" name="NPC_jimai_good.png" path="/Assets/"/>
+    <image id="ih6n2" name="NPC_jimai_into.png" path="/Assets/" scale="9grid" scale9grid="2,4,141,11"/>
+    <image id="ih6n3" name="NPC_jimai_menu.png" path="/Assets/" scale="9grid" scale9grid="1,2,70,10"/>
+    <image id="ih6n4" name="NPC_jimai_xiala.png" path="/Assets/"/>
+    <component id="ih6n5" name="FrameConsignmentUI.xml" path="/"/>
+    <component id="ih6n6" name="ConsignmentUI.xml" path="/" exported="true"/>
+    <component id="ih6n7" name="ButtonConsignmentItem.xml" path="/" exported="true"/>
+    <component id="ih6nk" name="ComboBoxConsign_item.xml" path="/"/>
+    <component id="ih6nl" name="ComboBoxConsign_popup.xml" path="/"/>
+    <component id="ih6nm" name="ComboBoxConsign.xml" path="/" exported="true"/>
+    <image id="ih6nn" name="daa89e9e783e250008ea.jpg" path="/Assets/"/>
+    <component id="m1quo" name="FrameConsignmentPutInUI.xml" path="/"/>
+    <component id="m1qup" name="ConsignmentPutInUI.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" pivot="0.5,0.5" anchor="true">
+  <controller name="crit" pages="0,,1," selected="1"/>
+  <displayList>
+    <text id="n0_lsk1" name="txt" xy="0,0" pivot="0.5,0.5" anchor="true" size="334,37" scale="0.525,1" font="ui://ldwujxh9lsk1a" fontSize="8" color="#cc0000" align="center" vAlign="middle" strokeColor="#000000" text="1234567890">
+      <gearDisplay controller="crit" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n1_noac" name="txtCrit" xy="0,0" pivot="0.5,0.5" anchor="true" size="641,71" font="ui://ldwujxh9lsk1a" fontSize="16" color="#ffffff" align="center" vAlign="middle" letterSpacing="-10" strokeColor="#000000" text="12344567890">
+      <gearDisplay controller="crit" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n0_lsk1" value="1"/>
+    <item time="0" type="Scale" target="n0_lsk1" tween="true" startValue="0.8,1" endValue="1.2,1.5" duration="24"/>
+    <item time="0" type="XY" target="n0_lsk1" tween="true" startValue="0,0" endValue="0,-120" duration="24"/>
+    <item time="24" type="Alpha" target="n0_lsk1" value="1"/>
+    <item time="24" type="Shake" target="n0_lsk1" value="3,0.25"/>
+    <item time="30" type="Alpha" target="n0_lsk1" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+  <transition name="CritEffect">
+    <item time="0" type="Alpha" target="n1_noac" value="1"/>
+    <item time="0" type="Scale" target="n1_noac" tween="true" startValue="0.6,0.6" endValue="1.5,1.5" duration="24"/>
+    <item time="0" type="XY" target="n1_noac" tween="true" startValue="0,0" endValue="0,-180" duration="24"/>
+    <item time="18" type="Shake" target="n1_noac" value="5,0.5"/>
+    <item time="24" type="Alpha" target="n1_noac" value="1"/>
+    <item time="33" type="Alpha" target="n1_noac" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

@@ -26,7 +26,6 @@ namespace ET
         public GComponent self;
             
     public GButton m_btnEnterGame;
-    public GButton m_btnDelRole;
     public const string URL = "ui://k3d3mc7geh2ai";
 
     private static GObject CreateGObject()
@@ -102,7 +101,6 @@ namespace ET
         {	
             
     		m_btnEnterGame = (GButton)com.GetChild("btnEnterGame");
-    		m_btnDelRole = (GButton)com.GetChild("btnDelRole");
     	}
 }
 public override void Dispose()
@@ -118,7 +116,6 @@ public override void Dispose()
         self = null;
             
 		m_btnEnterGame = null;
-		m_btnDelRole = null;
 	}
 }
 }

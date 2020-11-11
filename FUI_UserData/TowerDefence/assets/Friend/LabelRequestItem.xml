@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="528,80" extention="Label">
+  <displayList>
+    <image id="n3_j03x" name="bg" src="j03xh" fileName="Assets/Friend_infer_kuang.png" xy="0,0" size="528,80"/>
+    <text id="n0_j03x" name="title" xy="15,25" size="367,51" fontSize="22" color="#e0ca54" vAlign="middle" leading="1" ubb="true" autoSize="none" strokeColor="#823903" text="昵称：{name=我的名字叫顺溜}\n[size=16]职业：{job=超能力}  等级：{level=7000}  性别：{sex=男}[/size]">
+      <relation target="" sidePair="height-height,left-left"/>
+    </text>
+    <component id="n2_j03x" name="btnAgree" src="j03xl" fileName="ButtonAgree.xml" xy="413,9" size="89,32" aspect="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n1_j03x" name="btnRefuse" src="j03xm" fileName="ButtonRefusee.xml" xy="414,44" size="89,32" aspect="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+  </displayList>
+</component>

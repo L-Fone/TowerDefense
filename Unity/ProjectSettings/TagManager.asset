@@ -12,6 +12,7 @@ TagManager:
   - MeltSlot
   - UIComponent
   - TowerPoint
+  - Atker
   layers:
   - Default
   - TransparentFX
@@ -23,12 +24,12 @@ TagManager:
   - 
   - Map
   - Hidden
-  - Player
-  - OtherPlayer
+  - Tower
+  - 
   - Monster
   - NPC
   - Collider
-  - 
+  - TowerPoint
   - 
   - 
   - 

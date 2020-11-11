@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,440">
+  <controller name="contrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_y69u" name="frame" src="y69ua" fileName="FrameNPCTaskUI.xml" xy="0,0" size="520,440">
+      <relation target="n9_y69u" sidePair="bottomext-bottom%"/>
+    </component>
+    <text id="n1_y69u" name="txtDialog" xy="37,67" size="452,197" group="n15_y69u" fontSize="18" color="#333333" autoSize="height" text="欢迎来道这拉瑞呀大陆&#xA;欢迎来道这拉瑞呀大陆&#xA;&#xA;&#xA;欢迎来道这拉瑞呀大陆&#xA;欢迎来道这拉瑞呀大陆&#xA;欢迎来道这拉瑞呀大陆&#xA;欢迎来道这拉瑞呀大陆">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <list id="n16_y69u" name="taskList" xy="47,271" size="433,123" group="n15_y69u" layout="flow_hz" overflow="hidden" lineItemCount="2" defaultItem="ui://kqsmrpxly69ujo" autoItemSize="true" align="center" autoClearItems="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n1_y69u" sidePair="center-center,topext-bottom"/>
+      <item title="杀人怪物"/>
+      <item title="杀人怪物杀人怪物"/>
+      <item title="杀人怪物杀人怪物"/>
+      <item title="杀人怪物杀人怪物杀人怪物杀人怪物杀人怪物"/>
+      <item title="杀人怪物杀人怪物"/>
+    </list>
+    <group id="n15_y69u" name="first" xy="37,67" size="452,327" advanced="true">
+      <gearDisplay controller="contrl" pages="0"/>
+    </group>
+    <text id="n2_y69u" name="txtTaskName" xy="37,57" size="92,31" group="n11_y69u" fontSize="22" color="#777b2c" bold="true" text="任务名称">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n3_y69u" name="txtContent" xy="37,90" size="454,24" group="n11_y69u" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n2_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n4_y69u" name="n4" xy="37,114" size="92,31" group="n11_y69u" fontSize="22" color="#777b2c" bold="true" text="任务目标">
+      <relation target="n3_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n5_y69u" name="txtTarget" xy="37,147" size="454,24" group="n11_y69u" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n4_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n6_y69u" name="n6" xy="37,171" size="225,31" group="n11_y69u" fontSize="22" color="#777b2c" bold="true" text="完成NPC或者目标区域">
+      <relation target="n5_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n7_y69u" name="txtTargetUnitOrPos" xy="37,204" size="454,24" group="n11_y69u" fontSize="16" color="#333333" autoSize="height" text="">
+      <relation target="n6_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n8_y69u" name="n8" xy="37,228" size="92,31" group="n11_y69u" fontSize="22" color="#777b2c" bold="true" text="任务奖励">
+      <relation target="n7_y69u" sidePair="left-left,top-bottom"/>
+    </text>
+    <text id="n17_meww" name="txtRewardCount" xy="130,228" size="167,32" group="n11_y69u" fontSize="22" color="#777b2c" autoSize="none" bold="true" text="">
+      <relation target="n8_y69u" sidePair="middle-middle,left-right"/>
+    </text>
+    <list id="n9_y69u" name="RewardList" xy="37,261" size="452,122" group="n11_y69u" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://thcq7hm4mewwg" autoClearItems="true">
+      <relation target="n8_y69u" sidePair="left-left,topext-bottom"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_y69u" name="btnAccept" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="264,410" group="n11_y69u">
+      <relation target="n0_y69u" sidePair="left-center,bottom-bottom"/>
+      <Button title="接受任务"/>
+    </component>
+    <component id="n14_y69u" name="btnBack" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="413,411" group="n11_y69u">
+      <relation target="n13_y69u" sidePair="middle-middle,left-right"/>
+      <Button title="返回对话" controller="contrl" page="0"/>
+    </component>
+    <group id="n11_y69u" name="second" xy="37,57" size="454,377" advanced="true">
+      <gearDisplay controller="contrl" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n0_y69u" sidePair="width-width,height-height"/>
+</component>

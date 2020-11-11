@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k3d3mc7g">
+  <resources>
+    <image id="eh2a2" name="Login_Create.png" path="/"/>
+    <image id="eh2a7" name="Login_Login.png" path="/"/>
+    <image id="eh2a8" name="Login_pwd.png" path="/"/>
+    <image id="eh2a9" name="Login_Reg.png" path="/"/>
+    <image id="eh2aa" name="Login_Reg_Bg.png" path="/"/>
+    <image id="eh2ab" name="Login_Reg_Bt.png" path="/"/>
+    <image id="eh2ac" name="Login_Start.png" path="/"/>
+    <image id="eh2ad" name="Login_ToReg.png" path="/"/>
+    <image id="eh2ae" name="Login_username.png" path="/"/>
+    <component id="eh2af" name="Login.xml" path="/" exported="true"/>
+    <component id="eh2ag" name="ButtonLogin.xml" path="/"/>
+    <component id="eh2ah" name="ButtonToRegister.xml" path="/"/>
+    <component id="eh2ai" name="EnterGame.xml" path="/" exported="true"/>
+    <component id="eh2aj" name="ButtonEnterGame.xml" path="/"/>
+    <component id="jshjk" name="Register.xml" path="/" exported="true"/>
+    <component id="jshj1z" name="ButtonText.xml" path="/"/>
+    <image id="eh2an" name="CommonClose.png" path="/"/>
+    <component id="jshjl" name="ButtonClose.xml" path="/"/>
+    <component id="jshjm" name="CreateRole.xml" path="/" exported="true"/>
+    <component id="jshjn" name="ButtonCreateRole.xml" path="/"/>
+    <image id="jshjp" name="111.png" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

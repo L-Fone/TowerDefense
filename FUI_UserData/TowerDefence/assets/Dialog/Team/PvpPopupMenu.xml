@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,37">
+  <displayList>
+    <image id="n0_t4cw" name="n0" src="t4cw23" fileName="Assets/Menu_clickBG.png" pkg="kqsmrpxl" xy="0,0" size="90,37" alpha="0.4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_t4cw" name="list" xy="0,0" size="90,37" defaultItem="ui://cb3q22aot4cw5">
+      <relation target="" sidePair="width-width"/>
+      <item icon="ui://kqsmrpxlt4cw22"/>
+      <item icon="ui://kqsmrpxlt4cw22"/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_t4cw" sidePair="height-height"/>
+</component>

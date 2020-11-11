@@ -19,6 +19,7 @@ namespace ET
             zoneScene.AddComponent<SpriteComponent>();
 
             zoneScene.AddComponent<TranslateSceneComponent>();
+            zoneScene.AddComponent<TowerPointViewComponent>();
 
             Game.EventSystem.Publish(new ET.EventType.InitSceneEnd
             {

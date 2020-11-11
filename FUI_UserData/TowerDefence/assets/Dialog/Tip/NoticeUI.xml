@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,797">
+  <displayList>
+    <component id="n8_l5ny" name="frame" src="l5nym" fileName="Tip/FrameNotice.xml" xy="0,0"/>
+    <richtext id="n1_jafg" name="title" xy="28,79" size="543,665" fontSize="20" color="#ff9900" autoSize="none" strokeColor="#333333" text="灌灌灌灌"/>
+    <text id="n5_czag" name="n5" xy="398,750" size="124,29" fontSize="20" color="#8c7d60" strokeColor="#000000" text="今日不再显示"/>
+    <component id="n7_czag" name="btnNotDisplay" src="czagl" fileName="ButtonSingle.xml" pkg="kqsmrpxl" xy="528,749" size="30,30">
+      <relation target="n5_czag" sidePair="middle-middle,left-right"/>
+    </component>
+  </displayList>
+  <relation target="n1_jafg" sidePair="bottomext-bottom"/>
+</component>

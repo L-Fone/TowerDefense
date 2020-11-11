@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    public class UpdateUnitAngleEvent : AEvent<UpdateUnitRotation>
+    public class UpdateUnitAngleEvent : AEvent_Sync<UpdateUnitRotation>
     {
-        public override async ETTask Run(UpdateUnitRotation args)
+        public override void Run(UpdateUnitRotation args)
         {
             var unit = args.unit;
             var unitView = unit.GetComponent<UnitView>();
@@ -18,7 +18,6 @@ namespace ET
             }
 
             unitView.Rotation = args.rotation;
-            await ETTask.CompletedTask;
         }
     }
 }

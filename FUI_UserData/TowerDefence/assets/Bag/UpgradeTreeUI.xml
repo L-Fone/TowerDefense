@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,600">
+  <displayList>
+    <component id="n0_o3cn" name="frame" src="il72kk" fileName="FrameUpgradeUI.xml" xy="0,0" group="n31_o3cn"/>
+    <list id="n32_il72" name="itemList" xy="187,70" size="64,425" group="n31_o3cn" overflow="scroll" scrollBarFlags="256" defaultItem="ui://71ktouo7il72km" align="center" renderOrder="descent" autoClearItems="true">
+      <item icon="ui://71ktouo7il72kj"/>
+      <item/>
+    </list>
+    <group id="n31_o3cn" name="n31" xy="0,0" size="439,600" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n31_o3cn" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n31_o3cn" tween="true" startValue="0,-300" endValue="0,0" duration="18"/>
+  </transition>
+</component>

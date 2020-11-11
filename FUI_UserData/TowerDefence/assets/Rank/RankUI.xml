@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1100,600">
+  <controller name="control" pages="16,,15,,14,,13,,12,,17,,21,,20,,19,,18,,22,,23,,24,,25," selected="0"/>
+  <displayList>
+    <component id="n0_vj0y" name="frame" src="vj0ya" fileName="FrameRank.xml" xy="0,0"/>
+    <list id="n1_vj0y" name="rankList" xy="32,195" size="1034,329" overflow="scroll" defaultItem="ui://g4444q3avj0yc" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_vj0y" name="n4" src="vj0yd" fileName="ButtonRank3.xml" xy="56,88" group="n19_vj0y">
+      <gearColor controller="control" pages="16" values="#ff0000" default="#ffffff"/>
+      <Button checked="true" title="人物" titleColor="#ff0000" controller="control" page="16"/>
+    </component>
+    <component id="n5_vj0y" name="n5" src="vj0yd" fileName="ButtonRank3.xml" xy="182,88" group="n19_vj0y">
+      <gearColor controller="control" pages="15" values="#ff0000" default="#ffffff"/>
+      <Button title="游戏币" titleColor="#ffffff" controller="control" page="15"/>
+    </component>
+    <component id="n6_vj0y" name="n6" src="vj0yd" fileName="ButtonRank3.xml" xy="303,88" group="n19_vj0y">
+      <gearColor controller="control" pages="14" values="#ff0000" default="#ffffff"/>
+      <Button title="生命" titleColor="#ffffff" controller="control" page="14"/>
+    </component>
+    <component id="n7_vj0y" name="n7" src="vj0yd" fileName="ButtonRank3.xml" xy="424,88" group="n19_vj0y">
+      <gearColor controller="control" pages="13" values="#ff0000" default="#ffffff"/>
+      <Button title="精力" titleColor="#ffffff" controller="control" page="13"/>
+    </component>
+    <component id="n8_vj0y" name="n8" src="vj0yd" fileName="ButtonRank3.xml" xy="545,88" group="n19_vj0y">
+      <gearColor controller="control" pages="16,15,14,13,17,21,20,19,18,22,23,24,25" values="#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff" default="#ff0000"/>
+      <Button title="宠物" titleColor="#ffffff" controller="control" page="12"/>
+    </component>
+    <component id="n9_vj0y" name="n9" src="vj0yd" fileName="ButtonRank3.xml" xy="670,88" group="n19_vj0y">
+      <gearColor controller="control" pages="17" values="#ff0000" default="#ffffff"/>
+      <Button titleColor="#ffffff" controller="control" page="17"/>
+    </component>
+    <component id="n10_vj0y" name="n10" src="vj0yg" fileName="ButtonRank4.xml" xy="789,88" group="n19_vj0y">
+      <gearColor controller="control" pages="21" values="#ff0000" default="#ffffff"/>
+      <Button title="物理攻击" titleColor="#ffffff" controller="control" page="21"/>
+    </component>
+    <component id="n11_vj0y" name="n11" src="vj0yg" fileName="ButtonRank4.xml" xy="923,88" group="n19_vj0y">
+      <gearColor controller="control" pages="20" values="#ff0000" default="#ffffff"/>
+      <Button title="精神攻击" titleColor="#ffffff" controller="control" page="20"/>
+    </component>
+    <component id="n12_vj0y" name="n12" src="vj0yh" fileName="ButtonRank7.xml" xy="57,144" group="n19_vj0y">
+      <gearColor controller="control" pages="19" values="#ff0000" default="#ffffff"/>
+      <Button title="物理暴击率" titleColor="#ffffff" controller="control" page="19"/>
+    </component>
+    <component id="n14_vj0y" name="n14" src="vj0yh" fileName="ButtonRank7.xml" xy="239,144" group="n19_vj0y">
+      <gearColor controller="control" pages="18" values="#ff0000" default="#ffffff"/>
+      <Button title="精神暴击率" titleColor="#ffffff" controller="control" page="18"/>
+    </component>
+    <component id="n15_vj0y" name="n15" src="vj0yh" fileName="ButtonRank7.xml" xy="422,144" group="n19_vj0y">
+      <gearColor controller="control" pages="22" values="#ff0000" default="#ffffff"/>
+      <Button title="物理暴击伤害" titleColor="#ffffff" controller="control" page="22"/>
+    </component>
+    <component id="n16_vj0y" name="n16" src="vj0yh" fileName="ButtonRank7.xml" xy="604,144" group="n19_vj0y">
+      <gearColor controller="control" pages="23" values="#ff0000" default="#ffffff"/>
+      <Button title="精神暴击伤害" titleColor="#ffffff" controller="control" page="23"/>
+    </component>
+    <component id="n17_vj0y" name="n17" src="vj0yg" fileName="ButtonRank4.xml" xy="791,144" group="n19_vj0y">
+      <gearColor controller="control" pages="16,15,14,13,12,17,21,20,19,18,22,23,25" values="#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff|#ffffff" default="#ff0000"/>
+      <Button title="物理免伤" titleColor="#ffffff" controller="control" page="24"/>
+    </component>
+    <component id="n18_vj0y" name="n18" src="vj0yg" fileName="ButtonRank4.xml" xy="925,144" group="n19_vj0y">
+      <gearColor controller="control" pages="25" values="#ff0000" default="#ffffff"/>
+      <Button title="精神免伤" titleColor="#ffffff" controller="control" page="25"/>
+    </component>
+    <group id="n19_vj0y" name="n19" xy="56,88" size="969,96" advanced="true"/>
+  </displayList>
+</component>

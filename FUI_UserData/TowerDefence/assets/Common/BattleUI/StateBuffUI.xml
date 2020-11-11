@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,800">
+  <displayList>
+    <component id="n0_h2b5" name="frame" src="h2b5kn" fileName="BattleUI/FrameStateBuffUI.xml" xy="0,0"/>
+    <list id="n1_h2b5" name="list" xy="5,34" size="579,760" overflow="scroll" scrollBarFlags="256" clipSoftness="0,50" lineGap="3" colGap="2" defaultItem="ui://kqsmrpxlh2b5kp" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

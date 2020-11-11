@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="692,618" extention="Label" initName="frame" designImage="ui://7kiucqowiha8u">
+  <displayList>
+    <image id="n0_ptly" name="bg" src="iha8q" fileName="Assets/Right/City_tranfer_Right.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ptly" name="title" xy="185,1" size="322,44" fontSize="30" color="#164e8b" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" singleLine="true" text="传送门">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </text>
+    <graph id="n3_ptly" name="dragArea" xy="179,4" size="333,39">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_ptly" name="contentArea" xy="2,46" size="882,868">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n5_iha8" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="641,7" size="41,37" aspect="true"/>
+  </displayList>
+</component>

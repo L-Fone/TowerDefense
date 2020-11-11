@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,300">
+  <displayList>
+    <component id="n0_m1qu" name="frame" src="m1quo" fileName="FrameConsignmentPutInUI.xml" xy="0,0">
+      <Label title="标价"/>
+    </component>
+    <image id="n12_m1qu" name="n12" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="121,128" size="166,36"/>
+    <image id="n13_m1qu" name="n13" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="122,187" size="94,36"/>
+    <image id="n14_m1qu" name="n14" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="235,186" size="35,36"/>
+    <image id="n15_m1qu" name="n15" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="287,185" size="35,36"/>
+    <component id="n1_m1qu" name="btnSlot" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="177,64"/>
+    <text id="n3_m1qu" name="n3" xy="55,130" size="76,34" fontSize="24" color="#ffcc33" autoSize="none" text="数量：">
+      <relation target="n1_m1qu" sidePair="top-bottom"/>
+    </text>
+    <text id="n2_m1qu" name="inpCount" xy="122,130" size="165,34" fontSize="24" align="center" vAlign="middle" autoSize="none" text="1" input="true">
+      <relation target="n3_m1qu" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n5_m1qu" name="n5" xy="56,188" size="75,34" fontSize="24" color="#ffcc33" text="单价：">
+      <relation target="n3_m1qu" sidePair="left-left,top-bottom"/>
+    </text>
+    <component id="n6_m1qu" name="btnSure" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="162,248" size="76,31">
+      <Button title="确定"/>
+    </component>
+    <text id="n4_m1qu" name="inpGold" xy="122,188" size="94,34" fontSize="24" align="right" vAlign="middle" autoSize="none" text="1" input="true" maxLength="6">
+      <relation target="n5_m1qu" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n8_m1qu" name="inpSliver" xy="236,188" size="33,34" fontSize="24" align="right" vAlign="middle" autoSize="none" text="00" input="true" maxLength="2">
+      <relation target="n7_m1qu" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n9_m1qu" name="inpCoin" xy="288,187" size="33,34" fontSize="24" align="right" vAlign="middle" autoSize="none" text="00" input="true" maxLength="2">
+      <relation target="n11_m1qu" sidePair="middle-middle,left-right"/>
+    </text>
+    <image id="n7_m1qu" name="n7" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="217,198">
+      <relation target="n4_m1qu" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n10_m1qu" name="n10" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="323,197">
+      <relation target="n9_m1qu" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n11_m1qu" name="n11" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="271,199">
+      <relation target="n8_m1qu" sidePair="middle-middle,left-right"/>
+    </image>
+  </displayList>
+</component>

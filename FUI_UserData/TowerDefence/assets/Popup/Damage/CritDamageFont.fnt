@@ -1,0 +1,11 @@
+info size=12 resizable=true colored=true
+char id=48 img=lsk10 xoffset=0 yoffset=0 xadvance=0
+char id=49 img=lsk11 xoffset=0 yoffset=0 xadvance=0
+char id=50 img=lsk12 xoffset=0 yoffset=0 xadvance=0
+char id=51 img=lsk13 xoffset=0 yoffset=0 xadvance=0
+char id=52 img=lsk14 xoffset=0 yoffset=0 xadvance=0
+char id=53 img=lsk15 xoffset=0 yoffset=0 xadvance=0
+char id=54 img=lsk16 xoffset=0 yoffset=0 xadvance=0
+char id=55 img=lsk17 xoffset=0 yoffset=0 xadvance=0
+char id=56 img=lsk18 xoffset=0 yoffset=0 xadvance=0
+char id=57 img=lsk19 xoffset=0 yoffset=0 xadvance=0

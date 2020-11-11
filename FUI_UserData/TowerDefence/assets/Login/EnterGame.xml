@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <component id="n1_eh2a" name="btnEnterGame" src="eh2aj" fileName="ButtonEnterGame.xml" xy="625,336" size="359,169"/>
+  </displayList>
+</component>

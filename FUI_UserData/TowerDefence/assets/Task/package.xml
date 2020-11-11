@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="thcq7hm4">
+  <resources>
+    <component id="y69u1" name="TaskUI.xml" path="/" exported="true"/>
+    <component id="y69u2" name="FrameTaskUI.xml" path="/"/>
+    <image id="y69u3" name="Task_info.png" path="/Assets/" scale="9grid" scale9grid="29,50,352,249"/>
+    <image id="y69u4" name="NPC_tip2.png" path="/Assets/"/>
+    <image id="y69u5" name="NPC_tip1.png" path="/Assets/"/>
+    <component id="y69u6" name="TaskTipUI.xml" path="/" exported="true"/>
+    <image id="y69u8" name="Task_infer.png" path="/Assets/"/>
+    <component id="y69u9" name="ButtonTaskItem.xml" path="/" exported="true"/>
+    <component id="y69ua" name="FrameNPCTaskUI.xml" path="/"/>
+    <component id="y69ub" name="NPCTaskUI.xml" path="/" exported="true"/>
+    <image id="y69uc" name="20090811054343 (1).jpg" path="/Assets/"/>
+    <image id="y69ud" name="20090811054315.jpg" path="/Assets/"/>
+    <image id="y69uf" name="NPC_tip3.png" path="/Assets/"/>
+    <component id="mewwg" name="ButtonTaskRewardItem.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -10,5 +10,9 @@ namespace Cal.DataTable
 		/// 测试小怪
 		/// </summary>
 		public const int TestMonster = 10002;
+		/// <summary>
+		/// 防御塔为u之触发器
+		/// </summary>
+		public const int TowerPointTrigger = 11001;
 	}
 }

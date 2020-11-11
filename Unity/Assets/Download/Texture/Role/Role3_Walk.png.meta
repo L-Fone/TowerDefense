@@ -1,0 +1,1652 @@
+fileFormatVersion: 2
+guid: 30f11198c4e6fa545aadb9d54a953802
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6121475389222871449
+    second: Role3_Walk_0
+  - first:
+      213: -1806565457442966290
+    second: Role3_Walk_1
+  - first:
+      213: -502191907161690554
+    second: Role3_Walk_2
+  - first:
+      213: 764187574616487295
+    second: Role3_Walk_3
+  - first:
+      213: -5295330163414240554
+    second: Role3_Walk_4
+  - first:
+      213: 5919007165384096728
+    second: Role3_Walk_5
+  - first:
+      213: 3223544069983082119
+    second: Role3_Walk_6
+  - first:
+      213: 5331132834035688297
+    second: Role3_Walk_7
+  - first:
+      213: 1031101558618594917
+    second: Role3_Walk_8
+  - first:
+      213: -5657349860038449243
+    second: Role3_Walk_9
+  - first:
+      213: 4260909152139908313
+    second: Role3_Walk_10
+  - first:
+      213: -5887025451477458578
+    second: Role3_Walk_11
+  - first:
+      213: -8514494950105484832
+    second: Role3_Walk_12
+  - first:
+      213: -5705794832099754124
+    second: Role3_Walk_13
+  - first:
+      213: 4117461345692708314
+    second: Role3_Walk_14
+  - first:
+      213: -9144232897415327276
+    second: Role3_Walk_15
+  - first:
+      213: -4560744948233292979
+    second: Role3_Walk_16
+  - first:
+      213: 5548857861828875444
+    second: Role3_Walk_17
+  - first:
+      213: 7960304583831377133
+    second: Role3_Walk_18
+  - first:
+      213: 4763049225574761201
+    second: Role3_Walk_19
+  - first:
+      213: -8212614643273991458
+    second: Role3_Walk_20
+  - first:
+      213: -2386932897374096616
+    second: Role3_Walk_21
+  - first:
+      213: -6134327117688255143
+    second: Role3_Walk_22
+  - first:
+      213: -3956627817867971436
+    second: Role3_Walk_23
+  - first:
+      213: -6837204365311000068
+    second: Role3_Walk_24
+  - first:
+      213: 7449304873949168110
+    second: Role3_Walk_25
+  - first:
+      213: 7626300890659468533
+    second: Role3_Walk_26
+  - first:
+      213: 5445054746287241538
+    second: Role3_Walk_27
+  - first:
+      213: 4619542550740254955
+    second: Role3_Walk_28
+  - first:
+      213: 3139998141976259874
+    second: Role3_Walk_29
+  - first:
+      213: -6472345127644992765
+    second: Role3_Walk_30
+  - first:
+      213: 3492778478961329237
+    second: Role3_Walk_31
+  - first:
+      213: -9135258848229226345
+    second: Role3_Walk_32
+  - first:
+      213: 1005660285358667927
+    second: Role3_Walk_33
+  - first:
+      213: 7468265994552354279
+    second: Role3_Walk_34
+  - first:
+      213: -6872690831876987058
+    second: Role3_Walk_35
+  - first:
+      213: -6896365008178900606
+    second: Role3_Walk_36
+  - first:
+      213: 1908854378484764393
+    second: Role3_Walk_37
+  - first:
+      213: -6753732328840912778
+    second: Role3_Walk_38
+  - first:
+      213: 8326980580885829997
+    second: Role3_Walk_39
+  - first:
+      213: 7452231033438911838
+    second: Role3_Walk_40
+  - first:
+      213: 5751153201392944390
+    second: Role3_Walk_41
+  - first:
+      213: 2516055958695449070
+    second: Role3_Walk_42
+  - first:
+      213: 1526344071517361970
+    second: Role3_Walk_43
+  - first:
+      213: 3555767857227465847
+    second: Role3_Walk_44
+  - first:
+      213: -1736418261175370106
+    second: Role3_Walk_45
+  - first:
+      213: -4255345071552090328
+    second: Role3_Walk_46
+  - first:
+      213: -1596691361709444162
+    second: Role3_Walk_47
+  - first:
+      213: 3966112231601715857
+    second: Role3_Walk_48
+  - first:
+      213: 8032478572908678831
+    second: Role3_Walk_49
+  - first:
+      213: 142098898443041293
+    second: Role3_Walk_50
+  - first:
+      213: 3307193128339362083
+    second: Role3_Walk_51
+  - first:
+      213: 1852147761428376778
+    second: Role3_Walk_52
+  - first:
+      213: -3169862845965235016
+    second: Role3_Walk_53
+  - first:
+      213: 3032063215694161240
+    second: Role3_Walk_54
+  - first:
+      213: -5904623062381941663
+    second: Role3_Walk_55
+  - first:
+      213: 5288469062348085871
+    second: Role3_Walk_56
+  - first:
+      213: 1482008344148660938
+    second: Role3_Walk_57
+  - first:
+      213: 3091179507236066096
+    second: Role3_Walk_58
+  - first:
+      213: 352435797686042387
+    second: Role3_Walk_59
+  - first:
+      213: -807905570907137130
+    second: Role3_Walk_60
+  - first:
+      213: -1291645946373671232
+    second: Role3_Walk_61
+  - first:
+      213: 572290389727991422
+    second: Role3_Walk_62
+  - first:
+      213: 4281150129483970227
+    second: Role3_Walk_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Role3_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e131401962c0ba0800000000000000
+      internalID: -6121475389222871449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4fe9db94acde6e0800000000000000
+      internalID: -1806565457442966290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e2d840f1bd709f0800000000000000
+      internalID: -502191907161690554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7578cedc80fa9a00800000000000000
+      internalID: 764187574616487295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d27841b5453386b0800000000000000
+      internalID: -5295330163414240554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf5bb18a9842250800000000000000
+      internalID: 5919007165384096728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7869829a0445cbc20800000000000000
+      internalID: 3223544069983082119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 791
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636e17211dfbf940800000000000000
+      internalID: 5331132834035688297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e10d097653f4e00800000000000000
+      internalID: 1031101558618594917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a76d46b64e0d71b0800000000000000
+      internalID: -5657349860038449243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d492817c4ac12b30800000000000000
+      internalID: 4260909152139908313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61a00dea851d4ea0800000000000000
+      internalID: -5887025451477458578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1fa1164ff66d980800000000000000
+      internalID: -8514494950105484832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f3f6fa4d1f0d0b0800000000000000
+      internalID: -5705794832099754124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add6a665749242930800000000000000
+      internalID: 4117461345692708314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 678
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d15e16c0a8291180800000000000000
+      internalID: -9144232897415327276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43b56922aaf4b0c0800000000000000
+      internalID: -4560744948233292979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4917383d0810d40800000000000000
+      internalID: 5548857861828875444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4de2fe7dea87e60800000000000000
+      internalID: 7960304583831377133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24512f800c91240800000000000000
+      internalID: 4763049225574761201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda7b768e7ee60e80800000000000000
+      internalID: -8212614643273991458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b2552d29efded0800000000000000
+      internalID: -2386932897374096616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d452eccfd7edaa0800000000000000
+      internalID: -6134327117688255143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 565
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494fc8776fb3719c0800000000000000
+      internalID: -3956627817867971436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf143e4dade5d11a0800000000000000
+      internalID: -6837204365311000068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee18353905f316760800000000000000
+      internalID: 7449304873949168110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4b002114016d960800000000000000
+      internalID: 7626300890659468533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249710f4178b09b40800000000000000
+      internalID: 5445054746287241538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0cca97979eb1040800000000000000
+      internalID: 4619542550740254955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22da1e77ca3839b20800000000000000
+      internalID: 3139998141976259874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b6dfaf56c9d26a0800000000000000
+      internalID: -6472345127644992765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 452
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5548e956587d87030800000000000000
+      internalID: 3492778478961329237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7988d0c6a7a093180800000000000000
+      internalID: -9135258848229226345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798758983b2d4fd00800000000000000
+      internalID: 1005660285358667927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e52c6d7a5c94a760800000000000000
+      internalID: 7468265994552354279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4763eaf91c4f90a0800000000000000
+      internalID: -6872690831876987058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281101640903b40a0800000000000000
+      internalID: -6896365008178900606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee888591fc9d7a10800000000000000
+      internalID: 1908854378484764393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ad5fca3ce542a0800000000000000
+      internalID: -6753732328840912778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 339
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69964758b06f8370800000000000000
+      internalID: 8326980580885829997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5db44c24a4ab6760800000000000000
+      internalID: 7452231033438911838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60580e1ad5330df40800000000000000
+      internalID: 5751153201392944390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11c055093dae220800000000000000
+      internalID: 2516055958695449070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237d0db98d9ae2510800000000000000
+      internalID: 1526344071517361970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7748bc1e600a85130800000000000000
+      internalID: 3555767857227465847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef3299ac007e7e0800000000000000
+      internalID: -1736418261175370106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fad65043af1f4c0800000000000000
+      internalID: -4255345071552090328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 226
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3bf598aa967d9e0800000000000000
+      internalID: -1596691361709444162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab3ffaf067a0730800000000000000
+      internalID: 3966112231601715857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_49
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae882444b8197f60800000000000000
+      internalID: 8032478572908678831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_50
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0afbacf136d8f100800000000000000
+      internalID: 142098898443041293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_51
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d742c0a285ed20800000000000000
+      internalID: 3307193128339362083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_52
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc297f639624b910800000000000000
+      internalID: 1852147761428376778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_53
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc888749826204d0800000000000000
+      internalID: -3169862845965235016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_54
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855aafb1e6d041a20800000000000000
+      internalID: 3032063215694161240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_55
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 113
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c252adb909e0ea0800000000000000
+      internalID: -5904623062381941663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a96eab79a646940800000000000000
+      internalID: 5288469062348085871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2552bacb6219410800000000000000
+      internalID: 1482008344148660938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_58
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d5c1526316ea20800000000000000
+      internalID: 3091179507236066096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_59
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f353f9d7a14e400800000000000000
+      internalID: 352435797686042387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_60
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b550ae92eb9c4f0800000000000000
+      internalID: -807905570907137130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_61
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f2deead6231ee0800000000000000
+      internalID: -1291645946373671232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_62
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e765b1cc31f21f700800000000000000
+      internalID: 572290389727991422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Role3_Walk_63
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6720a3c53b96b30800000000000000
+      internalID: 4281150129483970227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

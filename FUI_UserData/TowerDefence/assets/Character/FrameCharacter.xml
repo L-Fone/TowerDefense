@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="768,462" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_7bww" name="n0" src="7bwwb" fileName="Asstes/Character_Interface_Info1.png" xy="0,0" size="768,462">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_7bww" name="title" xy="210,0" size="348,34" fontSize="24" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="人物信息">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n2_7bww" name="closeButton" src="jshj21" fileName="ButtonClose.xml" pkg="kqsmrpxl" xy="723,6" size="36,33" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n3_7bww" name="dragArea" xy="7,3" size="713,30">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_7bww" name="contentArea" xy="0,37" size="768,426">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

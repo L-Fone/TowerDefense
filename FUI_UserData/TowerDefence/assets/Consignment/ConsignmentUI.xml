@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="653,478">
+  <displayList>
+    <component id="n0_ih6n" name="frame" src="ih6n5" fileName="FrameConsignmentUI.xml" xy="1,0"/>
+    <list id="n1_ih6n" name="itemList" xy="22,84" size="599,349" overflow="scroll" clipSoftness="20,100" defaultItem="ui://ivv55tvqih6n7" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n4_ih6n" name="n4" xy="82,57" size="513,26" fontSize="18" color="#ffffcc" autoSize="none" strokeColor="#996633" text="      名称 &#x9;&#x9;             等级     限时               价格            &#x9;       卖家 "/>
+    <component id="n5_ih6n" name="ComboItemType" src="ih6nm" fileName="ComboBoxConsign.xml" xy="26,36">
+      <relation target="" sidePair="left-left,top-top"/>
+      <ComboBox visibleItemCount="10">
+        <item title="所有类型" value="0"/>
+        <item title="装备" value="1"/>
+        <item title="道具" value="2"/>
+        <item title="材料" value="3"/>
+      </ComboBox>
+    </component>
+    <component id="n6_ih6n" name="ComboJobType" src="ih6nm" fileName="ComboBoxConsign.xml" xy="138,36">
+      <relation target="n5_ih6n" sidePair="middle-middle,left-right"/>
+      <ComboBox visibleItemCount="10">
+        <item title="所有职业" value="0"/>
+        <item title="军官" value="1"/>
+        <item title="运动员" value="2"/>
+        <item title="护士" value="3"/>
+        <item title="超能力" value="4"/>
+      </ComboBox>
+    </component>
+    <component id="n7_ih6n" name="btnLastPage" src="ih6nju" fileName="ButtonLastPage.xml" pkg="kqsmrpxl" xy="225,440">
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <component id="n8_ih6n" name="btnNextPage" src="ih6njv" fileName="ButtonNextPage.xml" pkg="kqsmrpxl" xy="352,440" size="55,17">
+      <relation target="n7_ih6n" sidePair="middle-middle,left-right"/>
+    </component>
+    <text id="n9_ih6n" name="txtPage" xy="299,436" size="33,26" fontSize="18" color="#5d471e" text="1/4">
+      <relation target="n7_ih6n" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n10_ih6n" name="btnBuy" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="555,477">
+      <Button title="购买"/>
+    </component>
+    <component id="n11_ih6n" name="btnSell" src="jshj1y" fileName="ButtonText.xml" pkg="kqsmrpxl" xy="35,478">
+      <Button title="寄卖"/>
+    </component>
+  </displayList>
+</component>

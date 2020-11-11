@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,800" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_l5ny" name="n0" src="h2b5ks" fileName="Assets/CommonUI_BUFFinfoone.png" pkg="kqsmrpxl" xy="0,0" size="600,800">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_l5ny" name="title" xy="2,4" size="596,50" fontSize="30" color="#ff6600" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="公告">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n2_l5ny" name="closeButton" src="h2b5ku" fileName="ButtonClose_Yellow.xml" pkg="kqsmrpxl" xy="537,5" size="42,42" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n3_l5ny" name="dragArea" xy="0,0" size="531,61">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4_l5ny" name="contentArea" xy="0,64" size="600,737">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

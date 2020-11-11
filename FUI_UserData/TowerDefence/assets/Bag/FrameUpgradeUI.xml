@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,600" extention="Label" initName="frame">
+  <displayList>
+    <image id="n0_o3cn" name="n0" src="il72kj" fileName="Assets/JinHuashu_info.png" xy="0,0" size="439,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_o3cn" name="title" xy="125,-3" size="189,34" fontSize="24" color="#ffff00" align="center" vAlign="middle" letterSpacing="5" autoSize="none" bold="true" strokeColor="#315833" shadowColor="#355835" shadowOffset="1,1" singleLine="true" text="进化树">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+    <component id="n1_o3cn" name="closeButton" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="119,534">
+      <relation target="" sidePair="right-right"/>
+      <Button title="关闭"/>
+    </component>
+    <graph id="n2_o3cn" name="dragArea" xy="0,0" size="437,39">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_o3cn" name="contentArea" xy="0,41" size="439,560">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

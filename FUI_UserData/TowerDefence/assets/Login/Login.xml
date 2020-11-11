@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <image id="n3_eh2a" name="n3" src="eh2a8" fileName="Login_pwd.png" xy="618,417" size="72,36"/>
+    <image id="n4_eh2a" name="n4" src="eh2ae" fileName="Login_username.png" xy="619,348" size="72,36"/>
+    <component id="n7_eh2a" name="btnLogin" src="eh2ag" fileName="ButtonLogin.xml" xy="603,515" size="151,67"/>
+    <component id="n8_eh2a" name="btnToRegister" src="eh2ah" fileName="ButtonToRegister.xml" xy="830,527" size="147,56"/>
+    <image id="n5_eh2a" name="n5" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="715,344" size="242,40" group="n11_eh2a"/>
+    <text id="n9_eh2a" name="iptAcc" xy="715,344" size="242,42" group="n11_eh2a" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" prompt="请输入账号"/>
+    <group id="n11_eh2a" name="n11" xy="715,344" size="242,42"/>
+    <image id="n12_eh2a" name="n12" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="715,413" size="242,40" group="n14_eh2a"/>
+    <text id="n13_eh2a" name="iptPsd" xy="715,413" size="242,42" group="n14_eh2a" fontSize="30" vAlign="middle" autoSize="none" text="" input="true" prompt="请输入密码" password="true"/>
+    <group id="n14_eh2a" name="n14" xy="715,413" size="242,42"/>
+  </displayList>
+</component>

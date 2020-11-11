@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,600">
+  <displayList>
+    <component id="n0_o3cn" name="frame" src="o3cnio" fileName="FrameMeltingUI.xml" xy="0,0" group="n31_o3cn"/>
+    <image id="n3_o3cn" name="n3" src="vulqj7" fileName="Assets/Bag_lianhua_1.png" xy="39,60" group="n31_o3cn" aspect="true"/>
+    <image id="n10_o3cn" name="n10" src="vulqj7" fileName="Assets/Bag_lianhua_1.png" xy="220,60" group="n31_o3cn" aspect="true">
+      <relation target="n3_o3cn" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n9_o3cn" name="n9" src="vulqj9" fileName="Assets/Bag_lianhua_4.png" xy="39,285" group="n31_o3cn"/>
+    <component id="n2_o3cn" name="btnMelt" src="o3cnjg" fileName="ButtonText_Blue.xml" pkg="kqsmrpxl" xy="74,519" size="318,79" group="n31_o3cn" aspect="true">
+      <Button title="开始炼化"/>
+    </component>
+    <component id="n6_o3cn" name="btnEquip" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="102,92" group="n31_o3cn"/>
+    <component id="n11_o3cn" name="btnGem" src="fyvbs" fileName="ButtonSlot.xml" pkg="kqsmrpxl" xy="283,93" group="n31_o3cn">
+      <relation target="n6_o3cn" sidePair="middle-middle,left-right"/>
+    </component>
+    <image id="n7_o3cn" name="n7" src="vulqja" fileName="Assets/Bag_lianhua_5.png" xy="40,246" group="n31_o3cn"/>
+    <image id="n8_o3cn" name="n8" src="vulqja" fileName="Assets/Bag_lianhua_5.png" xy="40,208" group="n31_o3cn"/>
+    <text id="n12_o3cn" name="n12" xy="90,153" size="76,26" group="n31_o3cn" fontSize="18" color="#624e2f" align="center" letterSpacing="1" strokeColor="#dfd0ae" text="放入装备"/>
+    <text id="n13_o3cn" name="n13" xy="271,153" size="76,26" group="n31_o3cn" fontSize="18" color="#624e2f" align="center" letterSpacing="1" strokeColor="#dfd0ae" text="放入宝石"/>
+    <image id="n14_o3cn" name="n14" src="eh2aa" fileName="Assets/Common_Coin_Jinbi.png" pkg="kqsmrpxl" xy="234,216" group="n31_o3cn">
+      <relation target="n17_o3cn" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n15_o3cn" name="n15" src="eh2ab" fileName="Assets/Common_Coin_Yinbi.png" pkg="kqsmrpxl" xy="294,216" group="n31_o3cn">
+      <relation target="n18_o3cn" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n16_o3cn" name="n16" src="eh2am" fileName="Assets/Common_Coin_Tongbi.png" pkg="kqsmrpxl" xy="351,216" group="n31_o3cn">
+      <relation target="n19_o3cn" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n17_o3cn" name="txtGold" xy="253,212" size="12,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n15_o3cn" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n18_o3cn" name="txtSliver" xy="313,212" size="12,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n16_o3cn" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n19_o3cn" name="txtCoin" xy="371,212" size="12,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+    <text id="n20_o3cn" name="txtVoucher" xy="371,251" size="12,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+    <text id="n21_o3cn" name="n20" xy="293,250" size="32,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="或者">
+      <relation target="n23_o3cn" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n22_o3cn" name="txtYuanBao" xy="253,251" size="12,22" group="n31_o3cn" fontSize="15" color="#ffffff" strokeColor="#000000" text="0">
+      <relation target="n21_o3cn" sidePair="middle-middle,right-left"/>
+    </text>
+    <image id="n23_o3cn" name="n23" src="mj9wjp" fileName="Assets/bag_daijinquan.png" xy="345,252" size="25,20" group="n31_o3cn" aspect="true">
+      <relation target="n20_o3cn" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n24_o3cn" name="n24" src="mj9wjo" fileName="Assets/bag_yuanbao.png" xy="223,256" size="26,16" group="n31_o3cn">
+      <relation target="n22_o3cn" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n25_o3cn" name="n21" xy="89,210" size="45,29" group="n31_o3cn" fontSize="20" color="#ffcc66" letterSpacing="2" strokeColor="#000000" text="金钱"/>
+    <text id="n26_o3cn" name="n22" xy="89,247" size="45,29" group="n31_o3cn" fontSize="20" color="#ffcc66" letterSpacing="2" strokeColor="#000000" text="元宝"/>
+    <text id="n29_o3cn" name="n29" xy="132,289" size="177,26" group="n31_o3cn" fontSize="18" color="#624e2f" align="center" strokeColor="#dfd0ae" text="选择一个位置进行炼化"/>
+    <list id="n30_o3cn" name="ItemList" xy="52,323" size="333,168" group="n31_o3cn" overflow="hidden" lineGap="1" defaultItem="ui://71ktouo7o3cnis" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item title="[img]ui://kqsmrpxlp2c66q[/img] [size=12][color=#99ff99]【天机宝石】[/color][/size] [color=#99cc99]空宝石槽 [/color]" name="Hole0"/>
+      <item title="[img]ui://kqsmrpxlp2c66p[/img] [size=12][color=#99ff99]【天机宝石】[/color][/size] 攻击:300 " name="Hole1"/>
+      <item title="[img]ui://kqsmrpxlp2c66q[/img] [size=12][color=#99ff99]【天机宝石】[/color][/size] [color=#99cc99]空宝石槽 [/color]" name="Hole2"/>
+      <item title="[img]ui://kqsmrpxlp2c66q[/img] [size=12][color=#99ff99]【天机宝石】[/color][/size] [color=#99cc99]空宝石槽 [/color]" name="Hole4"/>
+    </list>
+    <group id="n31_o3cn" name="n31" xy="0,0" size="439,600" advanced="true"/>
+  </displayList>
+  <transition name="Effect">
+    <item time="0" type="Alpha" target="n31_o3cn" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="XY" target="n31_o3cn" tween="true" startValue="0,-300" endValue="0,0" duration="18"/>
+  </transition>
+</component>

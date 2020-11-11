@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,22" extention="Label">
+  <displayList>
+    <image id="n1_7bww" name="n1" src="7bwwk" fileName="Asstes/Character_Interface_xinxikuanglv.png" xy="0,0" size="54,22">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_7bww" name="title" xy="12,1" size="31,22" fontSize="14" color="#cccccc" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="钉钉">
+      <relation target="n1_7bww" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n9_8dtq" name="n9" src="iwo26o" fileName="Assets/Common_Input.png" pkg="kqsmrpxl" xy="57,0" size="74,21" color="#666666">
+      <relation target="n6_8dtq" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <text id="n6_8dtq" name="iptPoint" xy="58,0" size="73,22" fontSize="14" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="0" input="true"/>
+  </displayList>
+</component>

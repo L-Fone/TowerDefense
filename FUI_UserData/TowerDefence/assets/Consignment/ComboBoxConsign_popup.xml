@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,24">
+  <displayList>
+    <image id="n0_ih6n" name="n0" src="ih6n2" fileName="Assets/NPC_jimai_into.png" xy="0,0" size="150,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_ih6n" name="list" xy="0,0" size="150,24" overflow="scroll" defaultItem="ui://ivv55tvqih6nk">
+      <relation target="" sidePair="width-width"/>
+    </list>
+  </displayList>
+  <relation target="n1_ih6n" sidePair="height-height"/>
+</component>

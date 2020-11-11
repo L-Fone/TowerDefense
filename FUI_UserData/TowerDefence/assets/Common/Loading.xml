@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <image id="n2_9k68" name="n2" src="9k68kj" fileName="Assets/TraScenes.png" xy="0,0" size="1600,900">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_ik03" name="progress" src="ik031w" fileName="ProgressLoading.xml" xy="583,797">
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

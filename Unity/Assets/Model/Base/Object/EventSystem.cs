@@ -668,6 +668,30 @@ namespace ET
 				}
 			}
 		}
+        public void Publish_Sync<T>(T a) where T : struct
+        {
+            List<object> iEvents;
+            if (!this.allEvents.TryGetValue(typeof(T), out iEvents))
+            {
+                return;
+            }
+            foreach (object obj in iEvents)
+            {
+                try
+                {
+                    if (!(obj is AEvent_Sync<T> aEvent))
+                    {
+                        Log.Error($"event error: {obj.GetType().Name}");
+                        continue;
+                    }
+                    aEvent.Run(a);
+                }
+                catch (Exception e)
+                {
+                    Log.Error(e);
+                }
+            }
+        }
         //=====================
         public void Run(string type)
         {

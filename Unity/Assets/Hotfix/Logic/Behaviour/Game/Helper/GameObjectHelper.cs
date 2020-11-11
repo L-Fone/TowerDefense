@@ -7,7 +7,11 @@ namespace ET
     {
         public static K GetOrAddComponent<K>(this UnityEngine.GameObject go)where K:UnityEngine.Component
         {
-            return go.GetComponent<K>() ?? go.AddComponent<K>();
+            if(!go.TryGetComponent(out K k))
+            {
+                k = go.AddComponent<K>();
+            }
+            return k;
         }
     }
 }

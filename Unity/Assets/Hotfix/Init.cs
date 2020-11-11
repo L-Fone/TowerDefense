@@ -11,6 +11,7 @@ namespace ET
             try
             {
                 Log.Info($"进入热更");
+                HotfixMongoHelper.Init();
                 Scene zoneScene = Game.Hotfix.zoneScene;
                 string clientVersion = await GlobalHotfixProtoHelper.GetClintVersion();
                 if (!clientVersion.Equals(GlobalConfigComponent.Instance.GlobalProto.ClientVersion))
@@ -40,6 +41,7 @@ namespace ET
                 Game.Scene.GetOrAddComponent<MessageDispatcherComponent>();
 
                 Game.Scene.GetOrAddComponent<ConfigComponent>();
+                Game.Scene.GetOrAddComponent<NumericWatcherComponent>();
 
 
                 zoneScene.AddComponent<UserComponent>();
@@ -48,6 +50,8 @@ namespace ET
                 zoneScene.AddComponent<WordComponent>();
                 zoneScene.AddComponent<UnitCharacterComponent>();
                 zoneScene.AddComponent<HideUnitComponent>();
+                zoneScene.AddComponent<TowerPointComponent>();
+                zoneScene.AddComponent<SkillConfigComponent>();
 
                 Game.EventSystem.Publish(new ET.EventType.AfterCreateZoneScene() { zoneScene = zoneScene }).Coroutine();
             }
