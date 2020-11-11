@@ -113,7 +113,7 @@
     <image id="hg0f6f" name="MainUI_skillge.png" path="/MainUI/Assets/"/>
     <component id="hg0f6g" name="ButtonMianUISlot.xml" path="/MainUI/"/>
     <image id="spuy6h" name="Common_baiban.png" path="/Assets/" exported="true"/>
-    <component id="qyfh6i" name="HeadTitleInfo.xml" path="/BattleUI/" exported="true"/>
+    <component id="qyfh6i" name="Hud.xml" path="/BattleUI/" exported="true"/>
     <image id="qyfh6j" name="Profession1.png" path="/BattleUI/Assets/" exported="true"/>
     <image id="qyfh6k" name="Profession2.png" path="/BattleUI/Assets/" exported="true"/>
     <image id="qyfh6l" name="Profession3.png" path="/BattleUI/Assets/" exported="true"/>

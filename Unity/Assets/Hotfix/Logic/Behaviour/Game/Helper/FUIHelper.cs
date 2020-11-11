@@ -34,6 +34,8 @@ namespace ET
             //设置hitTestMode的方式
             panel.SetHitTestMode(HitTestMode.Default);
 
+            panel.container.touchable = false;
+
             //最后，创建出UI
             panel.CreateUI();
 

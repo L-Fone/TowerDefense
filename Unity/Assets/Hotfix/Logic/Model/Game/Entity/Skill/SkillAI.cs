@@ -1,21 +1,15 @@
-﻿using System;
+﻿using Cal;
+using System;
+using System.Collections.Generic;
 
 namespace ET
 {
     public class SkillAI:Entity
     {
         public bool canSkill;
-        internal int lastSkillTime;
-        internal float roundCD;
-
-        public void PlayAutoSkill(long now)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void PlaySkill()
-        {
-            throw new NotImplementedException();
-        }
+        public long lastSkillTime;
+        public FP roundCD;
+        public LinkedList<int> AutoSkillList;
+        public LinkedListNode<int> CurrSkillNode;
     }
 }

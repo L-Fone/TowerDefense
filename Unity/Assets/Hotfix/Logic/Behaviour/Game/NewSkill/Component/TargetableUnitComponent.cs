@@ -27,5 +27,7 @@ namespace ET
         public List<Unit> allTeam = new List<Unit>();
 
         public List<Unit> allTarget = new List<Unit>();
+
+        public int targetCount => allTarget.Count;
     }
 }

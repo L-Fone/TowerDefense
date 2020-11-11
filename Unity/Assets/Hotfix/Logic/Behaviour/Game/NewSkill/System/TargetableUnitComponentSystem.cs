@@ -28,6 +28,18 @@ namespace ET
                 self.allTarget.Add(item);
             }
         }
+        public static void AddEnermy(this TargetableUnitComponent self, Unit unit)
+        {
+                self.allEnermy.Add(unit);
+                self.allTarget.Add(unit);
+            
+        }
+        public static void RemoveEnermy(this TargetableUnitComponent self, Unit unit)
+        {
+            self.allEnermy.Remove(unit);
+            self.allTarget.Remove(unit);
+
+        }
         public static void AddTeam(this TargetableUnitComponent self, IEnumerable<Unit> list)
         {
             foreach (var item in list)
@@ -35,6 +47,15 @@ namespace ET
                 self.allTeam.Add(item);
                 self.allTarget.Add(item);
             }
+        }
+        public static void AddTrigger(this TargetableUnitComponent self,Unit unit, Action<Unit> onEnter, Action<Unit> onExit)
+        {
+            Game.EventSystem.Publish_Sync(new ET.EventType.AddTrigger
+            {
+                unit = unit,
+                onEnter = onEnter,
+                onExit = onExit
+            });
         }
         public static List<Unit> GetAllTarget(this TargetableUnitComponent self)
         {

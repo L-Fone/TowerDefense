@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: config
       Entry: 7
-      Data: 0|Cal.SkillLogicConfig, Unity.Model
+      Data: 0|Cal.SkillLogicConfig, Unity.Hotfix
     - Name: skillId
       Entry: 3
       Data: 10001
@@ -35,12 +35,12 @@ MonoBehaviour:
       Data: 0
     - Name: skillEventDic
       Entry: 7
-      Data: 1|System.Collections.Generic.Dictionary`2[[Cal.SkillEventCondition, Unity.Model],[Cal.SkillOptionBase[],
-        Unity.Model]], mscorlib
+      Data: 1|System.Collections.Generic.Dictionary`2[[Cal.SkillEventCondition, Unity.Hotfix],[Cal.SkillOptionBase[],
+        Unity.Hotfix]], mscorlib
     - Name: comparer
       Entry: 7
       Data: 2|System.Collections.Generic.EnumEqualityComparer`1[[Cal.SkillEventCondition,
-        Unity.Model]], mscorlib
+        Unity.Hotfix]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -61,16 +61,16 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 3|Cal.SkillOptionBase[], Unity.Model
+      Data: 3|Cal.SkillOptionBase[], Unity.Hotfix
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: "4|Cal.SkillOption_\u5E94\u7528Modifier, Unity.Model"
+      Data: "4|Cal.SkillOption_\u5E94\u7528Modifier, Unity.Hotfix"
     - Name: selectTarget
       Entry: 7
-      Data: 5|Cal.SelectSingleTarget, Unity.Model
+      Data: 5|Cal.SelectSingleTarget, Unity.Hotfix
     - Name: teamType
       Entry: 3
       Data: 1
@@ -85,7 +85,7 @@ MonoBehaviour:
       Data: 
     - Name: modifierId
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000111
@@ -112,12 +112,12 @@ MonoBehaviour:
       Data: 
     - Name: modifierDic
       Entry: 7
-      Data: 6|System.Collections.Generic.Dictionary`2[[Cal.ModifierId, Unity.Model],[Cal.ModifierConfig,
-        Unity.Model]], mscorlib
+      Data: 6|System.Collections.Generic.Dictionary`2[[Cal.ModifierId, Unity.Hotfix],[Cal.ModifierConfig,
+        Unity.Hotfix]], mscorlib
     - Name: comparer
       Entry: 7
       Data: 7|System.Collections.Generic.GenericEqualityComparer`1[[Cal.ModifierId,
-        Unity.Model]], mscorlib
+        Unity.Hotfix]], mscorlib
     - Name: 
       Entry: 8
       Data: 
@@ -129,7 +129,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000111
@@ -138,10 +138,10 @@ MonoBehaviour:
       Data: 
     - Name: $v
       Entry: 7
-      Data: 8|Cal.ModifierConfig, Unity.Model
+      Data: 8|Cal.ModifierConfig, Unity.Hotfix
     - Name: Id
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000111
@@ -183,7 +183,7 @@ MonoBehaviour:
       Data: 0
     - Name: perOverlay
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
       Data: 
     - Name: continueTime
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 2
@@ -222,7 +222,7 @@ MonoBehaviour:
       Data: 0
     - Name: thinkInterval
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 1
@@ -240,7 +240,7 @@ MonoBehaviour:
       Data: 0
     - Name: valueV
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 0
@@ -262,11 +262,11 @@ MonoBehaviour:
     - Name: modifierEventDic
       Entry: 7
       Data: 10|System.Collections.Generic.Dictionary`2[[Cal.ModifierEventCondition,
-        Unity.Model],[Cal.SkillOptionBase[], Unity.Model]], mscorlib
+        Unity.Hotfix],[Cal.SkillOptionBase[], Unity.Hotfix]], mscorlib
     - Name: comparer
       Entry: 7
       Data: 11|System.Collections.Generic.EnumEqualityComparer`1[[Cal.ModifierEventCondition,
-        Unity.Model]], mscorlib
+        Unity.Hotfix]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -287,16 +287,16 @@ MonoBehaviour:
       Data: 0
     - Name: $v
       Entry: 7
-      Data: 12|Cal.SkillOptionBase[], Unity.Model
+      Data: 12|Cal.SkillOptionBase[], Unity.Hotfix
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: "13|Cal.SkillOption_\u4F24\u5BB3, Unity.Model"
+      Data: "13|Cal.SkillOption_\u4F24\u5BB3, Unity.Hotfix"
     - Name: selectTarget
       Entry: 7
-      Data: 14|Cal.SelectSingleTarget, Unity.Model
+      Data: 14|Cal.SelectSingleTarget, Unity.Hotfix
     - Name: teamType
       Entry: 3
       Data: 0
@@ -317,13 +317,13 @@ MonoBehaviour:
       Data: 1
     - Name: damageCalculate_Self
       Entry: 7
-      Data: 15|Cal.ValueCalculate, Unity.Model
+      Data: 15|Cal.ValueCalculate, Unity.Hotfix
     - Name: calculateType
       Entry: 3
       Data: 0
     - Name: param
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 2
@@ -347,10 +347,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: "16|Cal.SkillOption_\u5E94\u7528Modifier, Unity.Model"
+      Data: "16|Cal.SkillOption_\u5E94\u7528Modifier, Unity.Hotfix"
     - Name: selectTarget
       Entry: 7
-      Data: 17|Cal.SelectSingleTarget, Unity.Model
+      Data: 17|Cal.SelectSingleTarget, Unity.Hotfix
     - Name: teamType
       Entry: 3
       Data: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
       Data: 
     - Name: modifierId
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000112
@@ -401,7 +401,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000112
@@ -410,10 +410,10 @@ MonoBehaviour:
       Data: 
     - Name: $v
       Entry: 7
-      Data: 18|Cal.ModifierConfig, Unity.Model
+      Data: 18|Cal.ModifierConfig, Unity.Hotfix
     - Name: Id
       Entry: 7
-      Data: Cal.ModifierId, Unity.Model
+      Data: Cal.ModifierId, Unity.Hotfix
     - Name: Value
       Entry: 3
       Data: 1000112
@@ -455,7 +455,7 @@ MonoBehaviour:
       Data: 0
     - Name: perOverlay
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
       Data: 
     - Name: continueTime
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 2
@@ -494,7 +494,7 @@ MonoBehaviour:
       Data: 0
     - Name: thinkInterval
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 1
@@ -512,7 +512,7 @@ MonoBehaviour:
       Data: 4
     - Name: valueV
       Entry: 7
-      Data: Cal.SkillParam, Unity.Model
+      Data: Cal.SkillParam, Unity.Hotfix
     - Name: skillSourcetype
       Entry: 3
       Data: 2

@@ -64,7 +64,7 @@ namespace ET
 
                     num.SetAdd(NumericType.HpBase, -value);
 
-                    int delayTime =skillSender.skillLogic.skillConfig.DelayTime;
+                    int delayTime = skillSender.skillLogic.skillConfig.DelayTime;
                     //BuffBrocastComponent.Instance.Add(delayTime, new EventType.BattleSkillRet
                     //{
                     //    targetUnit = unit,
@@ -87,6 +87,7 @@ namespace ET
                                 return;
                             }
 
+                        attacker.GetComponent<TargetableUnitComponent>().RemoveEnermy(unit);
                         unit.Dead();
                         var attackerTargerComponent = attacker.GetComponent<TargetableUnitComponent>();
                         if (attackerTargerComponent.selectedEnermy?.Id == unit.Id)
@@ -118,6 +119,14 @@ namespace ET
                                         modifierLogic = modifierLogic,
                                     });
                         }
+
+                        var battle = BattleMgrComponent.currBattle;
+                        if (battle == null)
+                        {
+                            Log.Error($" battle == null when unit which id is{unit.Id} dead");
+                            return;
+                        }
+                        battle.MonsterDead();
                         //BattleMgrCompnent.NotifyUnitDead(unit);
                     }
                 }

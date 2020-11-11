@@ -254,14 +254,12 @@ namespace ET
             public int maxHp;
             public int level;
             public string name;
-            public JobType jobType;
             public FairyGUI.ProgressTitleType progressTitleType;
         }
         public struct SetHudCharacter_ChangeHp
         {
             public Scene zoneScene;
             public Unit unit;
-            public int hp;
         }
         public struct SetHudCharacter_ChangeLevel
         {

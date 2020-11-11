@@ -36,7 +36,7 @@ namespace ET
                     return;
                 TowerPointMono towerPointMono = hit.collider.gameObject.GetComponent<TowerPointMono>();
                 long id = towerPointMono.Id;
-                TowerPointHelper.GenerateTower(id);
+                TowerHelper.GenerateTower(id);
             }
         }
     }

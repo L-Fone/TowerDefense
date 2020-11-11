@@ -132,12 +132,12 @@ namespace ET
         public static void PlayerSkill(Unit unit, long now)
         {
             if (!unit.IsAlive) return;
-            if (unit.GetComponent<UserSetting>().IsAutoSkill)
-            {
+            //if (unit.GetComponent<UserSetting>().IsAutoSkill)
+            //{
                 var ai = unit.GetComponent<SkillAI>();
                 ai.canSkill = true;
                 ai.PlayAutoSkill(now);
-            }
+            //}
         }
         //!怪物释放技能
         public static void MonsterSkill(Unit unit)

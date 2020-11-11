@@ -64,8 +64,8 @@ namespace ET
             });
 
             //!广播释放技能
-            foreach (var u in allList)
-            {
+            //foreach (var u in allList)
+            //{
                 //M2C_PlaySkill m2C_PlayerSkill = new M2C_PlaySkill
                 //{
                 //    SkillId = skillLogic.skillId,
@@ -73,7 +73,7 @@ namespace ET
                 //};
                 //MessageHelper.SendActor(u, m2C_PlayerSkill);
 
-            }
+            //}
             //!动画开始到产生特效的时间
             int delayTime = 1000;
             await TimerComponent.Instance.WaitAsync(delayTime);
@@ -88,7 +88,7 @@ namespace ET
             });
         }
         /// <summary>
-        /// 获取子弹数据，里面包含伤害等
+        /// 获取伤害数据
         /// </summary>
         public static BallisticData GetAttackData(this AttackComponent self)
         {

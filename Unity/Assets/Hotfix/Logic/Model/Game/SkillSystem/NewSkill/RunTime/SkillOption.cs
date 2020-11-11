@@ -111,6 +111,13 @@ namespace Cal
 
                 var owner = skillSender.owner;
 
+                //!++测试
+                Game.EventSystem.Publish_Sync(new ET.EventType.ShowDebugAtkLine
+                {
+                    unit = owner,
+                    target = target,
+                });
+
                 var modifierContainer = owner.GetComponent<ModifierContainerComponent>();
                 var (optionList, __modifierLogic) = modifierContainer.GetSkillOptionBaseArr(ModifierEventCondition.当拥有modifier的单位开始攻击某个目标);
                 if (optionList != null)
@@ -132,7 +139,7 @@ namespace Cal
                 if (skillSender is ModifierSkillSender _modifierSkillSender)
                 {
                     modifierLogic = _modifierSkillSender.modifierLogic;
-                    if (modifierLogic != null)
+                    if (modifierLogic)
                     {
                         finalValue *= modifierLogic.overlay;
                         isCrit = isCritEvent && data.isCrit;
@@ -147,11 +154,14 @@ namespace Cal
                     if (skillSender.skillLogic.skillLogicConfig.skillEventDic.TryGetValue(SkillEventCondition.当技能暴击时, out var skillList))
                         foreach (var item in skillList)
                             item.HandleEvent(skillSender);
-                    var dic = modifierLogic.modifierConfig.modifierEventDic;
-                    if (dic != null &&
-                        dic.TryGetValue(ModifierEventCondition.当拥有modifier的单位被暴击时, out var optionBaseList))
-                        foreach (var item in optionBaseList)
-                            item.HandleEvent(modifierSkillSender);
+                    if (modifierLogic)
+                    {
+                        var dic = modifierLogic.modifierConfig.modifierEventDic;
+                        if (dic != null &&
+                            dic.TryGetValue(ModifierEventCondition.当拥有modifier的单位被暴击时, out var optionBaseList))
+                            foreach (var item in optionBaseList)
+                                item.HandleEvent(modifierSkillSender);
+                    }
                 }
 
             });
@@ -351,7 +361,7 @@ namespace Cal
                 var dic = SkillAndModifierSObject.Instance.data.modifierDic;
                 if (dic == null)
                 {
-                   dic= SkillAndModifierSObject.Instance.data.modifierDic= new Dictionary<ModifierId, ModifierConfig>();
+                    dic = SkillAndModifierSObject.Instance.data.modifierDic = new Dictionary<ModifierId, ModifierConfig>();
                 }
                 dic.Add(modifierId, new ModifierConfig { Id = modifierId });
                 UnityEditor.AssetDatabase.Refresh();

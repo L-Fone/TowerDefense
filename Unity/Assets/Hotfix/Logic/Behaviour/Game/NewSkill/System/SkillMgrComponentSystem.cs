@@ -29,12 +29,12 @@ namespace ET
                 return;
             }
             skillLogic = EntityFactory.CreateWithParent<SkillLogic>(self);
-            //if (!SkillConfigComponent.SkillLogicCollection.skillDic.TryGetValue(skillId, out var skillLogicConfig))
-            //{
-            //    Log.Error($"skillLogicConfig==null where skillId = {skillId}");
-            //    return;
-            //}
-            SkillLogicConfig skillLogicConfig = null;
+            var skillLogicConfig = SkillConfigComponent.GetSkillLogicConfig(skillId);
+            if (skillLogicConfig == null)
+            {
+                Log.Error($"skillLogicConfig==null where skillId = {skillId}");
+                return;
+            }
             skillLogic.skillLogicConfig = skillLogicConfig;
             skillLogic.owner = skillFrom;
             skillLogic.skillLevel = unitSkill.Level;

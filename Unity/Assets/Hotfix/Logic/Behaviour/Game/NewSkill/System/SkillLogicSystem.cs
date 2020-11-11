@@ -21,6 +21,8 @@ namespace ET
     {
         public static void HandleEvent(this SkillLogic self, SkillEventCondition skillEventCondition,ISkillSender skillSender)
         {
+            if (self.skillLogicConfig==null)
+                return;
             if (!self.skillLogicConfig.skillEventDic.TryGetValue(skillEventCondition, out var skillOptionBaseList))
             {
                 return;

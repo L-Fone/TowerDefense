@@ -93,7 +93,7 @@ namespace ET
             info = MongoHelper.FromJson<LevelInfo>(str.text);
 
             TowerPointGenerate();
-            int count = 5;
+            int count = 50;
             killInfo = killInfo.Init(this, count,OnVictory);
             MonsterSpawn(count).Coroutine();
 
@@ -124,22 +124,10 @@ namespace ET
             {
                 await TimerComponent.Instance.WaitAsync(2000);
 
-                long roleId = RandomHelper.RandomNumber(RoleConfigId.TestMonster1, RoleConfigId.TestMonster4 + 1);
-                RoleConfig roleConfig = ConfigHelper.Get<RoleConfig>(roleId);
-                var unit = UnitFactory.Create(roleConfig, UnitType.Monster);
+                var unit =  MonsterHelper.GenerateMonster();
                 unit.Position = info.initPos.ToUnityVector3();
 
-                unit.AddComponent<DamageComponent>();
-                var num = unit.AddComponent<NumericComponent>();
-                num.Set(NumericType.HpBase,roleConfig.Hp);
-                num.Set(NumericType.MaxHpBase,roleConfig.Hp);
-                num.Set(NumericType.AtkBase,roleConfig.Atk);
-                num.Set(NumericType.DefBase,roleConfig.Def);
-                num.Set(NumericType.AtkFieldBase,roleConfig.AtkField);
-                num.Set(NumericType.AtkSpdBase,roleConfig.AtkInterval);
-                num.Set(NumericType.MoveSpdBase,roleConfig.Spd);
-
-                var monsterAI = unit.AddComponent<MonsterAI>();
+                var monsterAI = unit.GetComponent<MonsterAI>();
                 monsterAI.path = info.path;
                 if (!this.aiDic.TryAdd(unit.Id, monsterAI))
                     Log.Error($"aiDic hasc the key = {unit.Id}");
